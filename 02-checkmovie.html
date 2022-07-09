@@ -9,6 +9,19 @@
     <link rel="stylesheet" type="text/css" href="css/02-checkmovie.css" />
     <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
     <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!--Demo js-->
+    <script>
+        function changeHeart(){
+                var img=document.getElementById('heart');
+                img.src='fullHeart.png';
+            }
+    </script>
   </head>
   <body style="margin: 0; background: #ffffff">
     <input type="hidden" id="anPageName" name="page" value="02-checkmovie" />
@@ -47,30 +60,51 @@
             <img class="recommand" src="img/recommand@1x.png" />
             <div class="my-book abrilfatface-normal-tulip-tree-30px">my book</div>
             <div class="shop abrilfatface-normal-tulip-tree-30px">shop</div>
-          </div>
-          <!--수정-->
-        </div>
-        <div class="overlap-group12">
-          <div class="overlap-group4">
-            <div class="coming-up">
-              <div class="overlap-group1-1">
-                <div class="domestic">Domestic</div>
-                <div class="over-container">
-                  <div class="overseas abrilfatface-normal-tulip-tree-40px">Overseas</div>
-                  <div class="overlap-group2-1">
-                    <img class="image-4" src="img/image-4@1x.png" />
-                    <img class="image-3" src="img/image-3@1x.png" />
-                    <img class="image-1" src="img/image-1@1x.png" />
-                    <div class="overlap-group-1"><div class="text-13"></div></div>
+            </div>
+            <!--수정-->
+            </div>
+            <div class="overlap-group12">
+              <div class="overlap-group4">
+                <div class="coming-up">
+                  <div class="overlap-group1-1">
+                    <div class="domestic">Domestic</div>
+                    <div class="over-container">
+                      <div class="overseas abrilfatface-normal-tulip-tree-40px">Overseas</div>
+                      <!-- Swiper -->
+                      <!--수정-->
+                      <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"></div>
+                          <div class="swiper-slide"></div>
+                          <div class="swiper-slide"></div>
+                          <div class="swiper-slide"></div>
+                          <div class="swiper-slide"></div>
+                          <div class="swiper-slide"></div>
+                          <div class="swiper-slide"></div>
+                          <div class="swiper-slide"></div>
+                          <div class="swiper-slide"></div>
+                          
+                        </div>
+                      </div>
+                      
+                      <!-- Swiper JS -->
+                      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+            
+                      <!-- Initialize Swiper -->
+                      <script>
+                        var swiper = new Swiper(".mySwiper", {
+                          effect: "cards",
+                          grabCursor: true,
+                        });
+                      </script>
+                    </div>
                   </div>
                 </div>
+                <div class="overlap-group3-1">
+                  <div class="rectangle-18"></div>
+                  <div class="text-14 fontawesome5free-solid-normal-white-40px"></div>
+                </div>
               </div>
-            </div>
-            <div class="overlap-group3-1">
-              <div class="rectangle-18"></div>
-              <div class="text-14 fontawesome5free-solid-normal-white-40px"></div>
-            </div>
-          </div>
           <div class="overlap-group8">
             <div class="rectangle-18-1"></div>
             <div class="text-20 fontawesome5free-solid-normal-white-40px"></div>

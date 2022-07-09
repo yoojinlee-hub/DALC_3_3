@@ -9,6 +9,18 @@
     <link rel="stylesheet" type="text/css" href="css/01-main.css" />
     <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
     <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <!--swiper-->
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
   </head>
   <body style="margin: 0; background: #ffffff">
     <input type="hidden" id="anPageName" name="page" value="01-main" />
@@ -108,32 +120,47 @@
                 <div class="coming-up-2 abrilfatface-normal-tulip-tree-40px">Coming Up</div>
                 <div class="coming-up-3 abrilfatface-normal-old-brick-40px">Coming Up</div>
               </div>
+              
             </div>
-            <div class="item">
-              <div class="overlap-group1-1"><div class="about-time opensans-bold-white-20px">About Time</div></div>
-              <img class="item-1" src="img/item@2x.png" />
-            </div>
-            <div class="item-2">
-              <div class="overlap-group2-1">
-                <div class="the-lord-of-the-rings opensans-bold-white-20px">The Lord Of The Rings</div>
+            <!--swiper-->
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div>
               </div>
-              <img class="item-3" src="img/item-1@2x.png" />
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
             </div>
-            <div class="item-4">
-              <div class="overlap-group3-1">
-                <div class="the-great-gatsby opensans-bold-white-20px">The Great Gatsby</div>
-              </div>
-              <img class="item-5" src="img/item-2@2x.png" />
-            </div>
-            <div class="item-6">
-              <div class="overlap-group4"><div class="name opensans-bold-white-20px">Harry Potter</div></div>
-              <img class="item-7" src="img/item-3@2x.png" />
-            </div>
-            <div class="overlap-group5"><div class="text-24"></div></div>
-            <div class="next-btn">
-              <div class="rectangle-18"></div>
-              <div class="text-25"></div>
-            </div>
+        
+            <!-- Swiper JS -->
+            <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        
+            <!-- Initialize Swiper -->
+            <script>
+              var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 3,
+                spaceBetween: 30,
+                slidesPerGroup: 3,
+                loop: true,
+                loopFillGroupWithBlank: true,
+                pagination: {
+                  el: ".swiper-pagination",
+                  clickable: true,
+                },
+                navigation: {
+                  nextEl: ".swiper-button-next",
+                  prevEl: ".swiper-button-prev",
+                },
+              });
+            </script>
             <div class="overlap-group6"><div class="more-movies">MORE MOVIES</div></div>
           </div>
         </div>
