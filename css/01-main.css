@@ -64,7 +64,7 @@
 
 .x01-main .navbar {
   align-items: flex-start;
-  box-shadow: 0px 4px 4px #00000040;
+  
   display: flex;
   height: 19px;
   margin-top: 1.0px;
@@ -76,6 +76,7 @@
   min-height: 19px;
   min-width: 42px;
   text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
 }
 
 .x01-main .navbar-link-login {
@@ -84,6 +85,7 @@
   min-height: 19px;
   min-width: 38px;
   text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
 }
 
 .x01-main .navbar-link-sign-up {
@@ -92,6 +94,7 @@
   min-height: 19px;
   min-width: 53px;
   text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
 }
 
 .x01-main .navbar-link-my-page {
@@ -100,6 +103,7 @@
   min-height: 19px;
   min-width: 59px;
   text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
 }
 
 .x01-main .overlap-group3 {
@@ -188,7 +192,7 @@
   align-self: center;
   display: inline-flex;
   width: 1450px;
-  background-color: #1f274e ;
+  background-color:rgb(31,39,78,0.8);
 }
 
 .x01-main .overlap-group9 {/*수정*/
@@ -702,7 +706,7 @@
 
 .x01-main .overlap-group5 {
   align-items: center;
-  background-color: #00000033;
+  background-color: #1F274E;
   border-radius: 4px;
   display: flex;
   height: 36px;
