@@ -199,6 +199,7 @@
   height: 50px;
   min-width: 70px;
   padding: 0 17px;
+  background-color: #1F274E;
 }
 .x01-main .text-32 {/*수정*/
   letter-spacing: 0;
@@ -257,10 +258,10 @@
 
 .x01-main .view { /*수정*/
   align-items: center;
-  background-color: #0000004c;
+  background-color: #1B3240;
   display: flex;
   flex-direction: column;
-
+  margin-top:20px;
   min-height: 300px;
   width: 1440px;
 }
@@ -274,7 +275,7 @@
 
 .x01-main .text-container {
   align-items: flex-start;
-  background-color: var(--big-stone);
+  background-color: #991F1F;
   display: flex;
   flex-direction: column;
   height:100%;
@@ -305,7 +306,7 @@
 
 .x01-main .text-container-1 {
   align-items: flex-start;
-  background-color: var(--big-stone);
+  background-color: #F3B743;
   display: flex;
   height:100%;
   flex-direction: column;
@@ -337,7 +338,7 @@
 
 .x01-main .text-container-2 {
   align-items: flex-end;
-  background-color: var(--big-stone);
+  background-color: #991F1F;
   display: flex;
   height:100%;
   flex-direction: column;
