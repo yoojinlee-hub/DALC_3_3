@@ -189,17 +189,15 @@
   align-items: center;
   align-self: center;
   display: inline-flex;
- 
   width: 1450px;
   background-color:rgb(31,39,78,0.8);
 }
 
 .x03-recommand .overlap-group5 {/*수정*/
   align-items: center;
-  margin-left:10%;
-  background-color: #1F274E;
-  margin-top: 20px;
-  height: 50px;
+  background-color: var(--blue-zodiac);
+  display: flex;
+  height: 70px;
   min-width: 70px;
   padding: 0 17px;
 }
@@ -208,7 +206,6 @@
   letter-spacing: 0;
   min-height: 40px;
   min-width: 35px;
-
   text-align: center;
   text-shadow: 0px 4px 4px #00000040;
 }
