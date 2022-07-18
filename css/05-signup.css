@@ -684,3 +684,329 @@
   text-align: justify;
   white-space: nowrap;
 }
+/*숨겨진 메뉴*/
+.overlap-group13 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  max-width: 0;
+  transition: 0.5s ease;
+  z-index: 1;
+}
+
+.ham-menu{
+  align-items: center;
+  background-color: #1f274ecc;
+  display: flex;
+  height: 400px;
+  left: 0;
+  min-width: 1440px;
+  padding: 31px 72px;
+  position: absolute;
+  top: 0;
+}
+
+.ham-menu.place {
+  align-self: flex-start;
+  letter-spacing: 0;
+  line-height: 24px;
+  min-height: 24px;
+  min-width: 56px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.ham-menu.check-movie-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 65.0px;
+  margin-left: 139px;
+  min-height: 123px;
+  width: 143px;
+}
+
+.ham-menu.check-movie-2 {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: 6.0px;
+  min-height: 24px;
+  min-width: 137px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.ham-menu.domestic {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: 18.0px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 101px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.ham-menu.overseas {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: 23.0px;
+  margin-top: 27px;
+  min-height: 24px;
+  min-width: 96px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.ham-menu.recommand-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 116.0px;
+  margin-left: 119px;
+  min-height: 72px;
+  width: 210px;
+}
+
+.ham-menu.recommand-2 {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: 11.0px;
+  min-height: 24px;
+  min-width: 133px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.ham-menu.recommand-result {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: 4.0px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 206px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.ham-menu.my-book-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14.0px;
+  margin-left: 58px;
+  min-height: 174px;
+  width: 284px;
+}
+
+.ham-menu.my-book-2 {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: 9.0px;
+  min-height: 24px;
+  min-width: 93px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.ham-menu.my-page {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: 8.0px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 90px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.ham-menu .recommended-books {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: 8.0px;
+  margin-top: 27px;
+  min-height: 24px;
+  min-width: 228px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.ham-menu .resently-searched-movies {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: 8.0px;
+  margin-top: 27px;
+  min-height: 24px;
+  min-width: 276px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.ham-menu .shop-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14.0px;
+  margin-left: 107px;
+  min-height: 174px;
+  width: 88px;
+}
+
+.ham-menu .shop-2 {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: 8.0px;
+  min-height: 24px;
+  min-width: 54px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.ham-menu .yes24 {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: 8.0px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 62px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.ham-menu .aladin {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: 9.0px;
+  margin-top: 27px;
+  min-height: 24px;
+  min-width: 71px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.ham-menu .kyobo {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: 8.0px;
+  margin-top: 27px;
+  min-height: 24px;
+  min-width: 80px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.ham-menu .line-5 {
+  height: 6px;
+  left: 59px;
+  position: static;
+  top: 59px;
+  width: 83px;
+}
+
+.ham-menu  .line-6 {
+  height: 6px;
+  left: 246px;
+  position: static;
+  top: 136px;
+  width: 176px;
+}
+
+.ham-menu  .line-7 {
+  height: 6px;
+  left: 541px;
+  position: static;
+  top: 136px;
+  width: 176px;
+}
+
+.ham-menu  .line-8 {
+  height: 6px;
+  left: 857px;
+  position: static;
+  top: 136px;
+  width: 156px;
+}
+
+.ham-menu  .line-9 {
+  height: 6px;
+  left: 1169px;
+  position: static;
+  top: 136px;
+  width: 126px;
+}
+
+.ham-menu .line-10 {
+  height: 1px;
+  left: 0;
+  position: static;
+  top: 70px;
+  width: 1440px;
+}
+
+/*햄버거*/
+/* input 중에 id가 trigger인 항목에 대한 css */
+input[id=trigger] {
+  display: none;
+}
+
+/* label 중에 for가 trigger인 항목 */
+label[for=trigger] {
+  /* border: 1px solid red; */
+  width: 30px;
+  height: 20px;
+  display: block;
+  position: relative;
+  cursor: pointer;
+}
+
+/* label 중에 for가 trigger인 항목 안의 span */
+label[for=trigger] span {
+  display: block;
+  height: 5px;
+  background-color: #F3B743;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  transition: 0.3s;
+  z-index: 1000; 
+}
+
+/* label[for=trigger] > span의 n번째 요소 */
+label[for=trigger] span:nth-child(1) {
+  top:0;
+}
+
+label[for=trigger] span:nth-child(2) {
+  top:50%;
+}
+
+label[for=trigger] span:nth-child(3) {
+  top:100%;
+}
+
+/* check시 변하는 label[for=trigger] > span의 n번째 요소  */
+input[id=trigger]:checked + label span:nth-child(1) {
+  top: 50%;
+  transform: rotate(45deg);
+}
+
+input[id=trigger]:checked + label span:nth-child(2) {
+  opacity: 0;
+}
+
+input[id=trigger]:checked + label span:nth-child(3) {
+  top: 50%;
+  transform: rotate(-45deg);
+}
+
+/* input[id=trigger]가 체크되었을 때 사이드바가 나오는 형제 인접자 */
+input[id=trigger]:checked ~ .overlap-group13 {
+  left: 27px;
+  top:277px;
+}
+
+/* check시 같이 밀려나가는 CSS 햄버거 메뉴 */
+input[id=trigger]:checked + label[for=trigger] {
+  transition: 0.3s;
+}
