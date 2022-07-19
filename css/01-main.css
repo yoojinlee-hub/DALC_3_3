@@ -1016,6 +1016,8 @@
   max-width: 0;
   transition: 0.5s ease;
   z-index: 1;
+  width: 100%;
+  margin-right: auto;
 }
 
 .ham-menu{

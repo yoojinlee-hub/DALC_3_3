@@ -13,6 +13,7 @@
 	margin-right:auto;
 	position:relative;
 	overflow:hidden;
+	width: 80%;
 	list-style:none;
 	padding:0;
 	z-index:1
@@ -24,10 +25,11 @@
 	position:relative;
 	width:100%;
 	height:100%;
+
 	z-index:1;
 	display:flex;
 	transition-property:transform;
-	box-sizing:content-box
+	box-sizing:content-box;
 }
 .swiper-android .swiper-slide,.swiper-wrapper {
 	transform:translate3d(0px,0,0)
@@ -40,10 +42,10 @@
 }
 .swiper-slide {
 	flex-shrink:0;
-	width:100%;
-	height:100%;
+	width:254px;
+	height:254px;
 	position:relative;
-	transition-property:transform
+	transition-property:transform;
 }
 .swiper-slide-invisible-blank {
 	visibility:hidden
@@ -156,7 +158,8 @@
 .swiper-button-next,.swiper-button-prev {
 	position:absolute;
 	top:50%;
-	width:calc(var(--swiper-navigation-size)/ 44 * 27);
+	/*width:calc(var(--swiper-navigation-size)/ 44 * 27);*/
+	width:var(--swiper-navigation-size);
 	height:var(--swiper-navigation-size);
 	margin-top:calc(0px - (var(--swiper-navigation-size)/ 2));
 	z-index:10;
@@ -164,7 +167,11 @@
 	display:flex;
 	align-items:center;
 	justify-content:center;
-	color:#000000;
+	color:#FFFFFF;
+	background-color:rgba(0, 0, 0, 0.3);
+}
+.swiper-button-prev{
+	right: 80px;
 }
 .swiper-button-next.swiper-button-disabled,.swiper-button-prev.swiper-button-disabled {
 	opacity:.35;
@@ -181,7 +188,7 @@
 }
 .swiper-button-next:after,.swiper-button-prev:after {
 	font-family:swiper-icons;
-	font-size:var(--swiper-navigation-size);
+	font-size:calc(var(--swiper-navigation-size)/2);
 	text-transform:none!important;
 	letter-spacing:0;
 	font-variant:initial;
