@@ -1,5 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-@import url("https://fonts.googleapis.com/css?family=PT+Serif:400|Open+Sans:400,700|Abril+Fatface:400|Roboto:400,700");
+@import url("https://fonts.googleapis.com/css?family=PT+Serif:400|Open+Sans:400,700|Abril+Fatface:400|Inter:400");
 /* The following line is used to measure usage of this code in production. For more info see our usage billing page */
 @import url("https://px.animaapp.com/62c55901e5318cce9f19c5ef.62c55902f86d9f5cf1cce7f6.rQubhKp.hcp.png");
 
@@ -16,10 +16,22 @@
   src: url("../fonts/Font Awesome 5 Free-Solid-900.otf") format("opentype");
 }
 @font-face {
-  font-family: "Font Awesome 5 Free-Regular";
+  font-family: "Font Awesome 6 Free-Regular";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/Font Awesome 5 Free-Regular-400.otf") format("opentype");
+  src: url("../fonts/Font Awesome 6 Free-Regular-400.otf") format("opentype");
+}
+@font-face {
+  font-family: "Abhaya Libre Medium-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/AbhayaLibre-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Abhaya Libre SemiBold-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/AbhayaLibre-SemiBold.ttf") format("truetype");
 }
 
 
@@ -39,6 +51,12 @@
 .container-center-horizontal > * {
   flex-shrink: 0;
   pointer-events: auto;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 * {

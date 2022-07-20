@@ -115,7 +115,7 @@
   padding: 6px 10px;
 }
 
-.x01-1-left-bar .text-22 {
+.x01-1-left-bar .text-100 {
   letter-spacing: 0;
   min-height: 14px;
   text-align: center;
@@ -172,7 +172,7 @@
 .x01-1-left-bar .about {
   color: #00000099;
   font-family: var(--font-family-abhaya_libre_semibold-regular);
-  font-size: var(--font-size-xxxl);
+  font-size: var(--font-size-xxl);
   font-weight: 400;
   letter-spacing: 0;
   min-height: 47px;
@@ -227,7 +227,7 @@
 
 .x01-1-left-bar .view {
   align-items: flex-start;
-  background-color: #0000004c;
+  background-color: var(--black-7);
   display: flex;
   height: 300px;
   left: 0;
@@ -256,7 +256,7 @@
   width: 370px;
 }
 
-.x01-1-left-bar .text-16 {
+.x01-1-left-bar .text-94 {
   align-self: center;
   letter-spacing: 0;
   margin-right: 4.0px;
@@ -266,7 +266,7 @@
   text-align: center;
 }
 
-.x01-1-left-bar .text-1 {
+.x01-1-left-bar .text-9 {
   letter-spacing: 0;
   margin-top: 22px;
   min-height: 49px;
@@ -288,7 +288,7 @@
   width: 370px;
 }
 
-.x01-1-left-bar .text-18 {
+.x01-1-left-bar .text-96 {
   align-self: center;
   color: var(--white);
   font-family: var(--font-family-font_awesome_5_free-solid);
@@ -302,7 +302,7 @@
   text-align: center;
 }
 
-.x01-1-left-bar .text-17 {
+.x01-1-left-bar .text-95 {
   letter-spacing: 0;
   margin-top: 12px;
   min-height: 49px;
@@ -323,7 +323,7 @@
   width: 370px;
 }
 
-.x01-1-left-bar .text-20 {
+.x01-1-left-bar .text-98 {
   align-self: center;
   letter-spacing: 0;
   margin-right: 6.0px;
@@ -378,14 +378,14 @@
 
 .x01-1-left-bar .overlap-group10 {
   align-items: center;
-  background-color: var(--blue-zodiac);
+  background-color: var(--blue-zodiac-2);
   display: flex;
   height: 70px;
   min-width: 70px;
   padding: 0 17px;
 }
 
-.x01-1-left-bar .text-21 {
+.x01-1-left-bar .text-99 {
   letter-spacing: 0;
   min-height: 40px;
   min-width: 35px;
@@ -760,7 +760,7 @@
 
 .x01-1-left-bar .overlap-group1 {
   align-items: center;
-  background-color: var(--black-5);
+  background-color: var(--black-3);
   display: flex;
   height: 50px;
   margin-right: 2px;
@@ -799,7 +799,7 @@
 
 .x01-1-left-bar .overlap-group2 {
   align-items: center;
-  background-color: var(--black-5);
+  background-color: var(--black-3);
   display: flex;
   height: 50px;
   min-width: 254px;
@@ -836,7 +836,7 @@
 
 .x01-1-left-bar .overlap-group3 {
   align-items: center;
-  background-color: var(--black-5);
+  background-color: var(--black-3);
   display: flex;
   height: 50px;
   min-width: 254px;
@@ -873,7 +873,7 @@
 
 .x01-1-left-bar .overlap-group4 {
   align-items: center;
-  background-color: var(--black-5);
+  background-color: var(--black-3);
   display: flex;
   height: 50px;
   min-width: 254px;
@@ -899,7 +899,7 @@
 
 .x01-1-left-bar .overlap-group5 {
   align-items: center;
-  background-color: var(--black-3);
+  background-color: var(--black-4);
   border-radius: 4px;
   display: flex;
   height: 36px;
@@ -910,7 +910,7 @@
   top: 217px;
 }
 
-.x01-1-left-bar .text-13 {
+.x01-1-left-bar .text-91 {
   letter-spacing: 0;
   line-height: 24px;
   min-height: 24px;
@@ -931,7 +931,7 @@
 }
 
 .x01-1-left-bar .rectangle-18 {
-  background-color: var(--black-3);
+  background-color: var(--black-4);
   border-radius: 4px;
   height: 36px;
   margin-left: -36px;
@@ -939,7 +939,7 @@
   width: 36px;
 }
 
-.x01-1-left-bar .text-14 {
+.x01-1-left-bar .text-92 {
   letter-spacing: 0;
   line-height: 24px;
   margin-left: 4px;
@@ -952,7 +952,7 @@
 
 .x01-1-left-bar .overlap-group6 {
   align-items: center;
-  background-color: #000000cc;
+  background-color: var(--black-8);
   border-radius: 4px;
   display: flex;
   height: 60px;
@@ -964,10 +964,6 @@
 }
 
 .x01-1-left-bar .more-movies {
-  color: var(--white);
-  font-family: var(--font-family-open_sans);
-  font-size: 16px;
-  font-weight: 700;
   letter-spacing: 0;
   line-height: 24px;
   min-height: 24px;

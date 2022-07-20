@@ -104,7 +104,7 @@
 
 .x01-main .overlap-group3 {
   align-items: flex-start;
-  background-color: var(--blue-zodiac);
+  background-color: var(--blue-zodiac-2);
   border-radius: 18px;
   display: flex;
   height: 36px;
@@ -113,7 +113,7 @@
   padding: 8px 9px;
 }
 
-.x01-main .text-58 {
+.x01-main .text-136 {
   letter-spacing: 0;
   min-height: 16px;
   min-width: 14px;
@@ -122,7 +122,7 @@
 
 .x01-main .overlap-group1 {
   align-items: flex-start;
-  background-color: var(--blue-zodiac);
+  background-color: var(--blue-zodiac-2);
   border-radius: 18px;
   display: flex;
   height: 36px;
@@ -131,7 +131,7 @@
   padding: 8px 10px;
 }
 
-.x01-main .text-56 {
+.x01-main .text-134 {
   letter-spacing: 0;
   min-height: 16px;
   min-width: 9px;
@@ -140,7 +140,7 @@
 
 .x01-main .overlap-group2 {
   align-items: flex-start;
-  background-color: var(--blue-zodiac);
+  background-color: var(--blue-zodiac-2);
   border-radius: 18px;
   display: flex;
   height: 36px;
@@ -149,7 +149,7 @@
   padding: 7px 9px;
 }
 
-.x01-main .text-57 {
+.x01-main .text-135 {
   letter-spacing: 0;
   min-height: 16px;
   min-width: 13px;
@@ -158,7 +158,7 @@
 
 .x01-main .overlap-group {
   align-items: flex-start;
-  background-color: var(--blue-zodiac);
+  background-color: var(--blue-zodiac-2);
   border-radius: 18px;
   display: flex;
   height: 36px;
@@ -167,7 +167,7 @@
   padding: 8px;
 }
 
-.x01-main .text-55 {
+.x01-main .text-133 {
   letter-spacing: 0;
   min-height: 14px;
   min-width: 14px;
@@ -192,14 +192,14 @@
 
 .x01-main .overlap-group9 {
   align-items: center;
-  background-color: var(--blue-zodiac);
+  background-color: var(--blue-zodiac-2);
   display: flex;
   height: 70px;
   min-width: 70px;
   padding: 0 17px;
 }
 
-.x01-main .text-54 {
+.x01-main .text-132 {
   letter-spacing: 0;
   min-height: 40px;
   min-width: 35px;
@@ -255,7 +255,7 @@
 
 .x01-main .view {
   align-items: center;
-  background-color: #0000004c;
+  background-color: var(--black-7);
   display: flex;
   flex-direction: column;
   margin-top: 31px;
@@ -280,7 +280,7 @@
   width: 370px;
 }
 
-.x01-main .text-53 {
+.x01-main .text-131 {
   align-self: center;
   letter-spacing: 0;
   margin-top: 7px;
@@ -289,7 +289,7 @@
   text-align: center;
 }
 
-.x01-main .text {
+.x01-main .text-1 {
   letter-spacing: 0;
   margin-top: 22px;
   min-height: 49px;
@@ -307,7 +307,7 @@
   width: 370px;
 }
 
-.x01-main .text-51 {
+.x01-main .text-129 {
   align-self: center;
   color: var(--white);
   font-family: var(--font-family-font_awesome_5_free-solid);
@@ -320,7 +320,7 @@
   text-align: center;
 }
 
-.x01-main .text-50 {
+.x01-main .text-128 {
   letter-spacing: 0;
   margin-top: 12px;
   min-height: 49px;
@@ -338,7 +338,7 @@
   width: 370px;
 }
 
-.x01-main .text-49 {
+.x01-main .text-127 {
   align-self: center;
   letter-spacing: 0;
   margin-left: 2.0px;
@@ -417,7 +417,7 @@
 .x01-main .about {
   color: #00000099;
   font-family: var(--font-family-abhaya_libre_semibold-regular);
-  font-size: var(--font-size-xxxl);
+  font-size: var(--font-size-xxl);
   font-weight: 400;
   letter-spacing: 0;
   min-height: 47px;
@@ -534,7 +534,7 @@
 
 .x01-main .overlap-group1-1 {
   align-items: center;
-  background-color: var(--black-5);
+  background-color: var(--black-3);
   display: flex;
   height: 50px;
   margin-right: 2px;
@@ -573,7 +573,7 @@
 
 .x01-main .overlap-group2-1 {
   align-items: center;
-  background-color: var(--black-5);
+  background-color: var(--black-3);
   display: flex;
   height: 50px;
   min-width: 254px;
@@ -610,7 +610,7 @@
 
 .x01-main .overlap-group3-1 {
   align-items: center;
-  background-color: var(--black-5);
+  background-color: var(--black-3);
   display: flex;
   height: 50px;
   min-width: 254px;
@@ -647,7 +647,7 @@
 
 .x01-main .overlap-group4 {
   align-items: center;
-  background-color: var(--black-5);
+  background-color: var(--black-3);
   display: flex;
   height: 50px;
   min-width: 254px;
@@ -673,7 +673,7 @@
 
 .x01-main .overlap-group5 {
   align-items: center;
-  background-color: var(--black-3);
+  background-color: var(--black-4);
   border-radius: 4px;
   display: flex;
   height: 36px;
@@ -684,7 +684,7 @@
   top: 217px;
 }
 
-.x01-main .text-46 {
+.x01-main .text-124 {
   letter-spacing: 0;
   line-height: 24px;
   min-height: 24px;
@@ -705,7 +705,7 @@
 }
 
 .x01-main .rectangle-18 {
-  background-color: var(--black-3);
+  background-color: var(--black-4);
   border-radius: 4px;
   height: 36px;
   margin-left: -36px;
@@ -713,7 +713,7 @@
   width: 36px;
 }
 
-.x01-main .text-47 {
+.x01-main .text-125 {
   letter-spacing: 0;
   line-height: 24px;
   margin-left: 4px;
@@ -726,7 +726,7 @@
 
 .x01-main .overlap-group6 {
   align-items: center;
-  background-color: #000000cc;
+  background-color: var(--black-8);
   border-radius: 4px;
   display: flex;
   height: 60px;
@@ -738,10 +738,6 @@
 }
 
 .x01-main .more-movies {
-  color: var(--white);
-  font-family: var(--font-family-open_sans);
-  font-size: 16px;
-  font-weight: 700;
   letter-spacing: 0;
   line-height: 24px;
   min-height: 24px;
