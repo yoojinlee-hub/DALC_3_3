@@ -1,5 +1,5 @@
 /* screen - 04-login */
-
+@import url('/font-awesome-4.6.3/css/font-awesome.min.css');
 .x04-login {
   align-items: flex-start;
   background-color: var(--white);
@@ -336,6 +336,7 @@
 .x04-login .id {
   letter-spacing: 0;
   margin-left: 23px;
+  margin-right: 20px;
   margin-top: 1.0px;
   min-height: 28px;
   min-width: 23px;
@@ -365,6 +366,7 @@
 .x04-login .password {
   letter-spacing: 0;
   margin-left: 26px;
+  margin-right: 20px;
   min-height: 28px;
   min-width: 107px;
   text-align: center;
@@ -926,4 +928,26 @@ input[id=trigger]:checked ~ .overlap-group13 {
 /* check시 같이 밀려나가는 CSS 햄버거 메뉴 */
 input[id=trigger]:checked + label[for=trigger] {
   transition: 0.3s;
+}
+
+/* input */
+.input-box{
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+input:focus {outline:none;}
+
+/*글자 hover시에 색 바뀌게*/
+.check-movie:hover{
+  color: #FFABAB;
+}
+.recommand:hover{
+  color: #FFABAB;
+}
+.my-book:hover{
+  color: #FFABAB;
+}
+.shop:hover{
+  color: #FFABAB;
 }

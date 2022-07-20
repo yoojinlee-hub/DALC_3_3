@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* screen - 01-main */
 
 .x01-main {
@@ -1336,7 +1336,7 @@ input[id=trigger]:checked ~ .overlap-group13 {
 /* check시 같이 밀려나가는 CSS 햄버거 메뉴 */
 input[id=trigger]:checked + label[for=trigger] {
   transition: 0.3s;
-=======
+}
 /* screen - 01-main */
 
 .x01-main {
@@ -2673,5 +2673,18 @@ input[id=trigger]:checked ~ .overlap-group13 {
 /* check시 같이 밀려나가는 CSS 햄버거 메뉴 */
 input[id=trigger]:checked + label[for=trigger] {
   transition: 0.3s;
->>>>>>> 7375e51b9879e952a3e7b682e2894077a10e1812
+}
+
+/*글자 hover시에 색 바뀌게*/
+.check-movie:hover{
+  color: #FFABAB;
+}
+.recommand:hover{
+  color: #FFABAB;
+}
+.my-book:hover{
+  color: #FFABAB;
+}
+.shop:hover{
+  color: #FFABAB;
 }

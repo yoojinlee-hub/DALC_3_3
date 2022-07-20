@@ -1065,3 +1065,16 @@ input[id=trigger]:checked ~ .overlap-group13 {
 input[id=trigger]:checked + label[for=trigger] {
   transition: 0.3s;
 }
+
+.check-movie:hover{
+  color: #FFABAB;
+}
+.recommand:hover{
+  color: #FFABAB;
+}
+.my-book:hover{
+  color: #FFABAB;
+}
+.shop:hover{
+  color: #FFABAB;
+}

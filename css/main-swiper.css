@@ -23,13 +23,7 @@
 }
 .swiper-wrapper {
 	position:relative;
-<<<<<<< HEAD
 	height:100%; width: 100px;
-=======
-	width:100%;
-	height:100%;
-
->>>>>>> 7375e51b9879e952a3e7b682e2894077a10e1812
 	z-index:1;
 	display:flex;
 	transition-property:transform;
@@ -50,10 +44,8 @@
 	height:254px;
 	position:relative;
 	transition-property:transform;
-<<<<<<< HEAD
 	/*left: 165px;*/
-=======
->>>>>>> 7375e51b9879e952a3e7b682e2894077a10e1812
+
 }
 .swiper-slide-invisible-blank {
 	visibility:hidden
