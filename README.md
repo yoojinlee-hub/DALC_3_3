@@ -19,6 +19,7 @@ git clone https://github.com/yoojinlee-hub/DALC_3_3.git
 
 **모든 작업을 시작하기 전에는 git pull을 하자!
 
+
 * 좀 귀찮지만 확실한 저장방법
 1. 지정한 폴더에 gitbash키고 git pull
 2. 수정한 뒤 수정한 모든 파일 끌어다가 add
