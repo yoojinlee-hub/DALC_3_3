@@ -60,6 +60,7 @@
   padding: 6px 145px;
   position: absolute;
   top: -2px;
+  
 }
 
 .x06-mybook-1 .navbar {
@@ -116,6 +117,8 @@
   margin-left: 496px;
   min-width: 332px;
   padding: 6px 10px;
+  border: 3px solid #1F274E;
+  border-radius: 5px;
 }
 
 .x06-mybook-1 .text-3 {
@@ -432,7 +435,15 @@
   text-align: center;
   width: 201px;
 }
-
+.recommended-books:hover{
+  background-color: rgb(217,217,217,0.1);
+}
+.selected-movies:hover{
+  background-color: rgb(217,217,217,0.1);
+}
+.text-4:hover{
+  background-color: rgb(217,217,217,0.1);
+}
 .x06-mybook-1 .more {
   align-items: center;
   display: flex;
@@ -760,6 +771,9 @@
   max-width: 0;
   transition: 0.5s ease;
   z-index: 1;
+  width: 100%;
+  margin-right: auto;
+  display: none;
 }
 
 .ham-menu{
@@ -767,8 +781,9 @@
   background-color: #1f274ecc;
   display: flex;
   height: 400px;
-  left: 0;
-  min-width: 1440px;
+
+  min-width: 1450px;
+  width:100%;
   padding: 31px 72px;
   position: absolute;
   top: 0;
@@ -1069,14 +1084,17 @@ input[id=trigger]:checked + label span:nth-child(3) {
 
 /* input[id=trigger]가 체크되었을 때 사이드바가 나오는 형제 인접자 */
 input[id=trigger]:checked ~ .overlap-group131 {
-  left: 27px;
-  top:277px;
+  display: block;
+  position: relative;
+  width: 100%;
+  top: 70px;
 }
 
 /* check시 같이 밀려나가는 CSS 햄버거 메뉴 */
 input[id=trigger]:checked + label[for=trigger] {
-  transition: 0.3s;
+  transition: 0.2s;
 }
+
 
 .check-movie:hover{
   color: #FFABAB;

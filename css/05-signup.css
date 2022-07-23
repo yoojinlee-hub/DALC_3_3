@@ -102,8 +102,8 @@
 
 .x05-signup .overlap-group12 {
   align-items: flex-start;
-  border-color: #1F274E;/*구현안됨*/
-  border-width: 5px; /*구현안됨*/
+  border: 3px solid #1F274E;
+  border-radius: 5px;
   background-color: #CFD8DC;
   border-radius: 5px;
   display: flex;
@@ -702,6 +702,9 @@
   max-width: 0;
   transition: 0.5s ease;
   z-index: 1;
+  width: 100%;
+  margin-right: auto;
+  display: none;
 }
 
 .ham-menu{
@@ -709,8 +712,9 @@
   background-color: #1f274ecc;
   display: flex;
   height: 400px;
-  left: 0;
-  min-width: 1440px;
+
+  min-width: 1450px;
+  width:100%;
   padding: 31px 72px;
   position: absolute;
   top: 0;
@@ -1011,14 +1015,17 @@ input[id=trigger]:checked + label span:nth-child(3) {
 
 /* input[id=trigger]가 체크되었을 때 사이드바가 나오는 형제 인접자 */
 input[id=trigger]:checked ~ .overlap-group131 {
-  left: 27px;
-  top:277px;
+  display: block;
+  position: relative;
+  width: 100%;
+  top: 70px;
 }
 
 /* check시 같이 밀려나가는 CSS 햄버거 메뉴 */
 input[id=trigger]:checked + label[for=trigger] {
-  transition: 0.3s;
+  transition: 0.2s;
 }
+
 /* input */
 .input-box{
   border: none;
