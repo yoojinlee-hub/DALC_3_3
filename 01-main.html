@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/globals.css" />
     <!--swiper-->
     <meta charset="utf-8" />
-    <title>Swiper demo</title>
+    <title>01_main</title>
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
@@ -69,24 +69,24 @@
             <div class="place ptserif-normal-white-24px">more</div>
             <div class="check-movie-1">
               <div class="check-movie-2 ptserif-normal-tulip-tree-24px">Check Movie</div>
-              <div class="domestic ptserif-normal-white-24px"><a class="submenuLink longLink">Domestic</a></div>
-              <div class="overseas ptserif-normal-white-24px"><a class="submenuLink longLink">Overseas</a></div>
+              <div class="domestic ptserif-normal-white-24px">Domestic</div>
+              <div class="overseas ptserif-normal-white-24px">Overseas</div>
             </div>
             <div class="recommand-1">
               <div class="recommand-2 ptserif-normal-tulip-tree-24px">Recommand</div>
-              <div class="recommand-result ptserif-normal-white-24px"><a class="submenuLink longLink">Recommand Result</a></div>
+              <div class="recommand-result ptserif-normal-white-24px">Recommand Result</div>
             </div>
             <div class="my-book-1">
               <div class="my-book-2 ptserif-normal-tulip-tree-24px">My Book</div>
-              <div class="my-page ptserif-normal-white-24px"><a class="submenuLink longLink">My Page</a></div>
-              <div class="recommended-books ptserif-normal-white-24px"><a class="submenuLink longLink">Recommended Books</a></div>
-              <div class="resently-searched-movies ptserif-normal-white-24px"><a class="submenuLink longLink">Resently Searched Movies</a></div>
+              <div class="my-page ptserif-normal-white-24px">My Page</div>
+              <div class="recommended-books ptserif-normal-white-24px">Recommended Books</div>
+              <div class="resently-searched-movies ptserif-normal-white-24px">Resently Searched Movies</div>
             </div>
             <div class="shop-1">
               <div class="shop-2 ptserif-normal-tulip-tree-24px">Shop</div>
-              <div class="yes24 ptserif-normal-white-24px"><a class="submenuLink longLink">Yes24</a></div>
-              <div class="aladin ptserif-normal-white-24px"><a class="submenuLink longLink">Aladin</a></div>
-              <div class="kyobo ptserif-normal-white-24px"><a class="submenuLink longLink">KYOBO</a></div>
+              <div class="yes24 ptserif-normal-white-24px">Yes24</div>
+              <div class="aladin ptserif-normal-white-24px">Aladin</div>
+              <div class="kyobo ptserif-normal-white-24px">KYOBO</div>
             </div>
             <!--
               ERROR
@@ -184,7 +184,6 @@
               </div>
               <div class="swiper-button-next"></div>
               <div class="swiper-button-prev"></div>
-              <div class="swiper-pagination"></div>
             </div>
         
             <!-- Swiper JS -->
@@ -193,11 +192,10 @@
             <!-- Initialize Swiper -->
             <script>
               var swiper = new Swiper(".mySwiper", {
-                slidesPerView: 3,
-                spaceBetween: 30,
-                slidesPerGroup: 3,
+                slidesPerView: 4,
+                spaceBetween: 10,
+                slidesPerGroup: 4,
                 loop: true,
-                loopFillGroupWithBlank: true,
                 pagination: {
                   el: ".swiper-pagination",
                   clickable: true,
