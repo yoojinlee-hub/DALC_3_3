@@ -60,12 +60,12 @@
   padding: 6px 145px;
   position: absolute;
   top: -2px;
-  
+
 }
 
 .x06-mybook-1 .navbar {
   align-items: flex-start;
-  
+
   display: flex;
   height: 19px;
   margin-top: 1.0px;
@@ -141,7 +141,7 @@
   align-self: center;
   display: inline-flex;
   width: 1450px;
-  background-color:rgb(31,39,78,0.8);
+  background-color: rgb(31, 39, 78, 0.8);
 }
 
 .x06-mybook-1 .overlap-group4 {
@@ -211,6 +211,7 @@
   height: 1283px;
   position: relative;
   width: 1756px;
+  overflow: visible;
 }
 
 .x06-mybook-1 .a-list-of-recommendedbooks {
@@ -270,6 +271,14 @@
 }
 
 .x06-mybook-1 .overlap-group2 {
+  height: 466px;
+  margin-top: 237px;
+  position: relative;
+  width: 1199px;
+  overflow: visible;
+}
+
+.overlap-group2 {
   height: 466px;
   margin-top: 237px;
   position: relative;
@@ -437,15 +446,19 @@
   text-align: center;
   width: 201px;
 }
-.recommended-books:hover{
-  background-color: rgb(217,217,217,0.1);
+
+.recommended-books:hover {
+  background-color: rgb(217, 217, 217, 0.1);
 }
-.selected-movies:hover{
-  background-color: rgb(217,217,217,0.1);
+
+.selected-movies:hover {
+  background-color: rgb(217, 217, 217, 0.1);
 }
-.text-4:hover{
-  background-color: rgb(217,217,217,0.1);
+
+.text-4:hover {
+  background-color: rgb(217, 217, 217, 0.1);
 }
+
 .x06-mybook-1 .more {
   align-items: center;
   display: flex;
@@ -764,6 +777,7 @@
   text-align: justify;
   white-space: nowrap;
 }
+
 /*숨겨진 메뉴*/
 .overlap-group131 {
   position: absolute;
@@ -778,14 +792,14 @@
   display: none;
 }
 
-.ham-menu{
+.ham-menu {
   align-items: center;
   background-color: #1f274ecc;
   display: flex;
   height: 400px;
   z-index: 100;
   min-width: 1450px;
-  width:100%;
+  width: 100%;
   padding: 31px 72px;
   position: absolute;
   top: 0;
@@ -988,7 +1002,7 @@
   width: 83px;
 }
 
-.ham-menu  .line-6 {
+.ham-menu .line-6 {
   height: 6px;
   left: 246px;
   position: static;
@@ -996,7 +1010,7 @@
   width: 176px;
 }
 
-.ham-menu  .line-7 {
+.ham-menu .line-7 {
   height: 6px;
   left: 541px;
   position: static;
@@ -1004,7 +1018,7 @@
   width: 176px;
 }
 
-.ham-menu  .line-8 {
+.ham-menu .line-8 {
   height: 6px;
   left: 857px;
   position: static;
@@ -1012,7 +1026,7 @@
   width: 156px;
 }
 
-.ham-menu  .line-9 {
+.ham-menu .line-9 {
   height: 6px;
   left: 1169px;
   position: static;
@@ -1053,39 +1067,39 @@ label[for=trigger] span {
   width: 100%;
   position: absolute;
   transition: 0.3s;
-  z-index: 1000; 
+  z-index: 1000;
 }
 
 /* label[for=trigger] > span의 n번째 요소 */
 label[for=trigger] span:nth-child(1) {
-  top:0;
+  top: 0;
 }
 
 label[for=trigger] span:nth-child(2) {
-  top:50%;
+  top: 50%;
 }
 
 label[for=trigger] span:nth-child(3) {
-  top:100%;
+  top: 100%;
 }
 
 /* check시 변하는 label[for=trigger] > span의 n번째 요소  */
-input[id=trigger]:checked + label span:nth-child(1) {
+input[id=trigger]:checked+label span:nth-child(1) {
   top: 50%;
   transform: rotate(45deg);
 }
 
-input[id=trigger]:checked + label span:nth-child(2) {
+input[id=trigger]:checked+label span:nth-child(2) {
   opacity: 0;
 }
 
-input[id=trigger]:checked + label span:nth-child(3) {
+input[id=trigger]:checked+label span:nth-child(3) {
   top: 50%;
   transform: rotate(-45deg);
 }
 
 /* input[id=trigger]가 체크되었을 때 사이드바가 나오는 형제 인접자 */
-input[id=trigger]:checked ~ .overlap-group131 {
+input[id=trigger]:checked~.overlap-group131 {
   display: block;
   position: relative;
   width: 100%;
@@ -1093,21 +1107,24 @@ input[id=trigger]:checked ~ .overlap-group131 {
 }
 
 /* check시 같이 밀려나가는 CSS 햄버거 메뉴 */
-input[id=trigger]:checked + label[for=trigger] {
+input[id=trigger]:checked+label[for=trigger] {
   transition: 0.2s;
 }
 
 
-.check-movie:hover{
+.check-movie:hover {
   color: #FFABAB;
 }
-.recommand:hover{
+
+.recommand:hover {
   color: #FFABAB;
 }
-.my-book:hover{
+
+.my-book:hover {
   color: #FFABAB;
 }
-.shop:hover{
+
+.shop:hover {
   color: #FFABAB;
 }
 
@@ -1187,9 +1204,12 @@ input[id=trigger]:checked + label[for=trigger] {
   width: 714px;
   height: 859.4px;
   animation: fadein 0.7s;
-  -moz-animation: fadein 0.7s; /* Firefox */
-  -webkit-animation: fadein 0.7s; /* Safari and Chrome */
-  -o-animation: fadein 0.7s; /* Opera */
+  -moz-animation: fadein 0.7s;
+  /* Firefox */
+  -webkit-animation: fadein 0.7s;
+  /* Safari and Chrome */
+  -o-animation: fadein 0.7s;
+  /* Opera */
   animation-fill-mode: forwards;
 }
 
@@ -1197,74 +1217,108 @@ input[id=trigger]:checked + label[for=trigger] {
   z-index: 2;
   width: 507px;
   height: 717px;
-  ;
   margin-bottom: 30%;
   position: absolute;
   border: 3px solid #999;
+  animation: fadein 0.7s;
+  -moz-animation: fadein 0.7s;
+  /* Firefox */
+  -webkit-animation: fadein 0.7s;
+  /* Safari and Chrome */
+  -o-animation: fadein 0.7s;
+  /* Opera */
+  animation-fill-mode: forwards;
 }
 
 /*swiper animation*/
 @keyframes fadeout {
   from {
-      opacity: 1;
+    opacity: 1;
   }
+
   to {
-      opacity: 0;
+    opacity: 0;
   }
 }
-@-moz-keyframes fadeout { /* Firefox */
+
+@-moz-keyframes fadeout {
+
+  /* Firefox */
   from {
-      opacity: 1;
+    opacity: 1;
   }
+
   to {
-      opacity: 0;
+    opacity: 0;
   }
 }
-@-webkit-keyframes fadeout { /* Safari and Chrome */
+
+@-webkit-keyframes fadeout {
+
+  /* Safari and Chrome */
   from {
-      opacity: 1;
+    opacity: 1;
   }
+
   to {
-      opacity: 0;
+    opacity: 0;
   }
 }
-@-o-keyframes fadeout { /* Opera */
+
+@-o-keyframes fadeout {
+
+  /* Opera */
   from {
-      opacity: 1;
+    opacity: 1;
   }
+
   to {
-      opacity: 0;
+    opacity: 0;
   }
 }
+
 @keyframes fadein {
   from {
-      opacity: 0;
+    opacity: 0;
   }
+
   to {
-      opacity: 1;
+    opacity: 1;
   }
 }
-@-moz-keyframes fadein { /* Firefox */
+
+@-moz-keyframes fadein {
+
+  /* Firefox */
   from {
-      opacity: 0;
+    opacity: 0;
   }
+
   to {
-      opacity: 1;
+    opacity: 1;
   }
 }
-@-webkit-keyframes fadein { /* Safari and Chrome */
+
+@-webkit-keyframes fadein {
+
+  /* Safari and Chrome */
   from {
-      opacity: 0;
+    opacity: 0;
   }
+
   to {
-      opacity: 1;
+    opacity: 1;
   }
 }
-@-o-keyframes fadein { /* Opera */
+
+@-o-keyframes fadein {
+
+  /* Opera */
   from {
-      opacity: 0;
+    opacity: 0;
   }
+
   to {
-      opacity: 1;
+    opacity: 1;
   }
 }
