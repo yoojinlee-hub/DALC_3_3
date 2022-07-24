@@ -31,47 +31,83 @@
       }
 
       .swiper {
-        width: 100%;
-        height: 100%;
-      }
+       width: 100%;
+       height: 100%;
+     }
 
-      .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-        margin-top: auto;
-        margin-bottom: auto;
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-      }
+     .swiper-slide {
+       text-align: center;
+       font-size: 18px;
+       background: #fff;
+       margin-top: auto;
+       margin-bottom: auto;
+       /* Center slide text vertically */
+       display: -webkit-box;
+       display: -ms-flexbox;
+       display: -webkit-flex;
+       display: flex;
+       -webkit-box-pack: center;
+       -ms-flex-pack: center;
+       -webkit-justify-content: center;
+       justify-content: center;
+       -webkit-box-align: center;
+       -ms-flex-align: center;
+       -webkit-align-items: center;
+       align-items: center;
+     }
 
-      .swiper-slide img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
+     .swiper-slide img {
+       display: block;
+       width: 201.49px;
+       height: 265.23;
+       object-fit: cover;
+     }
 
-      .swiper-slide {
-        width: 30%;
-        height: 30%;
-      }
+     .swiper-slide {
+       width: 50%;
+       height: 50%;
+       z-index: 2;
+     }
+     .swiper-img{
 
-      .swiper-slide-active{
-        background-color: aqua;
-        height: 70%;
-      }
+     }
+     .explain{
+      display:none;
+     }
+     .swiper-slide-next{
+      background-color: antiquewhite;
+      z-index:0;
+      width: 201.49px;
+      height: 265.23;
+     }
+     .swiper-slide-prev{
+      background-color: antiquewhite;
+      z-index:0;
+      width: 201.49px;
+      height: 265.23;
+     }
+     .swiper-slide-active{
+       background-color: aqua;
+       height: 70%;
+       overflow: visible;
+     }
+     .swiper-slide-active .explain{
+      position: absolute;
+      display: block;
+      z-index: 1;
+      background-color: #F4F5F7;
+      margin-top:90%;
+      width: 714px;
+      height: 859.4px;
+     }
+     .swiper-slide-active .swiper-img{
+      z-index: 2;
+      width: 507px;
+      height: 717px;;
+      margin-bottom: 30%;
+      position: absolute;
+      border: 3px solid #999;
+     }
     </style>
   </head>
 
@@ -79,17 +115,16 @@
     <!-- Swiper -->
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        <div class="swiper-slide">Slide 4</div>
-        <div class="swiper-slide">Slide 5</div>
-        <div class="swiper-slide">Slide 6</div>
-        <div class="swiper-slide">Slide 7</div>
-        <div class="swiper-slide">Slide 8</div>
-        <div class="swiper-slide">Slide 9</div>
+        <div class="swiper-slide"><div class="swiper-img">img자리</div><div class="explain">설명자리</div></div>
+        <div class="swiper-slide"><div class="swiper-img">img자리</div><div class="explain">설명자리</div></div>
+        <div class="swiper-slide"><div class="swiper-img">img자리</div><div class="explain">설명자리</div></div>
+        <div class="swiper-slide"><div class="swiper-img">img자리</div><div class="explain">설명자리</div></div>
+        <div class="swiper-slide"><div class="swiper-img">img자리</div><div class="explain">설명자리</div></div>
+        <div class="swiper-slide"><div class="swiper-img">img자리</div><div class="explain">설명자리</div></div>
+        <div class="swiper-slide"><div class="swiper-img">img자리</div><div class="explain">설명자리</div></div>
+        <div class="swiper-slide"><div class="swiper-img">img자리</div><div class="explain">설명자리</div></div>
+        <div class="swiper-slide"><div class="swiper-img">img자리</div><div class="explain">설명자리</div></div>
       </div>
-      <div class="swiper-pagination"></div>
     </div>
 
     <!-- Swiper JS -->
