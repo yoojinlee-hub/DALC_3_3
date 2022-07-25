@@ -696,15 +696,12 @@
 /*숨겨진 메뉴*/
 .overlap-group131 {
   position: absolute;
-  top: 0;
-  right: 0;
   height: 100%;
   max-width: 0;
   transition: 0.5s ease;
   z-index: 1;
-  width: 100%;
+  width: 1440px;
   margin-right: auto;
-  display: none;
 }
 
 .ham-menu{
@@ -712,15 +709,14 @@
   background-color: #1f274ecc;
   display: flex;
   height: 400px;
-
-  min-width: 1450px;
-  width:100%;
+  left: 0;
+  min-width: 1440px;
   padding: 31px 72px;
   position: absolute;
   top: 0;
 }
 
-.ham-menu.place {
+.ham-menu .place {
   align-self: flex-start;
   letter-spacing: 0;
   line-height: 24px;
@@ -729,15 +725,17 @@
   text-align: justify;
   white-space: nowrap;
 }
-
-.ham-menu.check-movie-1 {
+.ham-menu .making-place{
+  width:100px;
+}
+.ham-menu .check-movie-1 {
   align-items: center;
-  display: flex;
   flex-direction: column;
   margin-bottom: 65.0px;
-  margin-left: 139px;
+  margin-right: 30px;
   min-height: 123px;
-  width: 143px;
+
+  display:flex;
 }
 
 .ham-menu.check-movie-2 {
@@ -772,20 +770,20 @@
   white-space: nowrap;
 }
 
-.ham-menu.recommand-1 {
+.ham-menu .recommand-1 {
+  display:flex;
   align-items: center;
-  display: flex;
   flex-direction: column;
   margin-bottom: 116.0px;
-  margin-left: 119px;
+  margin-left: 50px;
   min-height: 72px;
   width: 210px;
+  margin-bottom: 120px;
 }
 
 .ham-menu.recommand-2 {
   letter-spacing: 0;
   line-height: 24px;
-  margin-right: 11.0px;
   min-height: 24px;
   min-width: 133px;
   text-align: justify;
@@ -793,6 +791,7 @@
 }
 
 .ham-menu.recommand-result {
+  display:flex;
   letter-spacing: 0;
   line-height: 24px;
   margin-right: 4.0px;
@@ -803,14 +802,14 @@
   white-space: nowrap;
 }
 
-.ham-menu.my-book-1 {
+.ham-menu .my-book-1 {
   align-items: center;
-  display: flex;
   flex-direction: column;
   margin-bottom: 14.0px;
   margin-left: 58px;
   min-height: 174px;
   width: 284px;
+
 }
 
 .ham-menu.my-book-2 {
@@ -857,13 +856,14 @@
 }
 
 .ham-menu .shop-1 {
+  display:flex;
   align-items: center;
-  display: flex;
   flex-direction: column;
   margin-bottom: 14.0px;
-  margin-left: 107px;
+  margin-left: 160px;
   min-height: 174px;
   width: 88px;
+  padding-right: 250px;
 }
 
 .ham-menu .shop-2 {
@@ -912,7 +912,7 @@
 .ham-menu .line-5 {
   height: 6px;
   left: 59px;
-  position: static;
+  position: inherit;
   top: 59px;
   width: 83px;
 }
@@ -920,7 +920,7 @@
 .ham-menu  .line-6 {
   height: 6px;
   left: 246px;
-  position: static;
+  position: inherit;
   top: 136px;
   width: 176px;
 }
@@ -928,7 +928,7 @@
 .ham-menu  .line-7 {
   height: 6px;
   left: 541px;
-  position: static;
+  position: inherit;
   top: 136px;
   width: 176px;
 }
@@ -936,7 +936,7 @@
 .ham-menu  .line-8 {
   height: 6px;
   left: 857px;
-  position: static;
+  position: inherit;
   top: 136px;
   width: 156px;
 }
@@ -944,7 +944,7 @@
 .ham-menu  .line-9 {
   height: 6px;
   left: 1169px;
-  position: static;
+  position: inherit;
   top: 136px;
   width: 126px;
 }
@@ -952,9 +952,10 @@
 .ham-menu .line-10 {
   height: 1px;
   left: 0;
-  position: static;
+  position: inherit;
   top: 70px;
   width: 1440px;
+  z-index: 80;
 }
 
 /*햄버거*/
@@ -1013,12 +1014,18 @@ input[id=trigger]:checked + label span:nth-child(3) {
   transform: rotate(-45deg);
 }
 
+label[for=trigger] ~ .overlap-group131 {
+  display: none;
+  position: relative;
+  width: 100%;
+  top: 70px;
+}
 /* input[id=trigger]가 체크되었을 때 사이드바가 나오는 형제 인접자 */
 input[id=trigger]:checked ~ .overlap-group131 {
   display: block;
   position: relative;
   width: 100%;
-  top: 70px;
+  margin-left:0px;
 }
 
 /* check시 같이 밀려나가는 CSS 햄버거 메뉴 */
