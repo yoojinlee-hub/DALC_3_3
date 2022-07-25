@@ -1,5 +1,5 @@
 /* screen - 06-mybook-1 */
-
+@import url("https://fonts.googleapis.com/css?family=PT+Serif:400|Open+Sans:400,700|Abril+Fatface:400|Roboto:400,700");
 .x06-mybook-1 {
   align-items: flex-start;
   background-color: var(--white);
