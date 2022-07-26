@@ -1332,3 +1332,150 @@ input[id=trigger]:checked+label[for=trigger] {
     opacity: 1;
   }
 }
+
+/*image*/
+ .rectangle-33 {
+  height: 97px;
+  left: 0;
+  position: absolute;
+  top: 144px;
+  width: 394px;
+}
+
+.rectangle-3 {
+  height: 97px;
+  left: 0;
+  position: absolute;
+  top: 242px;
+  width: 394px;
+}
+
+.rectangle-3-1 {
+  height: 97px;
+  left: 0;
+  position: absolute;
+  top: 340px;
+  width: 394px;
+}
+.overlap-group7 {
+  height: 1283px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 394px;
+}
+
+.feature-bg {
+  background-color: var(--black-7);
+  height: 1283px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 394px;
+}
+
+.view {
+  align-items: flex-start;
+  display: flex;
+  height: 48px;
+  left: 44px;
+  min-width: 350px;
+  position: absolute;
+  top: 161px;
+}
+
+.text-27 {
+  align-self: flex-end;
+  letter-spacing: 0;
+  min-height: 32px;
+  text-align: center;
+  width: 21px;
+}
+
+.a-list-of-recommended-books {
+  letter-spacing: 0;
+  margin-left: 11px;
+  min-height: 32px;
+  text-align: center;
+  width: 314px;
+}
+
+.view-1 {
+  align-items: center;
+  display: flex;
+  height: 40px;
+  left: 31px;
+  min-width: 257px;
+  position: absolute;
+  top: 367px;
+}
+
+.text-28 {
+  letter-spacing: 0;
+  min-height: 40px;
+  text-align: center;
+  width: 43px;
+}
+
+.my-picks {
+  letter-spacing: 0;
+  margin-left: 89px;
+  margin-top: 1.08px;
+  min-height: 35px;
+  text-align: center;
+  width: 122px;
+}
+
+.view-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 32px;
+  left: 44px;
+  min-width: 337px;
+  position: absolute;
+  top: 275px;
+}
+
+.text-29 {
+  letter-spacing: 0;
+  min-height: 32px;
+  text-align: center;
+  width: 21px;
+}
+
+.a-list-of-selected-movies-1 {
+  letter-spacing: 0;
+  margin-left: 29px;
+  min-height: 32px;
+  text-align: center;
+  width: 283px;
+}
+
+.more {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 60px;
+  min-height: 31px;
+  position: absolute;
+  top: 65px;
+  width: 78px;
+}
+
+.place-1 {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: 3.05px;
+  min-height: 24px;
+  text-align: justify;
+  white-space: nowrap;
+  width: 55px;
+}
+
+.line-5 {
+  height: 6px;
+  margin-right: 2.0px;
+  margin-top: 4px;
+  width: 82px;
+}
