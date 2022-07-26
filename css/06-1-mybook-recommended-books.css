@@ -274,21 +274,20 @@
 }
 
 .x06-1-mybook-recommended-books .text-57 {
-  align-self: flex-end;
-  letter-spacing: 0;
-  min-height: 32px;
-  text-align: center;
-  width: 21px;
-  z-index: 50;
+  color: var(--white);
+  font-family: var(--font-family-font_awesome_6_free-solid);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .x06-1-mybook-recommended-books .a-list-of-recommended-books {
-  letter-spacing: 0;
-  margin-left: 11px;
-  min-height: 32px;
-  text-align: center;
-  width: 314px;
-  z-index: 50;
+  color: var(--white);
+  font-family: var(--font-family-abril_fatface);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 20px;
 }
 
 .x06-1-mybook-recommended-books .view-1 {
@@ -303,21 +302,20 @@
 }
 
 .x06-1-mybook-recommended-books .text-58 {
-  letter-spacing: 0;
-  min-height: 40px;
-  text-align: center;
-  width: 43px;
-  z-index: 50;
+  color: var(--white);
+  font-family: var(--font-family-font_awesome_5_free-solid);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .x06-1-mybook-recommended-books .my-picks {
-  letter-spacing: 0;
-  margin-left: 89px;
-  margin-top: 1.08px;
-  min-height: 35px;
-  text-align: center;
-  width: 122px;
-  z-index: 50;
+  color: var(--white);
+  font-family: var(--font-family-abril_fatface);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 20px;
 }
 
 .x06-1-mybook-recommended-books .view-2 {
@@ -332,20 +330,20 @@
 }
 
 .x06-1-mybook-recommended-books .text-59 {
-  letter-spacing: 0;
-  min-height: 32px;
-  text-align: center;
-  width: 21px;
-  z-index: 50;
+  color: var(--white);
+  font-family: var(--font-family-font_awesome_6_free-solid);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .x06-1-mybook-recommended-books .a-list-of-selected-movies {
-  letter-spacing: 0;
-  margin-left: 29px;
-  min-height: 32px;
-  text-align: center;
-  width: 283px;
-  z-index: 50;
+  color: var(--white);
+  font-family: var(--font-family-abril_fatface);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 20px;
 }
 
 .x06-1-mybook-recommended-books .more {
@@ -422,7 +420,11 @@
 }
 
 .x06-1-mybook-recommended-books .a-list-of-recommended-books-1 {
-  left: 1px;
+  color: var(--blue-zodiac);
+  font-family: var(--font-family-abril_fatface);
+  font-size: 48px;
+  font-weight: 400;
+  left: 1;
   letter-spacing: 0;
   position: absolute;
   text-align: center;
@@ -550,7 +552,6 @@
 
 .x06-1-mybook-recommended-books .stars {
   align-items: flex-start;
-  box-shadow: 1px 1px 4px #00000040;
   display: flex;
   height: 38px;
   left: 351px;
@@ -560,14 +561,23 @@
 }
 
 .x06-1-mybook-recommended-books .text-61 {
+  color: var(--black-4);
+  font-family: var(--font-family-font_awesome_5_free-solid);
+  font-size: var(--font-size-m);
+  font-weight: 400;
   letter-spacing: 0;
   line-height: 30px;
+  margin-left: 8px;
   min-height: 38px;
   text-align: justify;
   width: 24px;
 }
 
 .x06-1-mybook-recommended-books .text-6 {
+  color: var(--black-4);
+  font-family: var(--font-family-font_awesome_5_free-solid);
+  font-size: var(--font-size-m);
+  font-weight: 400;
   letter-spacing: 0;
   line-height: 30px;
   margin-left: 8px;
@@ -1160,4 +1170,13 @@ input[id=trigger]:checked+label[for=trigger] {
 .shop:hover {
   color: #FFABAB;
 }
-
+/* input */
+.input-box{
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+input:focus {outline:none;}
+.input-q{
+  background-color: #CFD8DC;
+}

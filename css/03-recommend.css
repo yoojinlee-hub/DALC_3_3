@@ -418,34 +418,34 @@
 }
 
 .x03-recommend .ellipse-2 {
-  height: 46px;
-  margin-bottom: -1454px;
+  height: 58px;
+  margin-left: 32px;
+  margin-top: 0;
   object-fit: cover;
-  width: 46px;
+  width: 62px;
 }
 
 .x03-recommend .ellipse-4 {
-  height: 46px;
-  margin-bottom: -1454px;
-  margin-left: 28px;
+  height: 58px;
+  margin-left: 38px;
+  margin-top: 0;
   object-fit: cover;
-  width: 46px;
+  width: 62px;
 }
 
 .x03-recommend .ellipse-3 {
-  height: 46px;
-  margin-bottom: -1454px;
-  margin-left: 27px;
+  height: 58px;
+  margin-left: 36px;
+  margin-top: 0;
   object-fit: cover;
-  width: 46px;
+  width: 62px;
 }
 
 .x03-recommend .ellipse-1 {
-  height: 46px;
-  margin-bottom: -1454px;
-  margin-left: 316px;
+  height: 58px;
+  margin-top: 0;
   object-fit: cover;
-  width: 46px;
+  width: 62px;
 }
 
 .x03-recommend .overlap-group1 {
@@ -1127,4 +1127,14 @@ input[id=trigger]:checked + label[for=trigger] {
 }
 .shop:hover{
   color: #FFABAB;
+}
+/* input */
+.input-box{
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+input:focus {outline:none;}
+.input-q{
+  background-color: #CFD8DC;
 }

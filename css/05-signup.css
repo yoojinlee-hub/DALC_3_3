@@ -277,10 +277,11 @@
 }
 
 .x05-signup .text-2 {
-  letter-spacing: 0;
-  min-height: 37px;
-  min-width: 32px;
-  text-align: center;
+  color: var(--black-6);
+  font-family: var(--font-family-font_awesome_5_free-solid);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .x05-signup .email-address {
@@ -332,10 +333,11 @@
 }
 
 .x05-signup .text-3 {
-  letter-spacing: 0;
-  min-height: 37px;
-  min-width: 28px;
-  text-align: center;
+  color: var(--black-6);
+  font-family: var(--font-family-font_awesome_5_free-solid);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .x05-signup .password {
@@ -360,10 +362,11 @@
 }
 
 .x05-signup .text-4 {
-  letter-spacing: 0;
-  min-height: 37px;
-  min-width: 36px;
-  text-align: center;
+  color: var(--black-6);
+  font-family: var(--font-family-font_awesome_5_free-solid);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .x05-signup .id {
@@ -438,10 +441,11 @@
 }
 
 .x05-signup .text-6 {
-  letter-spacing: 0;
-  min-height: 37px;
-  min-width: 40px;
-  text-align: center;
+  color: var(--black-6);
+  font-family: var(--font-family-font_awesome_5_free-solid);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .x05-signup .age {
@@ -469,7 +473,7 @@
 
 .x05-signup .text-7 {
   align-self: flex-end;
-  color: var(--black-4);
+  color: var(--black-6);
   font-family: var(--font-family-font_awesome_5_free-regular);
   font-size: var(--font-size-xxl);
   font-weight: 400;
@@ -1040,6 +1044,9 @@ input[id=trigger]:checked + label[for=trigger] {
   width: 100%;
 }
 input:focus {outline:none;}
+.input-q{
+  background-color: #CFD8DC;
+}
 
 /*글자 hover시에 색 바뀌게*/
 .check-movie:hover{

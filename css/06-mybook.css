@@ -1597,3 +1597,13 @@ input[id=trigger]:checked+label[for=trigger] {
 .swiper-slide {
   background-color: aquamarine;
 }
+/* input */
+.input-box{
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+input:focus {outline:none;}
+.input-q{
+  background-color: #CFD8DC;
+}

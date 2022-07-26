@@ -258,34 +258,34 @@
 }
 
 .x04-login .ellipse-1 {
-  height: 53px;
-  margin-bottom: -1187px;
+  height: 58px;
+  margin-top: 0;
   object-fit: cover;
-  width: 55px;
+  width: 62px;
 }
 
 .x04-login .ellipse-2 {
-  height: 53px;
-  margin-bottom: -1187px;
-  margin-left: 28px;
+  height: 58px;
+  margin-left: 32px;
+  margin-top: 0;
   object-fit: cover;
-  width: 55px;
+  width: 62px;
 }
 
 .x04-login .ellipse-4 {
-  height: 53px;
-  margin-bottom: -1187px;
-  margin-left: 33px;
+  height: 58px;
+  margin-left: 38px;
+  margin-top: 0;
   object-fit: cover;
-  width: 55px;
+  width: 62px;
 }
 
 .x04-login .ellipse-3 {
-  height: 53px;
-  margin-bottom: -1187px;
-  margin-left: 32px;
+  height: 58px;
+  margin-left: 36px;
+  margin-top: 0;
   object-fit: cover;
-  width: 55px;
+  width: 62px;
 }
 
 .x04-login .mask-group {
@@ -330,10 +330,11 @@
 }
 
 .x04-login .text-11 {
-  letter-spacing: 0;
-  min-height: 37px;
-  min-width: 36px;
-  text-align: center;
+  color: var(--black-6);
+  font-family: var(--font-family-font_awesome_5_free-solid);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .x04-login .id {
@@ -360,10 +361,11 @@
 }
 
 .x04-login .text-12 {
-  letter-spacing: 0;
-  min-height: 37px;
-  min-width: 28px;
-  text-align: center;
+  color: var(--black-6);
+  font-family: var(--font-family-font_awesome_5_free-solid);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .x04-login .password {
@@ -606,7 +608,16 @@
   text-align: justify;
   white-space: nowrap;
 }
-
+/* input */
+.input-box{
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+input:focus {outline:none;}
+.input-q{
+  background-color: #CFD8DC;
+}
 /*숨겨진 메뉴*/
 .overlap-group13 {
   position: absolute;
