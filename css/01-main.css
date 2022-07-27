@@ -871,11 +871,11 @@
   white-space: nowrap;
 }
 
-.x01-main .my-book-1 {
+.x01-main .my-book-11 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  margin-left: 25px;
+  margin-left: 215px;
   min-height: 168px;
   width: 284px;
 }

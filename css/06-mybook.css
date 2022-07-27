@@ -432,12 +432,12 @@
 }
 
 .x06mybook .my-picks {
-  left: 0;
-  letter-spacing: 0;
-  position: absolute;
-  text-align: center;
-  text-shadow: 0px 4px 4px #00000040;
-  top: 0;
+  color: var(--blue-zodiac);
+  font-family: var(--font-family-abril_fatface);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  z-index: 5;
   width: 231px;
 }
 
@@ -458,9 +458,12 @@
   letter-spacing: 0;
   line-height: 24px;
   min-height: 17px;
-  text-align: justify;
+  text-align: center;
   white-space: nowrap;
   width: 75px;
+  border-radius: 5px;
+  color:white;
+  background-color: #0000009f;
 }
 
 .x06mybook .flex-row-2 {
@@ -498,7 +501,7 @@
   align-self: center;
   display: flex;
   height: 346px;
-  min-width: 1437px;
+  min-width: 1400px;
 }
 
 .x06mybook .caption-bg {
@@ -684,6 +687,7 @@
   margin-top: 11px;
   position: relative;
   width: 1437px;
+
 }
 
 .x06mybook .overlap-group-container-2 {
@@ -707,16 +711,17 @@
   position: absolute;
   top: 40px;
   width: 521px;
+  z-index: 0;
 }
 
 .x06mybook .a-list-of {
-  left: 0;
-  letter-spacing: 0;
-  position: absolute;
-  text-align: center;
-  text-shadow: 0px 4px 4px #00000040;
-  top: 0;
-  width: 641px;
+  color: var(--blue-zodiac);
+  font-family: var(--font-family-abril_fatface);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  width: 1000px;
+
 }
 
 .x06mybook .overlap-group1-2 {
@@ -969,17 +974,21 @@
   letter-spacing: 0;
   line-height: 24px;
   min-height: 18px;
-  text-align: justify;
+  text-align: center;
   white-space: nowrap;
   width: 75px;
+  border-radius: 5px;
+  color:white;
+  background-color: #0000009f;
 }
 
 .x06mybook .overlap-group10 {
-  height: 439px;
-  margin-left: 3px;
-  margin-top: 11px;
-  position: relative;
-  width: 1437px;
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  height: 346px;
+  margin-right: 58.01px;
+  min-width: 1236px;
 }
 
 .x06mybook .overlap-group8 {
@@ -1240,7 +1249,7 @@
   height: 100%;
   max-width: 0;
   transition: 0.5s ease;
-  z-index: 1;
+  z-index: 100;
   width: 1440px;
   margin-right: auto;
 }
@@ -1257,7 +1266,7 @@
   top: 0;
 }
 
-.ham-menu .place {
+.ham-menu .place11 {
   align-self: flex-start;
   letter-spacing: 0;
   line-height: 24px;
@@ -1275,10 +1284,10 @@
   align-items: center;
   flex-direction: column;
   margin-bottom: 65.0px;
-  margin-right: 30px;
+  margin-left: 80px;
   min-height: 123px;
 
-  display: flex;
+  display:flex;
 }
 
 .ham-menu.check-movie-2 {
@@ -1318,7 +1327,8 @@
   align-items: center;
   flex-direction: column;
   margin-bottom: 116.0px;
-  margin-left: 50px;
+  margin-top: 20px;
+  margin-left: 80px;
   min-height: 72px;
   width: 210px;
   margin-bottom: 120px;
@@ -1460,7 +1470,7 @@
   width: 83px;
 }
 
-.ham-menu .line-6 {
+.ham-menu  .line-6 {
   height: 6px;
   left: 246px;
   position: inherit;
@@ -1468,7 +1478,7 @@
   width: 176px;
 }
 
-.ham-menu .line-7 {
+.ham-menu  .line-7 {
   height: 6px;
   left: 541px;
   position: inherit;
@@ -1476,7 +1486,7 @@
   width: 176px;
 }
 
-.ham-menu .line-8 {
+.ham-menu  .line-8 {
   height: 6px;
   left: 857px;
   position: inherit;
@@ -1484,7 +1494,7 @@
   width: 156px;
 }
 
-.ham-menu .line-9 {
+.ham-menu  .line-9 {
   height: 6px;
   left: 1169px;
   position: inherit;
