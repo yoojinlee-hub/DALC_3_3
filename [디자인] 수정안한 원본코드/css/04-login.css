@@ -1,0 +1,596 @@
+/* screen - 04-login */
+
+.x04-login {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 1860px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.x04-login .overlap-group-container {
+  height: 207px;
+  position: relative;
+  width: 1444px;
+}
+
+.x04-login .checkmovie-container {
+  background-image: url(../img/rectangle-2@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 207px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.x04-login .checkmovie {
+  -webkit-text-stroke: 0.15px var(--black-2);
+  left: 452px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 100px #00000040;
+  top: 64px;
+  width: 546px;
+}
+
+.x04-login .checkmovie-1 {
+  -webkit-text-stroke: 0.15px var(--black-2);
+  left: 448px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 100px #00000040;
+  top: 64px;
+  width: 546px;
+}
+
+.x04-login .overlap-group4 {
+  align-items: flex-start;
+  background-color: var(--iron);
+  display: flex;
+  height: 44px;
+  justify-content: flex-end;
+  left: -2px;
+  min-width: 1444px;
+  padding: 6px 145px;
+  position: absolute;
+  top: -2px;
+}
+
+.x04-login .navbar {
+  align-items: flex-start;
+  align-self: center;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 19px;
+  margin-top: 1.0px;
+  min-width: 300px;
+}
+
+.x04-login .navbar-link-place {
+  letter-spacing: 0;
+  min-height: 19px;
+  min-width: 42px;
+  text-align: center;
+}
+
+.x04-login .navbar-link-login {
+  letter-spacing: 0;
+  margin-left: 43px;
+  min-height: 19px;
+  min-width: 38px;
+  text-align: center;
+}
+
+.x04-login .navbar-link-sign-up {
+  letter-spacing: 0;
+  margin-left: 38px;
+  min-height: 19px;
+  min-width: 53px;
+  text-align: center;
+}
+
+.x04-login .navbar-link-my-page {
+  letter-spacing: 0;
+  margin-left: 27px;
+  min-height: 19px;
+  min-width: 59px;
+  text-align: center;
+}
+
+.x04-login .overlap-group {
+  align-items: flex-start;
+  background-color: var(--mischka);
+  border-radius: 5px;
+  display: flex;
+  height: 31px;
+  justify-content: flex-end;
+  margin-left: 496px;
+  min-width: 332px;
+  padding: 6px 10px;
+}
+
+.x04-login .text-64 {
+  letter-spacing: 0;
+  min-height: 14px;
+  text-align: center;
+  width: 37px;
+}
+
+.x04-login .left_-bar {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 70px;
+  width: 1450px;
+}
+
+.x04-login .flex-row {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  margin-right: 118.0px;
+  min-width: 1202px;
+}
+
+.x04-login .overlap-group2 {
+  align-items: center;
+  background-color: var(--blue-zodiac-2);
+  display: flex;
+  height: 70px;
+  min-width: 70px;
+  padding: 0 17px;
+}
+
+.x04-login .text-63 {
+  letter-spacing: 0;
+  min-height: 40px;
+  min-width: 35px;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.x04-login .check-movie {
+  letter-spacing: 0;
+  margin-bottom: 6.0px;
+  margin-left: 132px;
+  min-height: 40px;
+  min-width: 170px;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.x04-login .recommend {
+  align-self: flex-start;
+  height: 31px;
+  margin-left: 98px;
+  margin-top: 4px;
+  width: 173px;
+}
+
+.x04-login .my-book {
+  letter-spacing: 0;
+  margin-bottom: 6.0px;
+  margin-left: 169px;
+  min-height: 40px;
+  min-width: 116px;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.x04-login .shop {
+  letter-spacing: 0;
+  margin-left: 208px;
+  min-height: 40px;
+  min-width: 66px;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.x04-login .rectangle-3 {
+  height: 70px;
+  margin-top: 137px;
+  object-fit: cover;
+  width: 1440px;
+}
+
+.x04-login .overlap-group9 {
+  height: 1283px;
+  margin-left: -2px;
+  position: relative;
+  width: 1440px;
+}
+
+.x04-login .logo-bg {
+  background-color: var(--white);
+  border-radius: 90px;
+  height: 180px;
+  left: 630px;
+  position: absolute;
+  top: 109px;
+  width: 180px;
+}
+
+.x04-login .rectangle-21 {
+  background-color: var(--cultured-pearl);
+  border-radius: 50px;
+  height: 1157px;
+  left: 106px;
+  position: absolute;
+  top: 63px;
+  width: 1235px;
+}
+
+.x04-login .rectangle-10 {
+  background-color: #f3b742cc;
+  border-radius: 0px 0px 50px 50px;
+  height: 110px;
+  left: 104px;
+  position: absolute;
+  top: 1110px;
+  width: 1235px;
+}
+
+.x04-login .s_login {
+  align-items: flex-end;
+  display: flex;
+  height: 53px;
+  left: 583px;
+  min-width: 312px;
+  padding: 0 0.0px;
+  position: absolute;
+  top: 910px;
+}
+
+.x04-login .ellipse-1 {
+  height: 53px;
+  margin-bottom: -1187px;
+  object-fit: cover;
+  width: 55px;
+}
+
+.x04-login .ellipse-2 {
+  height: 53px;
+  margin-bottom: -1187px;
+  margin-left: 28px;
+  object-fit: cover;
+  width: 55px;
+}
+
+.x04-login .ellipse-4 {
+  height: 53px;
+  margin-bottom: -1187px;
+  margin-left: 33px;
+  object-fit: cover;
+  width: 55px;
+}
+
+.x04-login .ellipse-3 {
+  height: 53px;
+  margin-bottom: -1187px;
+  margin-left: 32px;
+  object-fit: cover;
+  width: 55px;
+}
+
+.x04-login .mask-group {
+  height: 198px;
+  left: 106px;
+  position: absolute;
+  top: 63px;
+  width: 1235px;
+}
+
+.x04-login .dont-have-an-account-create-one-now {
+  color: transparent;
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  left: 466px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 1145px;
+}
+
+.x04-login .span0-1 {
+  color: var(--white);
+}
+
+.x04-login .span1 {
+  color: var(--old-brick);
+}
+
+.x04-login .overlap-group5 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 8px;
+  display: flex;
+  height: 99px;
+  left: 245px;
+  min-width: 1002px;
+  padding: 0 25px;
+  position: absolute;
+  top: 442px;
+}
+
+.x04-login .text-65 {
+  letter-spacing: 0;
+  min-height: 37px;
+  min-width: 36px;
+  text-align: center;
+}
+
+.x04-login .id {
+  letter-spacing: 0;
+  margin-left: 23px;
+  margin-top: 1.0px;
+  min-height: 28px;
+  min-width: 23px;
+  text-align: center;
+}
+
+.x04-login .overlap-group6 {
+  align-items: flex-end;
+  background-color: var(--white);
+  border-radius: 8px;
+  display: flex;
+  height: 99px;
+  left: 245px;
+  min-width: 1002px;
+  padding: 30px 29px;
+  position: absolute;
+  top: 582px;
+}
+
+.x04-login .text-66 {
+  letter-spacing: 0;
+  min-height: 37px;
+  min-width: 28px;
+  text-align: center;
+}
+
+.x04-login .password {
+  letter-spacing: 0;
+  margin-left: 26px;
+  min-height: 28px;
+  min-width: 107px;
+  text-align: center;
+}
+
+.x04-login .overlap-group7 {
+  align-items: center;
+  background-color: #991f1fb2;
+  border-radius: 8px;
+  display: flex;
+  height: 99px;
+  justify-content: flex-end;
+  left: 245px;
+  min-width: 1002px;
+  padding: 0 442px;
+  position: absolute;
+  top: 731px;
+}
+
+.x04-login .sign-in {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  letter-spacing: 0;
+  min-height: 35px;
+  min-width: 107px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #00000040;
+}
+
+.x04-login .overlap-group8 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 95px;
+  display: flex;
+  height: 190px;
+  left: 649px;
+  min-width: 190px;
+  padding: 27px 19px;
+  position: absolute;
+  top: 88px;
+}
+
+.x04-login .rectangle-29 {
+  height: 130px;
+  object-fit: cover;
+  width: 130px;
+}
+
+.x04-login .footer {
+  align-items: flex-start;
+  display: flex;
+  height: 300px;
+  min-width: 1442px;
+}
+
+.x04-login .overlap-group-1 {
+  align-items: center;
+  background-color: var(--vulcan);
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  width: 1440px;
+}
+
+.x04-login .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 168px;
+  margin-right: 64.0px;
+  margin-top: 51px;
+  min-width: 1016px;
+}
+
+.x04-login .check-movie-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 168px;
+  width: 214px;
+}
+
+.x04-login .check-movie-2 {
+  letter-spacing: 0;
+  line-height: 24px;
+  min-height: 24px;
+  min-width: 137px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x04-login .domestic {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 101px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x04-login .overseas {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 96px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x04-login .recommend-result {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 206px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x04-login .my-book-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 215px;
+  min-height: 168px;
+  width: 284px;
+}
+
+.x04-login .my-book-2 {
+  letter-spacing: 0;
+  line-height: 24px;
+  min-height: 24px;
+  min-width: 93px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x04-login .my-page {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 90px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x04-login .recommended-books {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 228px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x04-login .resently-searched-movies {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 276px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x04-login .shop-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 215px;
+  min-height: 168px;
+  width: 88px;
+}
+
+.x04-login .shop-2 {
+  letter-spacing: 0;
+  line-height: 24px;
+  min-height: 24px;
+  min-width: 54px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x04-login .yes24 {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 62px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x04-login .aladin {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 71px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x04-login .kyobo {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 80px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x04-login .overlap-group1 {
+  align-items: center;
+  background-color: var(--vulcan);
+  display: flex;
+  height: 40px;
+  margin-top: 41px;
+  min-width: 1440px;
+  padding: 0 624px;
+}
+
+.x04-login .copyright {
+  letter-spacing: 0;
+  line-height: 24px;
+  min-height: 24px;
+  min-width: 187px;
+  text-align: justify;
+  white-space: nowrap;
+}
