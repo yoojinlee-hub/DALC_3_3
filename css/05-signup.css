@@ -277,7 +277,7 @@
 }
 
 .x05-signup .text-2 {
-  color: var(--black-6);
+  color: var(--black-3);
   font-family: var(--font-family-font_awesome_5_free-solid);
   font-size: var(--font-size-xxl);
   font-style: normal;
@@ -285,12 +285,17 @@
 }
 
 .x05-signup .email-address {
+  color: var(--black-3);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
   letter-spacing: 0;
-  margin-left: 24px;
-  margin-top: 1.0px;
-  min-height: 28px;
-  min-width: 154px;
-  text-align: center;
+    margin-left: 10px;
+    margin-top: 1px;
+    min-height: 28px;
+    min-width: 154px;
+    text-align: center;
 }
 
 .x05-signup .overlap-group7 {
@@ -333,7 +338,7 @@
 }
 
 .x05-signup .text-3 {
-  color: var(--black-6);
+  color: var(--black-3);
   font-family: var(--font-family-font_awesome_5_free-solid);
   font-size: var(--font-size-xxl);
   font-style: normal;
@@ -341,11 +346,11 @@
 }
 
 .x05-signup .password {
-  letter-spacing: 0;
-  margin-left: 26px;
-  min-height: 28px;
-  min-width: 107px;
-  text-align: center;
+  color: var(--black-3);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .x05-signup .overlap-group9 {
@@ -362,20 +367,19 @@
 }
 
 .x05-signup .text-4 {
-  color: var(--black-6);
+  color: var(--black-3);
   font-family: var(--font-family-font_awesome_5_free-solid);
-  font-size: var(--font-size-xxl);
+  font-size: var(--font-size-xl);
   font-style: normal;
   font-weight: 400;
 }
 
 .x05-signup .id {
-  letter-spacing: 0;
-  margin-left: 23px;
-  margin-top: 1.0px;
-  min-height: 28px;
-  min-width: 23px;
-  text-align: center;
+  color: var(--black-3);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .x05-signup .gender {
@@ -411,12 +415,11 @@
 }
 
 .x05-signup .gender-1 {
-  letter-spacing: 0;
-  margin-bottom: 3.0px;
-  margin-left: 30px;
-  min-height: 28px;
-  min-width: 77px;
-  text-align: center;
+  color: var(--black-3);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .x05-signup .rectangle-28 {
@@ -441,9 +444,9 @@
 }
 
 .x05-signup .text-6 {
-  color: var(--black-6);
+  color: var(--black-3);
   font-family: var(--font-family-font_awesome_5_free-solid);
-  font-size: var(--font-size-xxl);
+  font-size: var(--font-size-xl);
   font-style: normal;
   font-weight: 400;
 }
@@ -452,10 +455,15 @@
   align-self: center;
   letter-spacing: 0;
   margin-left: 21px;
-  margin-top: 1.0px;
+  margin-top: 1px;
   min-height: 28px;
   min-width: 42px;
   text-align: center;
+  color: var(--black-3);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .x05-signup .overlap-group11 {
@@ -473,9 +481,9 @@
 
 .x05-signup .text-7 {
   align-self: flex-end;
-  color: var(--black-6);
+  color: var(--black-7);
   font-family: var(--font-family-font_awesome_5_free-regular);
-  font-size: var(--font-size-xxl);
+  font-size: var(--font-size-xl);
   font-weight: 400;
   letter-spacing: 0;
   min-height: 37px;
@@ -484,12 +492,11 @@
 }
 
 .x05-signup .place {
-  letter-spacing: 0;
-  margin-left: 25px;
-  margin-top: 1.0px;
-  min-height: 28px;
-  min-width: 64px;
-  text-align: center;
+  color: var(--black-3);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .x05-signup .overlap-group13 {
@@ -509,6 +516,8 @@
   height: 136px;
   object-fit: cover;
   width: 136px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .x05-signup .footer {

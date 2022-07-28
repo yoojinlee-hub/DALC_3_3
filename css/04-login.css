@@ -328,23 +328,26 @@
   position: absolute;
   top: 442px;
 }
-
 .x04-login .text-11 {
-  color: var(--black-6);
+  color: var(--black-3);
   font-family: var(--font-family-font_awesome_5_free-solid);
-  font-size: var(--font-size-xxl);
+  font-size: var(--font-size-xl);
   font-style: normal;
   font-weight: 400;
 }
-
+.fa-solid{
+  color: var(--black-3);
+  font-family: var(--font-family-font_awesome_5_free-solid);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
 .x04-login .id {
-  letter-spacing: 0;
-  margin-left: 23px;
-  margin-right: 20px;
-  margin-top: 1.0px;
-  min-height: 28px;
-  min-width: 23px;
-  text-align: center;
+  color: var(--black-3);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .x04-login .overlap-group6 {
@@ -369,12 +372,12 @@
 }
 
 .x04-login .password {
-  letter-spacing: 0;
-  margin-left: 26px;
-  margin-right: 20px;
-  min-height: 28px;
-  min-width: 107px;
-  text-align: center;
+  color: var(--black-3);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 10px;
 }
 
 .x04-login .overlap-group7 {
@@ -420,6 +423,8 @@
   height: 130px;
   object-fit: cover;
   width: 130px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .x04-login .footer {
