@@ -30,7 +30,7 @@
           </div>
           <div class="search-box border-3px-blue-zodiac-2">
             <input type="text" name="q" class="input-box input-q">
-            <div class="text-33 fontawesome6free-solid-normal-white-14px"></div>
+            <div class="text-33"></div>
           </div>
         </div>
       </div>
@@ -100,6 +100,9 @@
           </div>
         </div>
         <div class="next-btn">
+          <div class="rectangle-18" style="cursor:pointer;">
+            <div class="text-79 fontawesome5free-solid-normal-white-40px"></div>
+          </div>
         </div>
         <img class="image-5" src="img/image-5@1x.png" />
         <div class="s_login">
@@ -108,17 +111,33 @@
           <img class="ellipse-3" src="img/ellipse-3@2x.png" />
           <img class="ellipse-1" src="img/ellipse-1@2x.png" />
         </div>
-        <div class="overlap-group1-1">
+        <div class="overlap-group1-1" style="cursor:pointer;">
           <div class="text-3 fontawesome5free-solid-normal-white-40px"></div>
         </div>
         <div class="overlap-group2-1 border-1px-black-3">
           <div class="text fontawesome5free-solid-normal-white-40px"></div>
         </div>
-        <div class="overlap-group3-1 border-1px-black-3">
+        <div id='change_color' class="overlap-group3-1 border-1px-black-3" style="cursor:pointer;" onclick="change_color()">
           <div class="text fontawesome5free-solid-normal-white-40px"></div>
         </div>
-      </div>
-      <div class="title-1">
+        <script>
+          //하트 클릭 가능하게 하는 js
+          var count = 0;
+          function change_color() {
+            var color = ['#CFD8DC','#F3B743'];
+            var bg = document.getElementById('change_color').style;
+            if (count%2==0) {
+              bg.backgroundColor = color[1];
+              count+=1;
+            }
+            else { 
+              bg.backgroundColor = color[0];
+              count+=1;
+            }
+          }
+        </script>
+        </div>
+        <div class="title-1">
         <div class="text-11 fontawesome5free-solid-normal-white-40px">과학 드림의 이상하게 빠져드는 과학책</div>
         <img class="title-2" src="img/title@1x.png" />
       </div>

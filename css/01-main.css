@@ -878,6 +878,7 @@
   margin-left: 215px;
   min-height: 168px;
   width: 284px;
+
 }
 
 .x01-main .my-book-2 {
@@ -1130,14 +1131,14 @@
   white-space: nowrap;
 }
 
-.ham-menu > .my-book-1 {
+.ham-menu .my-book-1 {
   align-items: center;
   flex-direction: column;
   margin-bottom: 14.0px;
-  margin-left: 58px;
+  margin-left: 158px;
   min-height: 174px;
   width: 284px;
-
+  text-align: center;
 }
 
 .ham-menu.my-book-2 {
@@ -1148,47 +1149,49 @@
   min-width: 93px;
   text-align: justify;
   white-space: nowrap;
+  text-align: center;
 }
 
 .ham-menu.my-page {
   letter-spacing: 0;
   line-height: 24px;
-  margin-right: 8.0px;
   margin-top: 24px;
   min-height: 24px;
   min-width: 90px;
   text-align: justify;
   white-space: nowrap;
+  text-align: center;
 }
 
 .ham-menu .recommended-books {
   letter-spacing: 0;
   line-height: 24px;
-  margin-right: 8.0px;
+  margin-left: -150px;
   margin-top: 27px;
   min-height: 24px;
   min-width: 228px;
-  text-align: justify;
+  text-align: center;
   white-space: nowrap;
 }
 
 .ham-menu .resently-searched-movies {
   letter-spacing: 0;
   line-height: 24px;
-  margin-right: 8.0px;
+  margin-left: -150px;
   margin-top: 27px;
   min-height: 24px;
   min-width: 276px;
   text-align: justify;
+  text-align: center;
   white-space: nowrap;
 }
 
-.ham-menu > .shop-1 {
+.ham-menu .shop-1 {
   display:flex;
   align-items: center;
   flex-direction: column;
   margin-bottom: 14.0px;
-  margin-left: 160px;
+  margin-left: 60px;
   min-height: 174px;
   width: 88px;
   padding-right: 250px;
@@ -1361,7 +1364,13 @@ input[id=trigger]:checked + label[for=trigger] {
   transition: 0.2s;
 }
 
-
+.text-33{
+  color: var(--blue-zodiac);
+    font-family: var(--font-family-font_awesome_6_free-solid);
+    font-size: var(--font-size-xxs);
+    font-style: normal;
+    font-weight: 400;
+}
 
 /*글자 hover시에 색 바뀌게*/
 .check-movie:hover{

@@ -121,10 +121,12 @@
 }
 
 .x06-1-mybook-recommended-books .text-56 {
-  letter-spacing: 0;
-  min-height: 14px;
-  text-align: center;
-  width: 37px;
+  color: var(--blue-zodiac);
+  font-family: var(--font-family-font_awesome_6_free-solid);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+
 }
 
 .x06-1-mybook-recommended-books .left_-bar {
@@ -561,7 +563,7 @@
 }
 
 .x06-1-mybook-recommended-books .text-61 {
-  color: var(--black-4);
+  color: #000000;
   font-family: var(--font-family-font_awesome_5_free-solid);
   font-size: var(--font-size-m);
   font-weight: 400;
@@ -574,7 +576,7 @@
 }
 
 .x06-1-mybook-recommended-books .text-6 {
-  color: var(--black-4);
+  color:#000000;
   font-family: var(--font-family-font_awesome_5_free-solid);
   font-size: var(--font-size-m);
   font-weight: 400;
@@ -587,7 +589,7 @@
 }
 
 .x06-1-mybook-recommended-books .text-6-1 {
-  color: var(--black-4);
+  color: #000000;
   font-family: var(--font-family-font_awesome_5_free-solid);
   font-size: var(--font-size-m);
   font-weight: 400;
