@@ -165,3 +165,21 @@
 .border-1px-black-3 {
   border: 1px solid var(--black-3);
 }
+
+.a{
+  text-decoration: none; 
+}
+
+.a_nav:link{
+  color: #FFABAB;
+}
+
+.a_nav:visited{
+  color: #991E1ED9;
+}
+.a_nav:hover{
+  color: #FFABAB;
+}
+.a_nav:active{
+    color: #FFABAB;
+}
