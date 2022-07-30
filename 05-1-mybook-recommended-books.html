@@ -49,7 +49,7 @@
 
     .swiper-slide img {
       display: block;
-      width: 201.49px;
+      width: 190.49px;
       height: 265.23;
       object-fit: cover;
     }
@@ -216,6 +216,7 @@
     }
   </style>
   <script type="text/javascript" src="js/change_stars_books.js"></script>
+  <script type="text/javascript" src="js/change_stars_books2.js"></script>
 </head>
 
 <body style="margin: 0; background: #ffffff">
@@ -232,7 +233,7 @@
             <div class="navbar-link-place"><a class='a_nav' href='01-main-origin.html'>Home</a></div>
             <div class="navbar-link-login"><a class='a_nav' href='04-login.html'>Login</a></div>
             <div class="navbar-link-sign-up"><a class='a_nav' href='04-1-signup.html'>Sign Up</a></div>
-            <div class="navbar-link-my-page"><a class='a_nav' href='05-Mybook.html'>My Page</a></div>
+            <div class="navbar-link-my-page"><a class='a_nav' href='05-Mybook.html'></a>My Page</div>
           </div>
           <div class="overlap-group border-3px-blue-zodiac">
 
@@ -292,10 +293,13 @@
             </div>
           </div>
 
-          <div class="check-movie abrilfatface-normal-tulip-tree-30px">check movie</div>
-          <div class="recommend abrilfatface-normal-tulip-tree-30px">recommend</div>
-          <div class="my-book abrilfatface-normal-tulip-tree-30px">my book</div>
-          <div class="shop abrilfatface-normal-tulip-tree-30px">shop</div>
+          <div class="check-movie abrilfatface-normal-tulip-tree-30px"><a href='02-checkmovie.html'
+              class="a_flexbox">check movie</a></div>
+          <div class="recommend abrilfatface-normal-tulip-tree-30px"><a href='03-recommend.html'
+              class="a_flexbox">recommend</a></div>
+          <div class="my-book abrilfatface-normal-tulip-tree-30px"><a href='05-1-mybook-recommended-books.html'
+              class="a_flexbox">my book</a></div>
+          <div class="shop abrilfatface-normal-tulip-tree-30px"><a href='07-shop.html' class="a_flexbox">shop</a></div>
         </div>
       </div>
       <div class="overlap-group-container-1">
@@ -335,7 +339,7 @@
           <div class="overlap-group7">
             <div class="overlap-group21">
               <!-- Swiper -->
-              <!-- Swiper -->
+              <!-- 무조건 뒤에서 3개 부터는 별점 작동안됨. 이유는 모름 -->
               <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
@@ -387,8 +391,8 @@
                           <div id="stars2_4" onclick="checkStar2(4)" class="text-6-1"></div>
                           <div id="stars2_5" onclick="checkStar2(5)" class="text-6-1"></div>
                         </div>
-                        </div>
-                        </div>
+                      </div>
+                    </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="swiper-img">img자리</div>
@@ -485,16 +489,67 @@
                           </p>
                         </div>
                         <div class="stars">
-                          <div id="stars6_1" onclick="checkStar6(1)" class="text-61"></div>
-                          <div id="stars6_2" onclick="checkStar6(2)" class="text-6"></div>
-                          <div id="stars6_3" onclick="checkStar6(3)" class="text-6"></div>
-                          <div id="stars6_4" onclick="checkStar6(4)" class="text-6-1"></div>
-                          <div id="stars6_5" onclick="checkStar6(5)" class="text-6-1"></div>
+                          <div id="s6_1" onclick="checkStar6(1)" class="text-61"></div>
+                          <div id="s6_2" onclick="checkStar6(2)" class="text-6"></div>
+                          <div id="s6_3" onclick="checkStar6(3)" class="text-6"></div>
+                          <div id="s6_4" onclick="checkStar6(4)" class="text-6-1"></div>
+                          <div id="s6_5" onclick="checkStar6(5)" class="text-6-1"></div>
                         </div>
                       </div>
                     </div>
                   </div>
-
+                  <div class="swiper-slide">
+                    <div class="swiper-img">img자리</div>
+                    <div class="explain">
+                      <div class="s_login">
+                        <img class="ellipse-1" src="img/ellipse-1-4@2x.png" />
+                        <img class="ellipse-2" src="img/ellipse-2-4@2x.png" />
+                        <img class="ellipse-4" src="img/ellipse-4-4@2x.png" />
+                        <img class="ellipse-3" src="img/ellipse-3-4@2x.png" />
+                      </div>
+                      <div class="overlap-group-2">
+                        <div class="text-container">
+                          <div class="text_label">7이름</div>
+                          <p class="text-65">
+                            책설명
+                          </p>
+                        </div>
+                        <div class="stars">
+                          <div id="stars7_1" onclick="checkStar7(1)" class="text-61"></div>
+                          <div id="stars7_2" onclick="checkStar7(2)" class="text-6"></div>
+                          <div id="stars7_3" onclick="checkStar7(3)" class="text-6"></div>
+                          <div id="stars7_4" onclick="checkStar7(4)" class="text-6-1"></div>
+                          <div id="stars7_5" onclick="checkStar7(5)" class="text-6-1"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-img">img자리</div>
+                    <div class="explain">
+                      <div class="s_login">
+                        <img class="ellipse-1" src="img/ellipse-1-4@2x.png" />
+                        <img class="ellipse-2" src="img/ellipse-2-4@2x.png" />
+                        <img class="ellipse-4" src="img/ellipse-4-4@2x.png" />
+                        <img class="ellipse-3" src="img/ellipse-3-4@2x.png" />
+                      </div>
+                      <div class="overlap-group-2">
+                        <div class="text-container">
+                          <div class="text_label">8이름</div>
+                          <p class="text-65">
+                            책설명
+                          </p>
+                        </div>
+                        <div class="stars">
+                          <div id="stars8_1" onclick="checkStar8(1)" class="text-61"></div>
+                          <div id="stars8_2" onclick="checkStar8(2)" class="text-6"></div>
+                          <div id="stars8_3" onclick="checkStar8(3)" class="text-6"></div>
+                          <div id="stars8_4" onclick="checkStar8(4)" class="text-6-1"></div>
+                          <div id="stars8_5" onclick="checkStar8(5)" class="text-6-1"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
                 </div>
               </div>
