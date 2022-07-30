@@ -737,6 +737,11 @@
   min-width: 56px;
   text-align: justify;
   white-space: nowrap;
+  color: var(--white);
+    font-family: var(--font-family-pt_serif);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 400;
 }
 .ham-menu .making-place{
   width:100px;
@@ -1022,49 +1027,64 @@ input[id=trigger]:checked + label span:nth-child(2) {
   opacity: 0;
 }
 
-input[id=trigger]:checked + label span:nth-child(3) {
+input[id=trigger]:checked+label span:nth-child(3) {
   top: 50%;
   transform: rotate(-45deg);
 }
 
-label[for=trigger] ~ .overlap-group131 {
+label[for=trigger]~.overlap-group131 {
   display: none;
   position: relative;
   width: 100%;
   top: 70px;
 }
+
 /* input[id=trigger]가 체크되었을 때 사이드바가 나오는 형제 인접자 */
-input[id=trigger]:checked ~ .overlap-group131 {
+input[id=trigger]:checked~.overlap-group131 {
   display: block;
   position: relative;
   width: 100%;
-  margin-left:0px;
+  margin-left: -50px;
+}
+
+.text-33 {
+  color: var(--blue-zodiac);
+  font-family: var(--font-family-font_awesome_6_free-solid);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
 }
 
 /* check시 같이 밀려나가는 CSS 햄버거 메뉴 */
-input[id=trigger]:checked + label[for=trigger] {
+input[id=trigger]:checked+label[for=trigger] {
   transition: 0.2s;
 }
 
 /* input */
-.input-box{
+.input-box {
   border: none;
   height: 100%;
   width: 100%;
 }
-input:focus {outline:none;}
-.input-q{
+
+input:focus {
+  outline: none;
+}
+
+.input-q {
   background-color: #CFD8DC;
 }
 
 /*글자 hover시에 색 바뀌게*/
-.check-movie:hover{
+.check-movie:hover {
   color: #FFABAB;
 }
-.recommand:hover{
+
+.recommand:hover {
   color: #FFABAB;
 }
-.my-book:hover{
+
+.my-book:hover {
   color: #FFABAB;
 }
 .shop:hover{

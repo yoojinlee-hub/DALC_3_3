@@ -173,7 +173,6 @@
 .a_nav:link{
   color: #FFABAB;
 }
-
 .a_nav:visited{
   color: #991E1ED9;
 }
@@ -187,7 +186,6 @@
 .a_flexbox:link{
   color: #FFABAB;
 }
-
 .a_flexbox:visited{
   color: #F3B743;
 }
@@ -196,4 +194,18 @@
 }
 .a_flexbox:active{
     color: #FFABAB;
+}
+
+.a_sidebar:link{
+  color: var(--white);
+}
+
+.a_sidebar:visited{
+  color: var(--white);
+}
+.a_sidebar:hover{
+  color: var(--white);
+}
+.a_sidebar:active{
+  color: var(--white);
 }

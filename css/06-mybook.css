@@ -403,9 +403,11 @@
   left: 2px;
   min-height: 431px;
   padding: 0 0.5px;
+
   position: absolute;
   top: 865px;
   width: 1439px;
+
 }
 
 .x06mybook .overlap-group-container-1 {
@@ -437,7 +439,7 @@
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
-  z-index: 5;
+  z-index: 5;  text-shadow: 0px 4px 4px #00000040;
   width: 231px;
 }
 
@@ -721,7 +723,7 @@
   font-style: normal;
   font-weight: 400;
   width: 1000px;
-
+  z-index: 5;  text-shadow: 0px 4px 4px #00000040;
 }
 
 .x06mybook .overlap-group1-2 {
@@ -1334,21 +1336,23 @@
   margin-bottom: 120px;
 }
 
-.ham-menu.recommand-2 {
+.ham-menu .recommand-2 {
   letter-spacing: 0;
   line-height: 24px;
   min-height: 24px;
   min-width: 133px;
+  margin-left: 40px;
+  margin-bottom: 15px;
   text-align: justify;
   white-space: nowrap;
 }
 
-.ham-menu.recommand-result {
+.ham-menu .recommand-result {
   display: flex;
   letter-spacing: 0;
   line-height: 24px;
-  margin-right: 4.0px;
-  margin-top: 24px;
+  margin-left: 20px;
+  margin-top: 10px;
   min-height: 24px;
   min-width: 206px;
   text-align: justify;
@@ -1579,9 +1583,15 @@ input[id=trigger]:checked~.overlap-group131 {
   display: block;
   position: relative;
   width: 100%;
-  margin-left: 0px;
+  margin-left: -50px;
 }
-
+.text-33 {
+  color: var(--blue-zodiac);
+  font-family: var(--font-family-font_awesome_6_free-solid);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
 /* check시 같이 밀려나가는 CSS 햄버거 메뉴 */
 input[id=trigger]:checked+label[for=trigger] {
   transition: 0.2s;

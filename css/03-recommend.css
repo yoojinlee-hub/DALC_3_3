@@ -1108,7 +1108,7 @@ input[id=trigger]:checked ~ .overlap-group13 {
   display: block;
   position: relative;
   width: 100%;
-  margin-left:0px;
+  margin-left:-50px;
 }
 
 /* check시 같이 밀려나가는 CSS 햄버거 메뉴 */
@@ -1137,4 +1137,11 @@ input[id=trigger]:checked + label[for=trigger] {
 input:focus {outline:none;}
 .input-q{
   background-color: #CFD8DC;
+}
+.text-33{
+  color: var(--blue-zodiac);
+    font-family: var(--font-family-font_awesome_6_free-solid);
+    font-size: var(--font-size-xxs);
+    font-style: normal;
+    font-weight: 400;
 }

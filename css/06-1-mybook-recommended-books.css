@@ -267,14 +267,18 @@
 .x06-1-mybook-recommended-books .view {
   align-items: flex-start;
   display: flex;
-  height: 48px;
-  left: 44px;
+  height: 97px;
+  width:394px;
   min-width: 350px;
   position: absolute;
+  padding-top: 30px;
+  padding-left: 20px;
   top: 161px;
   z-index: 50;
 }
-
+.view:hover{
+  background-color: rgb(217,217,217,0.1);
+}
 .x06-1-mybook-recommended-books .text-57 {
   color: var(--white);
   font-family: var(--font-family-font_awesome_6_free-solid);
@@ -295,14 +299,18 @@
 .x06-1-mybook-recommended-books .view-1 {
   align-items: center;
   display: flex;
-  height: 40px;
-  left: 31px;
+  height: 97px;
+  width:394px;
   min-width: 257px;
   position: absolute;
+  padding-top: 30px;
   top: 367px;
+  padding-left: 20px;
   z-index: 50;
 }
-
+.view-1:hover{
+  background-color: rgb(217,217,217,0.1);
+}
 .x06-1-mybook-recommended-books .text-58 {
   color: var(--white);
   font-family: var(--font-family-font_awesome_5_free-solid);
@@ -323,14 +331,18 @@
 .x06-1-mybook-recommended-books .view-2 {
   align-items: flex-start;
   display: flex;
-  height: 32px;
-  left: 44px;
+  height: 97px;
+  width:394px;
   min-width: 337px;
+  padding-left: 20px;
+  padding-top: 30px;
   position: absolute;
   top: 275px;
   z-index: 50;
 }
-
+.view-2:hover{
+  background-color: rgb(217,217,217,0.1);
+}
 .x06-1-mybook-recommended-books .text-59 {
   color: var(--white);
   font-family: var(--font-family-font_awesome_6_free-solid);
@@ -912,12 +924,12 @@
   white-space: nowrap;
 }
 
-.ham-menu.recommand-result {
+.ham-menu .recommand-result {
   display: flex;
   letter-spacing: 0;
   line-height: 24px;
   margin-right: 4.0px;
-  margin-top: 24px;
+  margin-top: 30px;
   min-height: 24px;
   min-width: 206px;
   text-align: justify;
@@ -1148,7 +1160,14 @@ input[id=trigger]:checked~.overlap-group131 {
   display: block;
   position: relative;
   width: 100%;
-  margin-left: 0px;
+  margin-left: -50px;
+}
+.text-33 {
+  color: var(--blue-zodiac);
+  font-family: var(--font-family-font_awesome_6_free-solid);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
 }
 
 /* check시 같이 밀려나가는 CSS 햄버거 메뉴 */

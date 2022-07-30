@@ -78,7 +78,6 @@
     }
 
     .swiper-slide-active {
-      background-color: aqua;
       height: 70%;
       overflow: visible;
     }
@@ -213,6 +212,7 @@
       }
     }
   </style>
+  <script type="text/javascript" src="js/change_stars_mypicks.js"></script>
 </head>
 
 <body style="margin: 0; background: #ffffff">
@@ -285,12 +285,11 @@
                 <img class="line-8" src="img/line-6@2x.svg" />
                 <img class="line-9" src="img/line-5-2@2x.svg" />
               </div>
-              <img class="line-10" src="img/line-10@1x.svg" />
             </div>
           </div>
 
           <div class="check-movie abrilfatface-normal-tulip-tree-30px"><a href='02-checkmovie.html' class="a_flexbox">check movie</a></div>
-          <div class="recommand abrilfatface-normal-tulip-tree-30px"><a href='03-recommend.html' class="a_flexbox">recommend</a></div>
+          <div class="recommend abrilfatface-normal-tulip-tree-30px"><a href='03-recommend.html' class="a_flexbox">recommend</a></div>
           <div class="my-book abrilfatface-normal-tulip-tree-30px"><a href='05-1-mybook-recommended-books.html' class="a_flexbox">my book</a></div>
           <div class="shop abrilfatface-normal-tulip-tree-30px"><a href='07-shop.html' class="a_flexbox">shop</a></div>
         </div>
@@ -303,29 +302,27 @@
               <div class="view">
                 <div class="text-57 fontawesome6free-solid-normal-white-32px"></div>
                 <div class="a-list-of-recommended-books ptserif-normal-white-24px">
-                  My picks
+                  <a class="a_sidebar" href="05-1-mybook-recommended-books.html">
+                  a list of recommended books</a>
                 </div>
               </div>
               <div class="view-1">
                 <div class="text-58 fontawesome5free-solid-normal-white-32px"></div>
-                <div class="my-picks ptserif-normal-white-24px">my Picks</div>
+                <div class="my-picks ptserif-normal-white-24px"><a class="a_sidebar" href="05-3-mybook-mypicks.html">my Picks</a></div>
               </div>
               <div class="view-2">
                 <div class="text-59 fontawesome6free-solid-normal-white-32px"></div>
-                <div class="a-list-of-selected-movies ptserif-normal-white-24px">a list of selected movies</div>
+                <div class="a-list-of-selected-movies ptserif-normal-white-24px"><a class="a_sidebar" href="05-2-mybook-recommended-movies.html">a list of selected movies</a></div>
               </div>
               <div class="more">
                 <div class="place ptserif-normal-white-24px">more</div>
                 <img class="line-5" src="img/line-5-2@2x.svg" />
               </div>
-              <img class="rectangle-33" src="img/rectangle-33@2x.svg" />
-              <img class="rectangle-34" src="img/rectangle-34@2x.png" />
-              <img class="rectangle-37" src="img/rectangle-34@2x.png" />
             </div>
             <div class="overlap-group-1">
               <div class="rectangle-30"></div>
               <div class="a-list-of-recommended-books-1 ptserif-normal-white-24px">
-                a list of recommended books
+                my Picks
               </div>
             </div>
           </div>
@@ -346,17 +343,173 @@
                       </div>
                       <div class="overlap-group-2">
                         <div class="text-container">
-                          <div class="text_label">책이름</div>
+                          <div class="text_label">1이름</div>
                           <p class="text-65">
                             책설명
                           </p>
                         </div>
                         <div class="stars">
-                          <div class="text-61 fontawesome5free-solid-normal-tulip-tree-20px"></div>
-                          <div class="text-6 fontawesome5free-solid-normal-tulip-tree-20px"></div>
-                          <div class="text-6 fontawesome5free-solid-normal-tulip-tree-20px"></div>
-                          <div class="text-6-1"></div>
-                          <div class="text-6-1"></div>
+                          <div id="stars1_1" onclick="checkStar1(1)" class="text-61"></div>
+                          <div id="stars1_2" onclick="checkStar1(2)" class="text-6"></div>
+                          <div id="stars1_3" onclick="checkStar1(3)" class="text-6"></div>
+                          <div id="stars1_4" onclick="checkStar1(4)" class="text-6-1"></div>
+                          <div id="stars1_5" onclick="checkStar1(5)" class="text-6-1"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-img">img자리</div>
+                    <div class="explain">
+                      <div class="s_login">
+                        <img class="ellipse-1" src="img/ellipse-1-4@2x.png" />
+                        <img class="ellipse-2" src="img/ellipse-2-4@2x.png" />
+                        <img class="ellipse-4" src="img/ellipse-4-4@2x.png" />
+                        <img class="ellipse-3" src="img/ellipse-3-4@2x.png" />
+                      </div>
+                      <div class="overlap-group-2">
+                        <div class="text-container">
+                          <div class="text_label">2이름</div>
+                          <p class="text-65">
+                            책설명
+                          </p>
+                        </div>
+                        <div class="stars">
+                          <div id="stars2_1" onclick="checkStar2(1)" class="text-61"></div>
+                          <div id="stars2_2" onclick="checkStar2(2)" class="text-6"></div>
+                          <div id="stars2_3" onclick="checkStar2(3)" class="text-6"></div>
+                          <div id="stars2_4" onclick="checkStar2(4)" class="text-6-1"></div>
+                          <div id="stars2_5" onclick="checkStar2(5)" class="text-6-1"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-img">img자리</div>
+                    <div class="explain">
+                      <div class="s_login">
+                        <img class="ellipse-1" src="img/ellipse-1-4@2x.png" />
+                        <img class="ellipse-2" src="img/ellipse-2-4@2x.png" />
+                        <img class="ellipse-4" src="img/ellipse-4-4@2x.png" />
+                        <img class="ellipse-3" src="img/ellipse-3-4@2x.png" />
+                      </div>
+                      <div class="overlap-group-2">
+                        <div class="text-container">
+                          <div class="text_label">3이름</div>
+                          <p class="text-65">
+                            책설명
+                          </p>
+                        </div>
+                        <div class="stars">
+                          <div id="stars3_1" onclick="checkStar3(1)" class="text-61"></div>
+                          <div id="stars3_2" onclick="checkStar3(2)" class="text-6"></div>
+                          <div id="stars3_3" onclick="checkStar3(3)" class="text-6"></div>
+                          <div id="stars3_4" onclick="checkStar3(4)" class="text-6-1"></div>
+                          <div id="stars3_5" onclick="checkStar3(5)" class="text-6-1"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-img">img자리</div>
+                    <div class="explain">
+                      <div class="s_login">
+                        <img class="ellipse-1" src="img/ellipse-1-4@2x.png" />
+                        <img class="ellipse-2" src="img/ellipse-2-4@2x.png" />
+                        <img class="ellipse-4" src="img/ellipse-4-4@2x.png" />
+                        <img class="ellipse-3" src="img/ellipse-3-4@2x.png" />
+                      </div>
+                      <div class="overlap-group-2">
+                        <div class="text-container">
+                          <div class="text_label">4이름</div>
+                          <p class="text-65">
+                            책설명
+                          </p>
+                        </div>
+                        <div class="stars">
+                          <div id="stars4_1" onclick="checkStar4(1)" class="text-61"></div>
+                          <div id="stars4_2" onclick="checkStar4(2)" class="text-6"></div>
+                          <div id="stars4_3" onclick="checkStar4(3)" class="text-6"></div>
+                          <div id="stars4_4" onclick="checkStar4(4)" class="text-6-1"></div>
+                          <div id="stars4_5" onclick="checkStar4(5)" class="text-6-1"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-img">img자리</div>
+                    <div class="explain">
+                      <div class="s_login">
+                        <img class="ellipse-1" src="img/ellipse-1-4@2x.png" />
+                        <img class="ellipse-2" src="img/ellipse-2-4@2x.png" />
+                        <img class="ellipse-4" src="img/ellipse-4-4@2x.png" />
+                        <img class="ellipse-3" src="img/ellipse-3-4@2x.png" />
+                      </div>
+                      <div class="overlap-group-2">
+                        <div class="text-container">
+                          <div class="text_label">5이름</div>
+                          <p class="text-65">
+                            책설명
+                          </p>
+                        </div>
+                        <div class="stars">
+                          <div id="stars5_1" onclick="checkStar5(1)" class="text-61"></div>
+                          <div id="stars5_2" onclick="checkStar5(2)" class="text-6"></div>
+                          <div id="stars5_3" onclick="checkStar5(3)" class="text-6"></div>
+                          <div id="stars5_4" onclick="checkStar5(4)" class="text-6-1"></div>
+                          <div id="stars5_5" onclick="checkStar5(5)" class="text-6-1"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-img">img자리</div>
+                    <div class="explain">
+                      <div class="s_login">
+                        <img class="ellipse-1" src="img/ellipse-1-4@2x.png" />
+                        <img class="ellipse-2" src="img/ellipse-2-4@2x.png" />
+                        <img class="ellipse-4" src="img/ellipse-4-4@2x.png" />
+                        <img class="ellipse-3" src="img/ellipse-3-4@2x.png" />
+                      </div>
+                      <div class="overlap-group-2">
+                        <div class="text-container">
+                          <div class="text_label">6이름</div>
+                          <p class="text-65">
+                            책설명
+                          </p>
+                        </div>
+                        <div class="stars">
+                          <div id="stars6_1" onclick="checkStar6(1)" class="text-61"></div>
+                          <div id="stars6_2" onclick="checkStar6(2)" class="text-6"></div>
+                          <div id="stars6_3" onclick="checkStar6(3)" class="text-6"></div>
+                          <div id="stars6_4" onclick="checkStar6(4)" class="text-6-1"></div>
+                          <div id="stars6_5" onclick="checkStar6(5)" class="text-6-1"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-img">img자리</div>
+                    <div class="explain">
+                      <div class="s_login">
+                        <img class="ellipse-1" src="img/ellipse-1-4@2x.png" />
+                        <img class="ellipse-2" src="img/ellipse-2-4@2x.png" />
+                        <img class="ellipse-4" src="img/ellipse-4-4@2x.png" />
+                        <img class="ellipse-3" src="img/ellipse-3-4@2x.png" />
+                      </div>
+                      <div class="overlap-group-2">
+                        <div class="text-container">
+                          <div class="text_label">7이름</div>
+                          <p class="text-65">
+                            책설명
+                          </p>
+                        </div>
+                        <div class="stars">
+                          <div id="stars7_1" onclick="checkStar7(1)" class="text-61"></div>
+                          <div id="stars7_2" onclick="checkStar7(2)" class="text-6"></div>
+                          <div id="stars7_3" onclick="checkStar7(3)" class="text-6"></div>
+                          <div id="stars7_4" onclick="checkStar7(4)" class="text-6-1"></div>
+                          <div id="stars7_5" onclick="checkStar7(5)" class="text-6-1"></div>
                         </div>
                       </div>
                     </div>
@@ -378,11 +531,11 @@
                           </p>
                         </div>
                         <div class="stars">
-                          <div class="text-61 fontawesome5free-solid-normal-tulip-tree-20px"></div>
-                          <div class="text-6 fontawesome5free-solid-normal-tulip-tree-20px"></div>
-                          <div class="text-6 fontawesome5free-solid-normal-tulip-tree-20px"></div>
-                          <div class="text-6-1"></div>
-                          <div class="text-6-1"></div>
+                          <div id="stars8_1" onclick="checkStar8(1)" class="text-61"></div>
+                          <div id="stars8_2" onclick="checkStar8(2)" class="text-6"></div>
+                          <div id="stars8_3" onclick="checkStar8(3)" class="text-6"></div>
+                          <div id="stars8_4" onclick="checkStar8(4)" class="text-6-1"></div>
+                          <div id="stars8_5" onclick="checkStar8(5)" class="text-6-1"></div>
                         </div>
                       </div>
                     </div>
@@ -398,173 +551,17 @@
                       </div>
                       <div class="overlap-group-2">
                         <div class="text-container">
-                          <div class="text_label">책이름</div>
+                          <div class="text_label">9이름</div>
                           <p class="text-65">
                             책설명
                           </p>
                         </div>
                         <div class="stars">
-                          <div class="text-61 fontawesome5free-solid-normal-tulip-tree-20px"></div>
-                          <div class="text-6 fontawesome5free-solid-normal-tulip-tree-20px"></div>
-                          <div class="text-6 fontawesome5free-solid-normal-tulip-tree-20px"></div>
-                          <div class="text-6-1"></div>
-                          <div class="text-6-1"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="swiper-img">img자리</div>
-                    <div class="explain">
-                      <div class="s_login">
-                        <img class="ellipse-1" src="img/ellipse-1-4@2x.png" />
-                        <img class="ellipse-2" src="img/ellipse-2-4@2x.png" />
-                        <img class="ellipse-4" src="img/ellipse-4-4@2x.png" />
-                        <img class="ellipse-3" src="img/ellipse-3-4@2x.png" />
-                      </div>
-                      <div class="overlap-group-2">
-                        <div class="text-container">
-                          <div class="text_label">책이름</div>
-                          <p class="text-65">
-                            책설명
-                          </p>
-                        </div>
-                        <div class="stars">
-                          <div class="text-61 fontawesome5free-solid-normal-tulip-tree-20px"></div>
-                          <div class="text-6 fontawesome5free-solid-normal-tulip-tree-20px"></div>
-                          <div class="text-6 fontawesome5free-solid-normal-tulip-tree-20px"></div>
-                          <div class="text-6-1"></div>
-                          <div class="text-6-1"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="swiper-img">img자리</div>
-                    <div class="explain">
-                      <div class="s_login">
-                        <img class="ellipse-1" src="img/ellipse-1-4@2x.png" />
-                        <img class="ellipse-2" src="img/ellipse-2-4@2x.png" />
-                        <img class="ellipse-4" src="img/ellipse-4-4@2x.png" />
-                        <img class="ellipse-3" src="img/ellipse-3-4@2x.png" />
-                      </div>
-                      <div class="overlap-group-2">
-                        <div class="text-container">
-                          <div class="text_label">책이름</div>
-                          <p class="text-65">
-                            책설명
-                          </p>
-                        </div>
-                        <div class="stars">
-                          <div class="text-61 fontawesome5free-solid-normal-tulip-tree-20px"></div>
-                          <div class="text-6 fontawesome5free-solid-normal-tulip-tree-20px"></div>
-                          <div class="text-6 fontawesome5free-solid-normal-tulip-tree-20px"></div>
-                          <div class="text-6-1"></div>
-                          <div class="text-6-1"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="swiper-img">img자리</div>
-                    <div class="explain">
-                      <div class="s_login">
-                        <img class="ellipse-1" src="img/ellipse-1-4@2x.png" />
-                        <img class="ellipse-2" src="img/ellipse-2-4@2x.png" />
-                        <img class="ellipse-4" src="img/ellipse-4-4@2x.png" />
-                        <img class="ellipse-3" src="img/ellipse-3-4@2x.png" />
-                      </div>
-                      <div class="overlap-group-2">
-                        <div class="text-container">
-                          <div class="text_label">책이름</div>
-                          <p class="text-65">
-                            책설명
-                          </p>
-                        </div>
-                        <div class="stars">
-                          <div class="text-61 fontawesome5free-solid-normal-tulip-tree-20px"></div>
-                          <div class="text-6 fontawesome5free-solid-normal-tulip-tree-20px"></div>
-                          <div class="text-6 fontawesome5free-solid-normal-tulip-tree-20px"></div>
-                          <div class="text-6-1"></div>
-                          <div class="text-6-1"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="swiper-img">img자리</div>
-                    <div class="explain">
-                      <div class="s_login">
-                        <img class="ellipse-1" src="img/ellipse-1-4@2x.png" />
-                        <img class="ellipse-2" src="img/ellipse-2-4@2x.png" />
-                        <img class="ellipse-4" src="img/ellipse-4-4@2x.png" />
-                        <img class="ellipse-3" src="img/ellipse-3-4@2x.png" />
-                      </div>
-                      <div class="overlap-group-2">
-                        <div class="text-container">
-                          <div class="text_label">책이름</div>
-                          <p class="text-65">
-                            책설명
-                          </p>
-                        </div>
-                        <div class="stars">
-                          <div class="text-61 fontawesome5free-solid-normal-tulip-tree-20px"></div>
-                          <div class="text-6 fontawesome5free-solid-normal-tulip-tree-20px"></div>
-                          <div class="text-6 fontawesome5free-solid-normal-tulip-tree-20px"></div>
-                          <div class="text-6-1"></div>
-                          <div class="text-6-1"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="swiper-img">img자리</div>
-                    <div class="explain">
-                      <div class="s_login">
-                        <img class="ellipse-1" src="img/ellipse-1-4@2x.png" />
-                        <img class="ellipse-2" src="img/ellipse-2-4@2x.png" />
-                        <img class="ellipse-4" src="img/ellipse-4-4@2x.png" />
-                        <img class="ellipse-3" src="img/ellipse-3-4@2x.png" />
-                      </div>
-                      <div class="overlap-group-2">
-                        <div class="text-container">
-                          <div class="text_label">책이름</div>
-                          <p class="text-65">
-                            책설명
-                          </p>
-                        </div>
-                        <div class="stars">
-                          <div class="text-61 fontawesome5free-solid-normal-tulip-tree-20px"></div>
-                          <div class="text-6 fontawesome5free-solid-normal-tulip-tree-20px"></div>
-                          <div class="text-6 fontawesome5free-solid-normal-tulip-tree-20px"></div>
-                          <div class="text-6-1"></div>
-                          <div class="text-6-1"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="swiper-img">img자리</div>
-                    <div class="explain">
-                      <div class="s_login">
-                        <img class="ellipse-1" src="img/ellipse-1-4@2x.png" />
-                        <img class="ellipse-2" src="img/ellipse-2-4@2x.png" />
-                        <img class="ellipse-4" src="img/ellipse-4-4@2x.png" />
-                        <img class="ellipse-3" src="img/ellipse-3-4@2x.png" />
-                      </div>
-                      <div class="overlap-group-2">
-                        <div class="text-container">
-                          <div class="text_label">책이름</div>
-                          <p class="text-65">
-                            책설명
-                          </p>
-                        </div>
-                        <div class="stars">
-                          <div class="text-61 fontawesome5free-solid-normal-tulip-tree-20px"></div>
-                          <div class="text-6 fontawesome5free-solid-normal-tulip-tree-20px"></div>
-                          <div class="text-6 fontawesome5free-solid-normal-tulip-tree-20px"></div>
-                          <div class="text-6-1"></div>
-                          <div class="text-6-1"></div>
+                          <div id="stars9_1" onclick="checkStar9(1)" class="text-61"></div>
+                          <div id="stars9_2" onclick="checkStar9(2)" class="text-6"></div>
+                          <div id="stars9_3" onclick="checkStar9(3)" class="text-6"></div>
+                          <div id="stars9_4" onclick="checkStar9(4)" class="text-6-1"></div>
+                          <div id="stars9_5" onclick="checkStar9(5)" class="text-6-1"></div>
                         </div>
                       </div>
                     </div>

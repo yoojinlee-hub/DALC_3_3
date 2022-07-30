@@ -1031,6 +1031,7 @@
   z-index: 1;
   width: 1440px;
   margin-right: auto;
+
 }
 
 .ham-menu{
@@ -1356,7 +1357,7 @@ input[id=trigger]:checked ~ .overlap-group13 {
   display: block;
   position: relative;
   width: 100%;
-  margin-left:0px;
+  margin-left:-50px;
 }
 
 /* check시 같이 밀려나가는 CSS 햄버거 메뉴 */
