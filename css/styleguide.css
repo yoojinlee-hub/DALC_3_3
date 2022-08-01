@@ -199,7 +199,6 @@
 .a_sidebar:link{
   color: var(--white);
 }
-
 .a_sidebar:visited{
   color: var(--white);
 }
@@ -208,4 +207,155 @@
 }
 .a_sidebar:active{
   color: var(--white);
+}
+
+.a_more:link{
+  color: var(--white);
+}
+.a_more:visited{
+  color: var(--white);
+}
+.a_more:hover{
+  color: var(--white);
+}
+.a_more:active{
+  color: var(--white);
+}
+
+
+
+
+/*left sidebar*/
+.left-bar-overlap-group5 {
+  height: 1283px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 510px;
+}
+.left-bar-feature-bg {
+  background-color: #1B3240;
+  height: 1283px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 394px;
+  z-index: 1;
+}
+.left-bar-view {
+  align-items: flex-start;
+  display: flex;
+  height: 97px;
+  width:394px;
+  min-width: 350px;
+  position: absolute;
+  padding-top: 30px;
+  padding-left: 20px;
+  top: 161px;
+  z-index: 50;
+}
+.left-bar-view:hover{
+  background-color: rgb(217,217,217,0.1);
+}
+.left-bar-text-57 {
+  color: var(--white);
+  font-family: var(--font-family-font_awesome_6_free-solid);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.left-bar-a-list-of-recommended-books {
+  color: var(--white);
+  font-family: var(--font-family-abril_fatface);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 20px;
+}
+.left-bar-view-1 {
+  align-items: center;
+  display: flex;
+  height: 97px;
+  width:394px;
+  min-width: 257px;
+  position: absolute;
+  padding-top: 30px;
+  top: 367px;
+  padding-left: 20px;
+  z-index: 50;
+}
+.left-bar-view-1:hover{
+  background-color: rgb(217,217,217,0.1);
+}
+.left-bar-text-58 {
+  color: var(--white);
+  font-family: var(--font-family-font_awesome_5_free-solid);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.left-bar-my-picks {
+  color: var(--white);
+  font-family: var(--font-family-abril_fatface);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 20px;
+}
+.left-bar-view-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 97px;
+  width:394px;
+  min-width: 337px;
+  padding-left: 20px;
+  padding-top: 30px;
+  position: absolute;
+  top: 275px;
+  z-index: 50;
+}
+.left-bar-view-2:hover{
+  background-color: rgb(217,217,217,0.1);
+}
+.left-bar-text-59 {
+  color: var(--white);
+  font-family: var(--font-family-font_awesome_6_free-solid);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.left-bar-a-list-of-selected-movies {
+  color: var(--white);
+  font-family: var(--font-family-abril_fatface);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 20px;
+}
+.left-bar-more {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 60px;
+  min-height: 31px;
+  position: absolute;
+  top: 65px;
+  width: 78px;
+  z-index: 50;
+}
+.left-bar-place {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: 3.05px;
+  min-height: 24px;
+  text-align: justify;
+  white-space: nowrap;
+  width: 55px;
+}
+.left-bar-line-5 {
+  height: 6px;
+  margin-right: 2.0px;
+  margin-top: 4px;
+  width: 82px;
 }

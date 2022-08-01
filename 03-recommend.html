@@ -9,9 +9,11 @@
   <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
   <meta name="og:type" content="website" />
   <meta name="twitter:card" content="photo" />
-  <link rel="stylesheet" type="text/css" href="css/03-recommend.css" />
-  <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
   <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+  <link rel="stylesheet" type="text/css" href="css/03-recommend.css" />
+  
+  
 </head>
 
 <body style="margin: 0; background: #ffffff">
@@ -94,7 +96,35 @@
           <div class="shop abrilfatface-normal-tulip-tree-30px"><a href='07-shop.html' class="a_flexbox">shop</a></div>
         </div>
       </div>
+      
+
+      <div class="content">
+        <!--start left-bar-->
+        <div class="left-bar-overlap-group5">
+          <div class="left-bar-feature-bg"></div>
+          <div class="left-bar-view">
+            <div class="left-bar-text-57 fontawesome6free-solid-normal-white-32px"></div>
+            <div class="left-bar-a-list-of-recommended-books ptserif-normal-white-24px">
+              <a class="a_sidebar" href="05-1-mybook-recommended-books.html">
+              a list of recommended books</a>
+            </div>
+          </div>
+          <div class="left-bar-view-1">
+            <div class="left-bar-text-58 fontawesome5free-solid-normal-white-32px"></div>
+            <div class="left-bar-my-picks ptserif-normal-white-24px"><a class="a_sidebar" href="05-3-mybook-mypicks.html">my Picks</a></div>
+          </div>
+          <div class="left-bar-view-2">
+            <div class="left-bar-text-59 fontawesome6free-solid-normal-white-32px"></div>
+            <div class="left-bar-a-list-of-selected-movies ptserif-normal-white-24px"><a class="a_sidebar" href="05-2-mybook-recommended-movies.html">a list of selected movies</a></div>
+          </div>
+          <div class="left-bar-more">
+            <div class="left-bar-place ptserif-normal-white-24px">more</div>
+            <img class="left-bar-line-5" src="img/line-5-2@2x.svg" />
+          </div>
+        </div>
+        <!--end left-bar-->
       <div class="overlap-group-container-1">
+        
         <div class="overlap-group7">
           <div class="ellipse-7" id="question_circle"></div>
 
@@ -140,9 +170,25 @@
             <div class="overlap-group2-1 border-1px-black-5">
               <div class="text-8 fontawesome5free-solid-normal-white-40px"></div>
             </div>
-            <div class="overlap-group3 border-1px-black-5">
+            <div id='change_color'class="overlap-group3 border-1px-black-5" style="cursor:pointer;" onclick="change_color()">
               <div class="text-8 fontawesome5free-solid-normal-white-40px"></div>
             </div>
+            <script>
+              //하트 클릭 가능하게 하는 js
+              var count = 0;
+              function change_color() {
+                var color = ['#CFD8DC','#F3B743'];
+                var bg = document.getElementById('change_color').style;
+                if (count%2==0) {
+                  bg.backgroundColor = color[1];
+                  count+=1;
+                }
+                else { 
+                  bg.backgroundColor = color[0];
+                  count+=1;
+                }
+              }
+            </script>
             <div class="overlap-group4-1">
               <div class="rectangle-19"></div>
               <div class="text-83">
@@ -158,6 +204,9 @@
           <img class="image-9" src="img/image-9@1x.png" />
         </div>
       </div>
+    </div>
+
+
       <div class="footer">
         <div class="overlap-group-2">
           <div class="flex-row-1">

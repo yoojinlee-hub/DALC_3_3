@@ -167,10 +167,13 @@
 }
 
 .x05-signup .recommand {
-  height: 31px;
-  margin-left: 120px;
-  margin-top: 8.0px;
-  width: 174px;
+  letter-spacing: 0;
+  margin-bottom: 6px;
+  margin-left: 125px;
+  min-height: 40px;
+  min-width: 166px;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
 }
 
 .x05-signup .my-book {
