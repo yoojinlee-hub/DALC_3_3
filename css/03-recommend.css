@@ -339,6 +339,7 @@
   height: 1137px;
   position: relative;
   width: 1350px;
+  left: 100px;
 }
 
 .x03-recommend .overlap-group5-1 {
@@ -355,8 +356,8 @@
   border-radius: 50px;
   display: flex;
   height: 1137px;
-  left: 79px;
-  min-width: 1174px;
+  left: 150px;
+  width: 960px;
   padding: 314px 485px;
   position: absolute;
   top: 0;
