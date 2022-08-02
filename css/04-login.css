@@ -233,27 +233,29 @@
   background-color: #F4F5F7;
   border-radius: 50px;
   height: 1157px;
-  left: 106px;
+  
   position: absolute;
   top: 63px;
-  width: 1235px;
+  width: 1000px;
+  margin-left: 430px;
 }
 
 .x04-login .rectangle-10 {
   background-color: #f3b742cc;
   border-radius: 0px 0px 50px 50px;
   height: 110px;
-  left: 104px;
+
   position: absolute;
   top: 1110px;
-  width: 1235px;
+  width: 1000px;
+  margin-left: 430px;
 }
 
 .x04-login .s_login {
   align-items: flex-end;
   display: flex;
   height: 53px;
-  left: 583px;
+  left: 783px;
   min-width: 312px;
   padding: 0 0.0px;
   position: absolute;
@@ -293,10 +295,10 @@
 
 .x04-login .mask-group {
   height: 198px;
-  left: 106px;
   position: absolute;
-  top: 63px;
-  width: 1235px;
+  top: 0px;
+  width: 1000px;
+  margin-left: 430px;
 }
 
 .x04-login .dont-have-an-account-create-one-now {
@@ -304,7 +306,7 @@
   font-family: var(--font-family-roboto);
   font-size: var(--font-size-xxl);
   font-weight: 400;
-  left: 466px;
+  left: 630px;
   letter-spacing: 0;
   position: absolute;
   text-align: center;
@@ -325,8 +327,8 @@
   border-radius: 8px;
   display: flex;
   height: 99px;
-  left: 245px;
-  min-width: 1002px;
+  left: 545px;
+  width: 800px;
   padding: 0 25px;
   position: absolute;
   top: 442px;
@@ -359,8 +361,8 @@
   border-radius: 8px;
   display: flex;
   height: 99px;
-  left: 245px;
-  min-width: 1002px;
+  left: 545px;
+  width: 800px;
   padding: 30px 29px;
   position: absolute;
   top: 582px;
@@ -390,8 +392,8 @@
   display: flex;
   height: 99px;
   justify-content: flex-end;
-  left: 245px;
-  min-width: 1002px;
+  left: 485px;
+  width: 200px;
   padding: 0 442px;
   position: absolute;
   top: 731px;
@@ -404,7 +406,7 @@
   font-weight: 700;
   letter-spacing: 0;
   min-height: 35px;
-  min-width: 107px;
+  width:200px;
   text-align: center;
   text-shadow: 1px 1px 1px #00000040;
 }
@@ -415,7 +417,7 @@
   border-radius: 95px;
   display: flex;
   height: 190px;
-  left: 649px;
+  left: 850px;
   min-width: 190px;
   padding: 27px 19px;
   position: absolute;

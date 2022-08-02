@@ -318,6 +318,36 @@
 .left-bar-view-2:hover{
   background-color: rgb(217,217,217,0.1);
 }
+.left-bar-view-3 {
+  align-items: flex-start;
+  display: flex;
+  height: 97px;
+  width:464px;
+  min-width: 337px;
+  padding-left: 20px;
+  padding-top: 30px;
+  position: absolute;
+  top: 500px;
+  z-index: 50;
+}
+.left-bar-view-3:hover{
+  background-color: rgb(217,217,217,0.1);
+}
+.left-bar-view-4 {
+  align-items: flex-start;
+  display: flex;
+  height: 97px;
+  width:394px;
+  min-width: 337px;
+  padding-left: 20px;
+  padding-top: 30px;
+  position: absolute;
+  top: 601px;
+  z-index: 50;
+}
+.left-bar-view-4:hover{
+  background-color: rgb(217,217,217,0.1);
+}
 .left-bar-text-59 {
   color: var(--white);
   font-family: var(--font-family-font_awesome_6_free-solid);

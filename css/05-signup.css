@@ -223,24 +223,24 @@
   background-color: #F4F5F7;
   border-radius: 50px;
   height: 1157px;
-  left: 106px;
   position: absolute;
   top: 63px;
-  width: 1235px;
+  width: 1000px;
+  margin-left: 430px;
 }
 
 .x05-signup .overlap-group5 {
   align-items: flex-start;
-  background-color: #f3b742cc;
-  border-radius: 0px 0px 50px 50px;
   display: flex;
-  height: 110px;
   justify-content: flex-end;
-  left: 104px;
-  min-width: 1235px;
   padding: 38px 498px;
-  position: absolute;
-  top: 1110px;
+  background-color: #f3b742cc;
+    border-radius: 0px 0px 50px 50px;
+    height: 110px;
+    position: absolute;
+    top: 1110px;
+    width: 1000px;
+    margin-left: 430px;
 }
 
 .x05-signup .back-to-login {
@@ -252,6 +252,7 @@
   min-height: 33px;
   min-width: 170px;
   text-align: center;
+  margin-left: 200px;
 }
 
 .x05-signup .span0-1 {
@@ -260,12 +261,14 @@
 
 .x05-signup .mask-group {
   height: 198px;
-  left: 106px;
   position: absolute;
-  top: 63px;
-  width: 1235px;
+  top: 0px;
+  width: 1000px;
+  margin-left: 430px;
 }
-
+.signup_input{
+  margin-left: 250px;
+}
 .x05-signup .overlap-group6 {
   align-items: center;
   background-color: var(--white);
@@ -273,7 +276,7 @@
   display: flex;
   height: 99px;
   left: 243px;
-  min-width: 1002px;
+  width: 900px;
   padding: 0 29px;
   position: absolute;
   top: 840px;
@@ -308,9 +311,9 @@
   display: flex;
   height: 99px;
   justify-content: flex-end;
-  left: 243px;
-  min-width: 1002px;
-  padding: 0 438px;
+  left: 485px;
+  width: 200px;
+  padding: 0 442px;
   position: absolute;
   top: 975px;
 }
@@ -334,7 +337,7 @@
   display: flex;
   height: 99px;
   left: 243px;
-  min-width: 1002px;
+  width: 900px;
   padding: 30px 29px;
   position: absolute;
   top: 704px;
@@ -363,7 +366,7 @@
   display: flex;
   height: 99px;
   left: 243px;
-  min-width: 1002px;
+  width: 900px;
   padding: 0 25px;
   position: absolute;
   top: 571px;
@@ -390,7 +393,7 @@
   display: flex;
   height: 99px;
   justify-content: flex-end;
-  left: 758px;
+  left: 858px;
   min-width: 491px;
   position: absolute;
   top: 441px;
@@ -440,7 +443,7 @@
   display: flex;
   height: 99px;
   left: 243px;
-  min-width: 487px;
+  min-width: 200px;
   padding: 30px 23px;
   position: absolute;
   top: 442px;
@@ -476,7 +479,7 @@
   display: flex;
   height: 99px;
   left: 243px;
-  min-width: 1002px;
+  width: 900px;
   padding: 30px 27px;
   position: absolute;
   top: 311px;
@@ -508,9 +511,9 @@
   border-radius: 95px;
   display: flex;
   height: 190px;
-  left: 649px;
+  left: 850px;
   min-width: 190px;
-  padding: 17.0px 17px;
+  padding: 27px 19px;
   position: absolute;
   top: 88px;
 }
