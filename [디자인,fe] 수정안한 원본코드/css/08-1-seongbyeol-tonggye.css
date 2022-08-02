@@ -1,0 +1,692 @@
+/* screen - 08-1-seongbyeol-tonggye */
+
+.x08-1-seongbyeol-tonggye {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 1860px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.x08-1-seongbyeol-tonggye .overlap-group-container {
+  height: 207px;
+  position: relative;
+  width: 1444px;
+}
+
+.x08-1-seongbyeol-tonggye .checkmovie-container {
+  background-image: url(../img/rectangle-2@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 207px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.x08-1-seongbyeol-tonggye .checkmovie {
+  -webkit-text-stroke: 0.15px var(--black-2);
+  left: 452px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 100px #00000040;
+  top: 64px;
+  width: 546px;
+}
+
+.x08-1-seongbyeol-tonggye .checkmovie-1 {
+  -webkit-text-stroke: 0.15px var(--black-2);
+  left: 448px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 100px #00000040;
+  top: 64px;
+  width: 546px;
+}
+
+.x08-1-seongbyeol-tonggye .overlap-group5 {
+  align-items: flex-start;
+  background-color: var(--iron);
+  display: flex;
+  height: 44px;
+  justify-content: flex-end;
+  left: -2px;
+  min-width: 1444px;
+  padding: 6px 145px;
+  position: absolute;
+  top: -2px;
+}
+
+.x08-1-seongbyeol-tonggye .navbar {
+  align-items: flex-start;
+  align-self: center;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 19px;
+  margin-top: 1.0px;
+  min-width: 300px;
+}
+
+.x08-1-seongbyeol-tonggye .navbar-link-place {
+  letter-spacing: 0;
+  min-height: 19px;
+  min-width: 42px;
+  text-align: center;
+}
+
+.x08-1-seongbyeol-tonggye .navbar-link-login {
+  letter-spacing: 0;
+  margin-left: 43px;
+  min-height: 19px;
+  min-width: 38px;
+  text-align: center;
+}
+
+.x08-1-seongbyeol-tonggye .navbar-link-sign-up {
+  letter-spacing: 0;
+  margin-left: 38px;
+  min-height: 19px;
+  min-width: 53px;
+  text-align: center;
+}
+
+.x08-1-seongbyeol-tonggye .navbar-link-my-page {
+  letter-spacing: 0;
+  margin-left: 27px;
+  min-height: 19px;
+  min-width: 59px;
+  text-align: center;
+}
+
+.x08-1-seongbyeol-tonggye .overlap-group-1 {
+  align-items: flex-start;
+  background-color: var(--mischka);
+  border-radius: 5px;
+  display: flex;
+  height: 31px;
+  justify-content: flex-end;
+  margin-left: 496px;
+  min-width: 332px;
+  padding: 6px 10px;
+}
+
+.x08-1-seongbyeol-tonggye .text-215 {
+  letter-spacing: 0;
+  min-height: 14px;
+  text-align: center;
+  width: 37px;
+}
+
+.x08-1-seongbyeol-tonggye .left_-bar {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 70px;
+  width: 1450px;
+}
+
+.x08-1-seongbyeol-tonggye .flex-row {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  margin-right: 118.0px;
+  min-width: 1202px;
+}
+
+.x08-1-seongbyeol-tonggye .overlap-group3 {
+  align-items: center;
+  background-color: var(--blue-zodiac-2);
+  display: flex;
+  height: 70px;
+  min-width: 70px;
+  padding: 0 17px;
+}
+
+.x08-1-seongbyeol-tonggye .text-214 {
+  letter-spacing: 0;
+  min-height: 40px;
+  min-width: 35px;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.x08-1-seongbyeol-tonggye .check-movie {
+  letter-spacing: 0;
+  margin-bottom: 6.0px;
+  margin-left: 132px;
+  min-height: 40px;
+  min-width: 170px;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.x08-1-seongbyeol-tonggye .recommend {
+  letter-spacing: 0;
+  margin-bottom: 6.0px;
+  margin-left: 125px;
+  min-height: 40px;
+  min-width: 166px;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.x08-1-seongbyeol-tonggye .my-book {
+  letter-spacing: 0;
+  margin-bottom: 6.0px;
+  margin-left: 149px;
+  min-height: 40px;
+  min-width: 116px;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.x08-1-seongbyeol-tonggye .shop {
+  letter-spacing: 0;
+  margin-left: 208px;
+  min-height: 40px;
+  min-width: 66px;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.x08-1-seongbyeol-tonggye .rectangle-3 {
+  height: 70px;
+  margin-top: 137px;
+  object-fit: cover;
+  width: 1440px;
+}
+
+.x08-1-seongbyeol-tonggye .flex-row-1 {
+  align-items: center;
+  display: flex;
+  min-width: 1323px;
+}
+
+.x08-1-seongbyeol-tonggye .overlap-group {
+  height: 1283px;
+  position: relative;
+  width: 370px;
+}
+
+.x08-1-seongbyeol-tonggye .left-bar {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 1283px;
+  position: absolute;
+  top: 0;
+  width: 370px;
+}
+
+.x08-1-seongbyeol-tonggye .feature-bg {
+  background-color: var(--black-4);
+  height: 1283px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 370px;
+}
+
+.x08-1-seongbyeol-tonggye .view {
+  align-items: flex-start;
+  display: flex;
+  height: 35px;
+  left: 66px;
+  min-width: 261px;
+  position: absolute;
+  top: 349px;
+}
+
+.x08-1-seongbyeol-tonggye .text-211 {
+  letter-spacing: 0;
+  min-height: 32px;
+  min-width: 40px;
+  text-align: center;
+}
+
+.x08-1-seongbyeol-tonggye .search-ranking {
+  align-self: flex-end;
+  letter-spacing: 0;
+  margin-left: 45px;
+  min-height: 32px;
+  min-width: 172px;
+  text-align: center;
+}
+
+.x08-1-seongbyeol-tonggye .view-1 {
+  align-items: center;
+  display: flex;
+  height: 37px;
+  left: 65px;
+  min-width: 269px;
+  position: absolute;
+  top: 267px;
+}
+
+.x08-1-seongbyeol-tonggye .text-212 {
+  letter-spacing: 0;
+  min-height: 37px;
+  min-width: 34px;
+  text-align: center;
+}
+
+.x08-1-seongbyeol-tonggye .gender-statistics {
+  letter-spacing: 0;
+  margin-left: 45px;
+  margin-top: 1.0px;
+  min-height: 32px;
+  min-width: 186px;
+  text-align: center;
+}
+
+.x08-1-seongbyeol-tonggye .view-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 32px;
+  left: 71px;
+  min-width: 266px;
+  position: absolute;
+  top: 190px;
+}
+
+.x08-1-seongbyeol-tonggye .text-213 {
+  letter-spacing: 0;
+  min-height: 32px;
+  text-align: center;
+  width: 21px;
+}
+
+.x08-1-seongbyeol-tonggye .statistics-by-age {
+  letter-spacing: 0;
+  margin-left: 52px;
+  min-height: 32px;
+  text-align: center;
+  width: 189px;
+}
+
+.x08-1-seongbyeol-tonggye .more {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 61px;
+  min-height: 31px;
+  position: absolute;
+  top: 101px;
+  width: 79px;
+}
+
+.x08-1-seongbyeol-tonggye .place {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: 3.06px;
+  min-height: 24px;
+  min-width: 56px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x08-1-seongbyeol-tonggye .line-5 {
+  height: 6px;
+  margin-left: 3.77px;
+  margin-top: 7px;
+  width: 83px;
+}
+
+.x08-1-seongbyeol-tonggye .rectangle-33 {
+  height: 74px;
+  left: 0;
+  position: absolute;
+  top: 249px;
+  width: 370px;
+}
+
+.x08-1-seongbyeol-tonggye .line-11 {
+  height: 1px;
+  width: 370px;
+}
+
+.x08-1-seongbyeol-tonggye .line-1 {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 370px;
+}
+
+.x08-1-seongbyeol-tonggye .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18.0px;
+  margin-left: 70px;
+  min-height: 1135px;
+  width: 883px;
+}
+
+.x08-1-seongbyeol-tonggye .overlap-group6 {
+  height: 72px;
+  position: relative;
+  width: 383px;
+}
+
+.x08-1-seongbyeol-tonggye .rectangle-30 {
+  background-color: var(--mischka);
+  height: 27px;
+  left: 0;
+  position: absolute;
+  top: 41px;
+  width: 370px;
+}
+
+.x08-1-seongbyeol-tonggye .gender-statistics-1 {
+  left: 5px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 0;
+  width: 378px;
+}
+
+.x08-1-seongbyeol-tonggye .overlap-group7 {
+  height: 90px;
+  margin-left: 29px;
+  margin-top: 53px;
+  position: relative;
+  width: 180px;
+}
+
+.x08-1-seongbyeol-tonggye .ellipse-20 {
+  background-color: var(--cornflower-lilac-2);
+  border-radius: 45px;
+  height: 90px;
+  left: 90px;
+  position: absolute;
+  top: 0;
+  width: 90px;
+}
+
+.x08-1-seongbyeol-tonggye .ellipse-20-1 {
+  background-color: var(--cornflower-lilac-2);
+  border-radius: 45px;
+  height: 90px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 90px;
+}
+
+.x08-1-seongbyeol-tonggye .ellipse-21 {
+  background-color: var(--blue-zodiac);
+  border-radius: 45px;
+  height: 90px;
+  left: 45px;
+  mix-blend-mode: hard-light;
+  position: absolute;
+  top: 0;
+  width: 90px;
+}
+
+.x08-1-seongbyeol-tonggye .women {
+  color: var(--white);
+  font-family: var(--font-family-abril_fatface);
+  font-size: 48px;
+  font-weight: 400;
+  left: 6px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+}
+
+.x08-1-seongbyeol-tonggye .rectangle-52 {
+  align-self: flex-end;
+  background-color: #d9d9d9;
+  height: 338px;
+  margin-top: 24px;
+  width: 854px;
+}
+
+.x08-1-seongbyeol-tonggye .overlap-group8 {
+  height: 90px;
+  margin-left: 29px;
+  margin-top: 65px;
+  position: relative;
+  width: 180px;
+}
+
+.x08-1-seongbyeol-tonggye .ellipse-20-2 {
+  background-color: var(--mischka);
+  border-radius: 45px;
+  height: 90px;
+  left: 90px;
+  position: absolute;
+  top: 0;
+  width: 90px;
+}
+
+.x08-1-seongbyeol-tonggye .ellipse-20-3 {
+  background-color: var(--mischka);
+  border-radius: 45px;
+  height: 90px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 90px;
+}
+
+.x08-1-seongbyeol-tonggye .men {
+  color: var(--white);
+  font-family: var(--font-family-abril_fatface);
+  font-size: 48px;
+  font-weight: 400;
+  left: 40px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+}
+
+.x08-1-seongbyeol-tonggye .rectangle-53 {
+  align-self: flex-end;
+  background-color: #d9d9d9;
+  height: 338px;
+  margin-top: 65px;
+  width: 854px;
+}
+
+.x08-1-seongbyeol-tonggye .overlap-group10 {
+  height: 300px;
+  position: relative;
+  width: 1442px;
+}
+
+.x08-1-seongbyeol-tonggye .overlap-group-2 {
+  align-items: center;
+  background-color: var(--vulcan);
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 300px;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.x08-1-seongbyeol-tonggye .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 168px;
+  margin-right: 64.0px;
+  margin-top: 51px;
+  min-width: 1016px;
+}
+
+.x08-1-seongbyeol-tonggye .check-movie-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 168px;
+  width: 214px;
+}
+
+.x08-1-seongbyeol-tonggye .check-movie-2 {
+  letter-spacing: 0;
+  line-height: 24px;
+  min-height: 24px;
+  min-width: 137px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x08-1-seongbyeol-tonggye .domestic {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 101px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x08-1-seongbyeol-tonggye .overseas {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 96px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x08-1-seongbyeol-tonggye .recommend-result {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 206px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x08-1-seongbyeol-tonggye .my-book-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 215px;
+  min-height: 168px;
+  width: 284px;
+}
+
+.x08-1-seongbyeol-tonggye .my-book-2 {
+  letter-spacing: 0;
+  line-height: 24px;
+  min-height: 24px;
+  min-width: 93px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x08-1-seongbyeol-tonggye .my-page {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 90px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x08-1-seongbyeol-tonggye .recommended-books {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 228px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x08-1-seongbyeol-tonggye .resently-searched-movies {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 276px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x08-1-seongbyeol-tonggye .shop-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 215px;
+  min-height: 168px;
+  width: 88px;
+}
+
+.x08-1-seongbyeol-tonggye .shop-2 {
+  letter-spacing: 0;
+  line-height: 24px;
+  min-height: 24px;
+  min-width: 54px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x08-1-seongbyeol-tonggye .yes24 {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 62px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x08-1-seongbyeol-tonggye .aladin {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 71px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x08-1-seongbyeol-tonggye .kyobo {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 80px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x08-1-seongbyeol-tonggye .overlap-group1 {
+  align-items: center;
+  background-color: var(--vulcan);
+  display: flex;
+  height: 40px;
+  margin-top: 41px;
+  min-width: 1440px;
+  padding: 0 624px;
+}
+
+.x08-1-seongbyeol-tonggye .copyright {
+  letter-spacing: 0;
+  line-height: 24px;
+  min-height: 24px;
+  min-width: 187px;
+  text-align: justify;
+  white-space: nowrap;
+}

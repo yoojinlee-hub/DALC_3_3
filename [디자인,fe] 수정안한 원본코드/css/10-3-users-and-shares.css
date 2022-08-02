@@ -1,0 +1,780 @@
+/* screen - 10-3-users-and-shares */
+
+.x10-3-users-and-shares {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 1860px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.x10-3-users-and-shares .overlap-group-container {
+  height: 207px;
+  position: relative;
+  width: 1444px;
+}
+
+.x10-3-users-and-shares .checkmovie-container {
+  background-image: url(../img/rectangle-2@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 207px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.x10-3-users-and-shares .checkmovie {
+  -webkit-text-stroke: 0.15px var(--black-2);
+  left: 452px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 100px #00000040;
+  top: 64px;
+  width: 546px;
+}
+
+.x10-3-users-and-shares .checkmovie-1 {
+  -webkit-text-stroke: 0.15px var(--black-2);
+  left: 448px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 100px #00000040;
+  top: 64px;
+  width: 546px;
+}
+
+.x10-3-users-and-shares .overlap-group4 {
+  align-items: flex-start;
+  background-color: var(--iron);
+  display: flex;
+  height: 44px;
+  justify-content: flex-end;
+  left: -2px;
+  min-width: 1444px;
+  padding: 6px 145px;
+  position: absolute;
+  top: -2px;
+}
+
+.x10-3-users-and-shares .navbar {
+  align-items: flex-start;
+  align-self: center;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 19px;
+  margin-top: 1.0px;
+  min-width: 300px;
+}
+
+.x10-3-users-and-shares .navbar-link-place {
+  letter-spacing: 0;
+  min-height: 19px;
+  min-width: 42px;
+  text-align: center;
+}
+
+.x10-3-users-and-shares .navbar-link-login {
+  letter-spacing: 0;
+  margin-left: 43px;
+  min-height: 19px;
+  min-width: 38px;
+  text-align: center;
+}
+
+.x10-3-users-and-shares .navbar-link-sign-up {
+  letter-spacing: 0;
+  margin-left: 38px;
+  min-height: 19px;
+  min-width: 53px;
+  text-align: center;
+}
+
+.x10-3-users-and-shares .navbar-link-my-page {
+  letter-spacing: 0;
+  margin-left: 27px;
+  min-height: 19px;
+  min-width: 59px;
+  text-align: center;
+}
+
+.x10-3-users-and-shares .overlap-group {
+  align-items: flex-start;
+  background-color: var(--mischka);
+  border-radius: 5px;
+  display: flex;
+  height: 31px;
+  justify-content: flex-end;
+  margin-left: 496px;
+  min-width: 332px;
+  padding: 6px 10px;
+}
+
+.x10-3-users-and-shares .text-2 {
+  letter-spacing: 0;
+  min-height: 14px;
+  text-align: center;
+  width: 37px;
+}
+
+.x10-3-users-and-shares .left_-bar {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 70px;
+  width: 1450px;
+}
+
+.x10-3-users-and-shares .flex-row {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  margin-right: 118.0px;
+  min-width: 1202px;
+}
+
+.x10-3-users-and-shares .overlap-group2 {
+  align-items: center;
+  background-color: var(--blue-zodiac-2);
+  display: flex;
+  height: 70px;
+  min-width: 70px;
+  padding: 0 17px;
+}
+
+.x10-3-users-and-shares .text-1 {
+  letter-spacing: 0;
+  min-height: 40px;
+  min-width: 35px;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.x10-3-users-and-shares .check-movie {
+  letter-spacing: 0;
+  margin-bottom: 6.0px;
+  margin-left: 132px;
+  min-height: 40px;
+  min-width: 170px;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.x10-3-users-and-shares .recommend {
+  letter-spacing: 0;
+  margin-bottom: 6.0px;
+  margin-left: 125px;
+  min-height: 40px;
+  min-width: 166px;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.x10-3-users-and-shares .my-book {
+  letter-spacing: 0;
+  margin-bottom: 6.0px;
+  margin-left: 149px;
+  min-height: 40px;
+  min-width: 116px;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.x10-3-users-and-shares .shop {
+  letter-spacing: 0;
+  margin-left: 208px;
+  min-height: 40px;
+  min-width: 66px;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.x10-3-users-and-shares .rectangle-3 {
+  height: 70px;
+  margin-top: 137px;
+  object-fit: cover;
+  width: 1440px;
+}
+
+.x10-3-users-and-shares .overlap-group11 {
+  height: 1583px;
+  position: relative;
+  width: 1442px;
+}
+
+.x10-3-users-and-shares .overlap-group-container-1 {
+  height: 1583px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1442px;
+}
+
+.x10-3-users-and-shares .overlap-group-1 {
+  align-items: center;
+  background-color: var(--vulcan);
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 300px;
+  position: absolute;
+  top: 1283px;
+  width: 1440px;
+}
+
+.x10-3-users-and-shares .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 168px;
+  margin-right: 64.0px;
+  margin-top: 51px;
+  min-width: 1016px;
+}
+
+.x10-3-users-and-shares .check-movie-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 168px;
+  width: 214px;
+}
+
+.x10-3-users-and-shares .check-movie-2 {
+  letter-spacing: 0;
+  line-height: 24px;
+  min-height: 24px;
+  min-width: 137px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x10-3-users-and-shares .domestic {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 101px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x10-3-users-and-shares .overseas {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 96px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x10-3-users-and-shares .recommend-result {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 206px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x10-3-users-and-shares .my-book-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 215px;
+  min-height: 168px;
+  width: 284px;
+}
+
+.x10-3-users-and-shares .my-book-2 {
+  letter-spacing: 0;
+  line-height: 24px;
+  min-height: 24px;
+  min-width: 93px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x10-3-users-and-shares .my-page {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 90px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x10-3-users-and-shares .recommended-books {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 228px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x10-3-users-and-shares .resently-searched-movies {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 276px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x10-3-users-and-shares .shop-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 215px;
+  min-height: 168px;
+  width: 88px;
+}
+
+.x10-3-users-and-shares .shop-2 {
+  letter-spacing: 0;
+  line-height: 24px;
+  min-height: 24px;
+  min-width: 54px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x10-3-users-and-shares .yes24 {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 62px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x10-3-users-and-shares .aladin {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 71px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x10-3-users-and-shares .kyobo {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 80px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x10-3-users-and-shares .overlap-group1 {
+  align-items: center;
+  background-color: var(--vulcan);
+  display: flex;
+  height: 40px;
+  margin-top: 41px;
+  min-width: 1440px;
+  padding: 0 624px;
+}
+
+.x10-3-users-and-shares .copyright {
+  letter-spacing: 0;
+  line-height: 24px;
+  min-height: 24px;
+  min-width: 187px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x10-3-users-and-shares .overlap-group5 {
+  height: 1284px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 381px;
+}
+
+.x10-3-users-and-shares .overlap-group-2 {
+  height: 1284px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 381px;
+}
+
+.x10-3-users-and-shares .feature-bg {
+  background-color: var(--black-4);
+  height: 1283px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 370px;
+}
+
+.x10-3-users-and-shares .left-bar {
+  align-items: center;
+  display: flex;
+  height: 368px;
+  left: 46px;
+  min-width: 335px;
+  position: absolute;
+  top: 151px;
+}
+
+.x10-3-users-and-shares .text-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 368px;
+  width: 40px;
+}
+
+.x10-3-users-and-shares .text-3 {
+  letter-spacing: 0;
+  margin-left: 2px;
+  min-height: 37px;
+  min-width: 36px;
+  text-align: center;
+}
+
+.x10-3-users-and-shares .text-7 {
+  letter-spacing: 0;
+  margin-left: 2px;
+  margin-top: 48px;
+  min-height: 37px;
+  min-width: 32px;
+  text-align: center;
+}
+
+.x10-3-users-and-shares .text-5 {
+  letter-spacing: 0;
+  margin-left: 4px;
+  margin-top: 46px;
+  min-height: 37px;
+  min-width: 32px;
+  text-align: center;
+}
+
+.x10-3-users-and-shares .text-4 {
+  letter-spacing: 0;
+  margin-top: 47px;
+  min-height: 32px;
+  min-width: 40px;
+  text-align: center;
+}
+
+.x10-3-users-and-shares .text-6 {
+  letter-spacing: 0;
+  margin-top: 47px;
+  min-height: 37px;
+  min-width: 40px;
+  text-align: center;
+}
+
+.x10-3-users-and-shares .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+  margin-top: 1.0px;
+  min-height: 364px;
+  width: 262px;
+}
+
+.x10-3-users-and-shares .personal-information {
+  letter-spacing: 0;
+  min-height: 32px;
+  text-align: center;
+  width: 262px;
+}
+
+.x10-3-users-and-shares .security {
+  letter-spacing: 0;
+  margin-right: 11.0px;
+  margin-top: 51px;
+  min-height: 32px;
+  min-width: 95px;
+  text-align: center;
+}
+
+.x10-3-users-and-shares .recent-records {
+  letter-spacing: 0;
+  margin-right: 2.0px;
+  margin-top: 51px;
+  min-height: 32px;
+  min-width: 172px;
+  text-align: center;
+}
+
+.x10-3-users-and-shares .users-and-shares {
+  letter-spacing: 0;
+  margin-right: 5.0px;
+  margin-top: 51px;
+  min-height: 32px;
+  min-width: 189px;
+  text-align: center;
+}
+
+.x10-3-users-and-shares .login {
+  letter-spacing: 0;
+  margin-right: 15.0px;
+  margin-top: 51px;
+  min-height: 32px;
+  min-width: 63px;
+  text-align: center;
+}
+
+.x10-3-users-and-shares .more {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 46px;
+  min-height: 31px;
+  position: absolute;
+  top: 65px;
+  width: 79px;
+}
+
+.x10-3-users-and-shares .place {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: 3.06px;
+  min-height: 24px;
+  min-width: 56px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x10-3-users-and-shares .line-5 {
+  height: 6px;
+  margin-left: 3.77px;
+  margin-top: 7px;
+  width: 83px;
+}
+
+.x10-3-users-and-shares .line-10 {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 1282px;
+  width: 370px;
+}
+
+.x10-3-users-and-shares .rectangle-33 {
+  height: 74px;
+  left: 0;
+  position: absolute;
+  top: 382px;
+  width: 370px;
+}
+
+.x10-3-users-and-shares .line-10-1 {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 370px;
+}
+
+.x10-3-users-and-shares .overlap-group6 {
+  height: 90px;
+  left: 465px;
+  position: absolute;
+  top: 424px;
+  width: 180px;
+}
+
+.x10-3-users-and-shares .ellipse-21 {
+  background-color: var(--snuff);
+  border-radius: 45px;
+  height: 90px;
+  left: 45px;
+  position: absolute;
+  top: 0;
+  width: 90px;
+}
+
+.x10-3-users-and-shares .ellipse-20 {
+  background-color: var(--mischka);
+  border-radius: 45px;
+  height: 90px;
+  left: 90px;
+  position: absolute;
+  top: 0;
+  width: 90px;
+}
+
+.x10-3-users-and-shares .ellipse-20-1 {
+  background-color: var(--misty-moss);
+  border-radius: 45px;
+  height: 90px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 90px;
+}
+
+.x10-3-users-and-shares .place-1 {
+  left: 17px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 15px;
+}
+
+.x10-3-users-and-shares .x6405408_share_smartp {
+  height: 300px;
+  left: 465px;
+  object-fit: cover;
+  position: absolute;
+  top: 79px;
+  width: 300px;
+}
+
+.x10-3-users-and-shares .security-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 797px;
+  min-height: 246px;
+  position: absolute;
+  top: 106px;
+  width: 572px;
+}
+
+.x10-3-users-and-shares .overlap-group7 {
+  height: 131px;
+  margin-right: 4.0px;
+  position: relative;
+  width: 486px;
+}
+
+.x10-3-users-and-shares .rectangle-31 {
+  background-color: var(--mischka);
+  height: 27px;
+  left: 39px;
+  position: absolute;
+  top: 104px;
+  width: 402px;
+}
+
+.x10-3-users-and-shares .rectangle-30 {
+  background-color: var(--mischka);
+  height: 27px;
+  left: 155px;
+  position: absolute;
+  top: 39px;
+  width: 174px;
+}
+
+.x10-3-users-and-shares .s-users-and-shares {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 0;
+  width: 486px;
+}
+
+.x10-3-users-and-shares .x {
+  letter-spacing: 0;
+  margin-right: 4.0px;
+  margin-top: 34px;
+  min-height: 81px;
+  text-align: center;
+  width: 568px;
+}
+
+.x10-3-users-and-shares .flex-row-2 {
+  align-items: flex-start;
+  background-color: var(--cultured-pearl);
+  border-radius: 10px;
+  display: flex;
+  height: 568px;
+  left: 465px;
+  min-width: 888px;
+  padding: 38.0px 83px;
+  position: absolute;
+  top: 555px;
+}
+
+.x10-3-users-and-shares ._icon-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 481px;
+  width: 100px;
+}
+
+.x10-3-users-and-shares .x1147415_address-book {
+  height: 100px;
+  object-fit: cover;
+  width: 100px;
+}
+
+.x10-3-users-and-shares ._icon-container-item {
+  height: 100px;
+  margin-top: 27px;
+  object-fit: cover;
+  width: 100px;
+}
+
+.x10-3-users-and-shares .flex-col-1 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 13.0px;
+  margin-left: 147px;
+  min-height: 435px;
+  width: 365px;
+}
+
+.x10-3-users-and-shares .hong97navercom {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 54px;
+  min-width: 361px;
+  text-align: center;
+}
+
+.x10-3-users-and-shares .hong97 {
+  letter-spacing: 0;
+  margin-left: 2px;
+  margin-top: 73px;
+  min-height: 54px;
+  min-width: 137px;
+  text-align: center;
+}
+
+.x10-3-users-and-shares .text-8 {
+  letter-spacing: 0;
+  margin-left: 5px;
+  margin-top: 73px;
+  min-height: 54px;
+  min-width: 74px;
+  text-align: center;
+}
+
+.x10-3-users-and-shares .hong97gmailcom {
+  letter-spacing: 0;
+  margin-left: 2px;
+  margin-top: 73px;
+  min-height: 54px;
+  min-width: 363px;
+  text-align: center;
+}

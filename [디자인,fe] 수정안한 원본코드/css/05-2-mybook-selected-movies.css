@@ -1,0 +1,801 @@
+/* screen - 05-2-mybook-selected-movies */
+
+.x05-2-mybook-selected-movies {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 1860px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.x05-2-mybook-selected-movies .overlap-group-container {
+  height: 207px;
+  position: relative;
+  width: 1444px;
+}
+
+.x05-2-mybook-selected-movies .checkmovie-container {
+  background-image: url(../img/rectangle-2@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 207px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.x05-2-mybook-selected-movies .checkmovie {
+  -webkit-text-stroke: 0.15px var(--black-2);
+  left: 452px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 100px #00000040;
+  top: 64px;
+  width: 546px;
+}
+
+.x05-2-mybook-selected-movies .checkmovie-1 {
+  -webkit-text-stroke: 0.15px var(--black-2);
+  left: 448px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 100px #00000040;
+  top: 64px;
+  width: 546px;
+}
+
+.x05-2-mybook-selected-movies .overlap-group4 {
+  align-items: flex-start;
+  background-color: var(--iron);
+  display: flex;
+  height: 44px;
+  justify-content: flex-end;
+  left: -2px;
+  min-width: 1444px;
+  padding: 6px 145px;
+  position: absolute;
+  top: -2px;
+}
+
+.x05-2-mybook-selected-movies .navbar {
+  align-items: flex-start;
+  align-self: center;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 19px;
+  margin-top: 1.0px;
+  min-width: 300px;
+}
+
+.x05-2-mybook-selected-movies .navbar-link-place {
+  letter-spacing: 0;
+  min-height: 19px;
+  min-width: 42px;
+  text-align: center;
+}
+
+.x05-2-mybook-selected-movies .navbar-link-login {
+  letter-spacing: 0;
+  margin-left: 43px;
+  min-height: 19px;
+  min-width: 38px;
+  text-align: center;
+}
+
+.x05-2-mybook-selected-movies .navbar-link-sign-up {
+  letter-spacing: 0;
+  margin-left: 38px;
+  min-height: 19px;
+  min-width: 53px;
+  text-align: center;
+}
+
+.x05-2-mybook-selected-movies .navbar-link-my-page {
+  letter-spacing: 0;
+  margin-left: 27px;
+  min-height: 19px;
+  min-width: 59px;
+  text-align: center;
+}
+
+.x05-2-mybook-selected-movies .overlap-group {
+  align-items: flex-start;
+  background-color: var(--mischka);
+  border-radius: 5px;
+  display: flex;
+  height: 31px;
+  justify-content: flex-end;
+  margin-left: 496px;
+  min-width: 332px;
+  padding: 6px 10px;
+}
+
+.x05-2-mybook-selected-movies .text-189 {
+  letter-spacing: 0;
+  min-height: 14px;
+  text-align: center;
+  width: 37px;
+}
+
+.x05-2-mybook-selected-movies .left_-bar {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 70px;
+  width: 1450px;
+}
+
+.x05-2-mybook-selected-movies .flex-row {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  margin-right: 118.0px;
+  min-width: 1202px;
+}
+
+.x05-2-mybook-selected-movies .overlap-group2 {
+  align-items: center;
+  background-color: var(--blue-zodiac-2);
+  display: flex;
+  height: 70px;
+  min-width: 70px;
+  padding: 0 17px;
+}
+
+.x05-2-mybook-selected-movies .text-188 {
+  letter-spacing: 0;
+  min-height: 40px;
+  min-width: 35px;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.x05-2-mybook-selected-movies .check-movie {
+  letter-spacing: 0;
+  margin-bottom: 6.0px;
+  margin-left: 132px;
+  min-height: 40px;
+  min-width: 170px;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.x05-2-mybook-selected-movies .recommend {
+  letter-spacing: 0;
+  margin-bottom: 6.0px;
+  margin-left: 125px;
+  min-height: 40px;
+  min-width: 166px;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.x05-2-mybook-selected-movies .my-book {
+  letter-spacing: 0;
+  margin-bottom: 6.0px;
+  margin-left: 149px;
+  min-height: 40px;
+  min-width: 116px;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.x05-2-mybook-selected-movies .shop {
+  letter-spacing: 0;
+  margin-left: 208px;
+  min-height: 40px;
+  min-width: 66px;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.x05-2-mybook-selected-movies .rectangle-3 {
+  height: 70px;
+  margin-top: 137px;
+  object-fit: cover;
+  width: 1440px;
+}
+
+.x05-2-mybook-selected-movies .overlap-group-container-1 {
+  align-items: center;
+  display: flex;
+  margin-left: -7px;
+  min-width: 1447px;
+}
+
+.x05-2-mybook-selected-movies .overlap-group-container-2 {
+  height: 1283px;
+  position: relative;
+  width: 1268px;
+}
+
+.x05-2-mybook-selected-movies .overlap-group5 {
+  height: 1019px;
+  left: 554px;
+  position: absolute;
+  top: 183px;
+  width: 714px;
+}
+
+.x05-2-mybook-selected-movies .rectangle-32 {
+  background-color: var(--cultured-pearl);
+  border-radius: 10px;
+  height: 859px;
+  left: 0;
+  position: absolute;
+  top: 160px;
+  width: 714px;
+}
+
+.x05-2-mybook-selected-movies .image-18 {
+  height: 689px;
+  left: 101px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 507px;
+}
+
+.x05-2-mybook-selected-movies .s_login {
+  align-items: flex-start;
+  display: flex;
+  height: 58px;
+  justify-content: flex-end;
+  left: 180px;
+  min-width: 354px;
+  position: absolute;
+  top: 930px;
+}
+
+.x05-2-mybook-selected-movies .ellipse-1 {
+  height: 58px;
+  margin-top: 0;
+  object-fit: cover;
+  width: 62px;
+}
+
+.x05-2-mybook-selected-movies .ellipse-2 {
+  height: 58px;
+  margin-left: 32px;
+  margin-top: 0;
+  object-fit: cover;
+  width: 62px;
+}
+
+.x05-2-mybook-selected-movies .ellipse-4 {
+  height: 58px;
+  margin-left: 38px;
+  margin-top: 0;
+  object-fit: cover;
+  width: 62px;
+}
+
+.x05-2-mybook-selected-movies .ellipse-3 {
+  height: 58px;
+  margin-left: 36px;
+  margin-top: 0;
+  object-fit: cover;
+  width: 62px;
+}
+
+.x05-2-mybook-selected-movies .overlap-group-1 {
+  background-color: var(--white-2);
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #00000040;
+  height: 158px;
+  left: 93px;
+  position: absolute;
+  top: 749px;
+  width: 527px;
+}
+
+.x05-2-mybook-selected-movies .text-container {
+  height: 138px;
+  left: 27px;
+  position: absolute;
+  top: 8px;
+  width: 477px;
+}
+
+.x05-2-mybook-selected-movies .text_label {
+  left: 1px;
+  letter-spacing: 0;
+  line-height: 60px;
+  position: absolute;
+  text-align: justify;
+  top: 0;
+  width: 155px;
+}
+
+.x05-2-mybook-selected-movies .text-195 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: justify;
+  top: 50px;
+  width: 477px;
+}
+
+.x05-2-mybook-selected-movies .stars {
+  align-items: flex-start;
+  box-shadow: 1px 1px 4px #00000040;
+  display: flex;
+  height: 38px;
+  left: 351px;
+  min-width: 163px;
+  position: absolute;
+  top: 17px;
+}
+
+.x05-2-mybook-selected-movies .text-191 {
+  letter-spacing: 0;
+  line-height: 30px;
+  min-height: 38px;
+  text-align: justify;
+  width: 24px;
+}
+
+.x05-2-mybook-selected-movies .text-19 {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 8px;
+  min-height: 38px;
+  text-align: justify;
+  width: 24px;
+}
+
+.x05-2-mybook-selected-movies .overlap-group6 {
+  height: 1283px;
+  left: -7px;
+  position: absolute;
+  top: 0;
+  width: 1028px;
+}
+
+.x05-2-mybook-selected-movies .overlap-group-container-3 {
+  height: 1283px;
+  left: 14px;
+  position: absolute;
+  top: 0;
+  width: 1014px;
+}
+
+.x05-2-mybook-selected-movies .overlap-group2-1 {
+  height: 1283px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 492px;
+}
+
+.x05-2-mybook-selected-movies .rectangle-44 {
+  height: 475px;
+  left: 165px;
+  object-fit: cover;
+  position: absolute;
+  top: 534px;
+  width: 315px;
+}
+
+.x05-2-mybook-selected-movies .left-bar {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 1283px;
+  position: absolute;
+  top: 0;
+  width: 370px;
+}
+
+.x05-2-mybook-selected-movies .overlap-group-2 {
+  height: 1283px;
+  margin-left: 0;
+  position: relative;
+  width: 370px;
+}
+
+.x05-2-mybook-selected-movies .feature-bg {
+  background-color: var(--black-4);
+  height: 1283px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 370px;
+}
+
+.x05-2-mybook-selected-movies .left-bar-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 43px;
+  min-height: 291px;
+  position: absolute;
+  top: 65px;
+  width: 315px;
+}
+
+.x05-2-mybook-selected-movies .more {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 4px;
+  min-height: 31px;
+  width: 79px;
+}
+
+.x05-2-mybook-selected-movies .place {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: 3.06px;
+  min-height: 24px;
+  min-width: 56px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x05-2-mybook-selected-movies .line-5 {
+  height: 6px;
+  margin-left: 3.77px;
+  margin-top: 7px;
+  width: 83px;
+}
+
+.x05-2-mybook-selected-movies .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 205px;
+  margin-top: 55px;
+  min-width: 303px;
+}
+
+.x05-2-mybook-selected-movies .text-container-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 205px;
+  width: 40px;
+}
+
+.x05-2-mybook-selected-movies .text-196 {
+  letter-spacing: 0;
+  margin-right: 2.0px;
+  min-height: 32px;
+  min-width: 28px;
+  text-align: center;
+}
+
+.x05-2-mybook-selected-movies .text-197 {
+  letter-spacing: 0;
+  margin-top: 52px;
+  min-height: 32px;
+  min-width: 36px;
+  text-align: center;
+}
+
+.x05-2-mybook-selected-movies .text-198 {
+  letter-spacing: 0;
+  margin-top: 52px;
+  min-height: 37px;
+  min-width: 40px;
+  text-align: center;
+}
+
+.x05-2-mybook-selected-movies .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 17px;
+  min-height: 203px;
+  width: 246px;
+}
+
+.x05-2-mybook-selected-movies .recommended-books {
+  letter-spacing: 0;
+  min-height: 32px;
+  text-align: center;
+  width: 246px;
+}
+
+.x05-2-mybook-selected-movies .selected-movies {
+  letter-spacing: 0;
+  margin-right: 2.0px;
+  margin-top: 52px;
+  min-height: 32px;
+  min-width: 172px;
+  text-align: center;
+}
+
+.x05-2-mybook-selected-movies .my-picks {
+  letter-spacing: 0;
+  margin-right: 17.0px;
+  margin-top: 55px;
+  min-height: 32px;
+  min-width: 97px;
+  text-align: center;
+}
+
+.x05-2-mybook-selected-movies .rectangle-33 {
+  height: 74px;
+  left: 0;
+  position: absolute;
+  top: 214px;
+  width: 370px;
+}
+
+.x05-2-mybook-selected-movies .line-10 {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 370px;
+}
+
+.x05-2-mybook-selected-movies .line-11 {
+  height: 1px;
+  margin-left: 0;
+  width: 370px;
+}
+
+.x05-2-mybook-selected-movies .rectangle-43 {
+  height: 475px;
+  left: 370px;
+  position: absolute;
+  top: 497px;
+  width: 123px;
+}
+
+.x05-2-mybook-selected-movies .overlap-group1 {
+  height: 68px;
+  left: 424px;
+  position: absolute;
+  top: 45px;
+  width: 590px;
+}
+
+.x05-2-mybook-selected-movies .rectangle-30 {
+  background-color: var(--mischka);
+  height: 27px;
+  left: 32px;
+  position: absolute;
+  top: 41px;
+  width: 523px;
+}
+
+.x05-2-mybook-selected-movies .a-list-of-selected-movies {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 0;
+  width: 590px;
+}
+
+.x05-2-mybook-selected-movies .rectangle-35 {
+  height: 74px;
+  left: 0;
+  position: absolute;
+  top: 680px;
+  width: 370px;
+}
+
+.x05-2-mybook-selected-movies .rectangle-43-1 {
+  background-color: var(--alto);
+  height: 475px;
+  left: 384px;
+  position: absolute;
+  top: 534px;
+  width: 110px;
+}
+
+.x05-2-mybook-selected-movies .overlap-group8 {
+  align-items: flex-start;
+  background-image: url(../img/rectangle-42@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  margin-left: 69px;
+  margin-top: 260.0px;
+  min-width: 110px;
+}
+
+.x05-2-mybook-selected-movies .rectangle-43-2 {
+  background-color: var(--alto);
+  height: 475px;
+  width: 110px;
+}
+
+.x05-2-mybook-selected-movies .footer {
+  align-items: flex-start;
+  display: flex;
+  height: 300px;
+  min-width: 1442px;
+}
+
+.x05-2-mybook-selected-movies .overlap-group-3 {
+  align-items: center;
+  background-color: var(--vulcan);
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  width: 1440px;
+}
+
+.x05-2-mybook-selected-movies .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 168px;
+  margin-right: 64.0px;
+  margin-top: 51px;
+  min-width: 1016px;
+}
+
+.x05-2-mybook-selected-movies .check-movie-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 168px;
+  width: 214px;
+}
+
+.x05-2-mybook-selected-movies .check-movie-2 {
+  letter-spacing: 0;
+  line-height: 24px;
+  min-height: 24px;
+  min-width: 137px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x05-2-mybook-selected-movies .domestic {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 101px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x05-2-mybook-selected-movies .overseas {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 96px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x05-2-mybook-selected-movies .recommend-result {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 206px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x05-2-mybook-selected-movies .my-book-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 215px;
+  min-height: 168px;
+  width: 284px;
+}
+
+.x05-2-mybook-selected-movies .my-book-2 {
+  letter-spacing: 0;
+  line-height: 24px;
+  min-height: 24px;
+  min-width: 93px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x05-2-mybook-selected-movies .my-page {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 90px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x05-2-mybook-selected-movies .recommended-books-1 {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 228px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x05-2-mybook-selected-movies .resently-searched-movies {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 276px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x05-2-mybook-selected-movies .shop-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 215px;
+  min-height: 168px;
+  width: 88px;
+}
+
+.x05-2-mybook-selected-movies .shop-2 {
+  letter-spacing: 0;
+  line-height: 24px;
+  min-height: 24px;
+  min-width: 54px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x05-2-mybook-selected-movies .yes24 {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 62px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x05-2-mybook-selected-movies .aladin {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 71px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x05-2-mybook-selected-movies .kyobo {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 80px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x05-2-mybook-selected-movies .overlap-group1-1 {
+  align-items: center;
+  background-color: var(--vulcan);
+  display: flex;
+  height: 40px;
+  margin-top: 41px;
+  min-width: 1440px;
+  padding: 0 624px;
+}
+
+.x05-2-mybook-selected-movies .copyright {
+  letter-spacing: 0;
+  line-height: 24px;
+  min-height: 24px;
+  min-width: 187px;
+  text-align: justify;
+  white-space: nowrap;
+}
