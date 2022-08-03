@@ -11,6 +11,46 @@
     <link rel="stylesheet" type="text/css" href="css/10-2-recent-records.css" />
     <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
     <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <script>
+      function count(type) {
+        // 결과를 표시할 element
+        const resultElement = document.getElementById('pages');
+        const resultElement1 = document.getElementById('pages1');
+        const resultElement2 = document.getElementById('pages2');
+        const resultElement3 = document.getElementById('pages3');
+        const resultElement4 = document.getElementById('pages4');
+        // 현재 화면에 표시된 값
+        let number = resultElement.innerText;
+        let number1 = resultElement1.innerText;
+        let number2 = resultElement2.innerText;
+        let number3 = resultElement3.innerText;
+        let number4 = resultElement4.innerText;
+        // 더하기/빼기
+        if (type === 'plus') {
+          number = parseInt(number) + 5;
+          number1 = parseInt(number1) + 5;
+          number2 = parseInt(number2) + 5;
+          number3 = parseInt(number3) + 5;
+          number4 = parseInt(number4) + 5;
+        } else if (type === 'minus') {
+          if(number >= 1 && number1 >= 1 && number2 >= 1 && number3 >= 1 && number4 >= 1){
+            number = parseInt(number) - 5;
+            number1 = parseInt(number1) - 5;
+            number2 = parseInt(number2) - 5;
+            number3 = parseInt(number3) - 5;
+            number4 = parseInt(number4) - 5;
+          }
+          
+        }
+    
+        // 결과 출력
+        resultElement.innerText = number;
+        resultElement1.innerText = number1;
+        resultElement2.innerText = number2;
+        resultElement3.innerText = number3;
+        resultElement4.innerText = number4;
+      }
+    </script>
   </head>
   <body style="margin: 0; background: #ffffff">
     <input type="hidden" id="anPageName" name="page" value="10-2-recent-records" />
@@ -28,20 +68,69 @@
               <div class="navbar-link-sign-up opensans-bold-old-brick-14px">Sign Up</div>
               <div class="navbar-link-my-page opensans-bold-cornflower-lilac-14px">My Page</div>
             </div>
-            <div class="overlap-group border-3px-blue-zodiac">
-              <div class="text-33 fontawesome6free-solid-normal-blue-zodiac-14px"></div>
+            <div class="search-box border-3px-blue-zodiac-2">
+              <input type="text" name="q" class="input-box input-q">
+              <div class="text-331"></div>
+              <!--fontawesome6free-solid-normal-blue-14px-->
             </div>
           </div>
         </div>
         <div class="left_-bar">
           <div class="flex-row">
-            <div class="overlap-group2"><div class="text-32 fontawesome6free-solid-normal-tulip-tree-40px"></div></div>
+            <div class="overlap-group2">
+               <!--햄버거-->
+            <!-- 햄버거 메뉴 -->
+            <input type="checkbox" id="trigger">
+            <label for="trigger">
+              <!-- 햄버거 세줄 표현 -->
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+            <!--숨겨진 메뉴-->
+            <div class="overlap-group13">
+              <div class="ham-menu">
+                <div class="place ptserif-normal-white-24px place_more">more</div>
+                <div class="making-place"></div>
+                <div class="check-movie-1">
+                  <div class="check-movie-2 ptserif-normal-tulip-tree-24px">Check Movie</div>
+                  <div class="domestic ptserif-normal-white-24px"><a class="submenuLink longLink">Domestic</a></div>
+                  <div class="overseas ptserif-normal-white-24px"><a class="submenuLink longLink">Overseas</a></div>
+                </div>
+                <div class="making-place2"></div>
+                <div class="recommand-1">
+                  <div class="recommand-2 ptserif-normal-tulip-tree-24px">Recommend</div>
+                  <div class="recommand-result ptserif-normal-white-24px"><a class="submenuLink longLink">Recommand
+                      Result</a></div>
+                </div>
+                <div class="my-book-1">
+                  <div class="my-book-2 ptserif-normal-tulip-tree-24px">My Book</div>
+                  <div class="my-page ptserif-normal-white-24px"><a class="submenuLink longLink">My Page</a></div>
+                  <div class="recommended-books ptserif-normal-white-24px"><a class="submenuLink longLink">Recommended
+                      Books</a></div>
+                  <div class="resently-searched-movies ptserif-normal-white-24px"><a
+                      class="submenuLink longLink">Resently Searched Movies</a></div>
+                </div>
+                <div class="shop-1">
+                  <div class="shop-2 ptserif-normal-tulip-tree-24px">Shop</div>
+                  <div class="yes24 ptserif-normal-white-24px"><a class="submenuLink longLink">Yes24</a></div>
+                  <div class="aladin ptserif-normal-white-24px"><a class="submenuLink longLink">Aladin</a></div>
+                  <div class="kyobo ptserif-normal-white-24px"><a class="submenuLink longLink">KYOBO</a></div>
+                </div>
+                <img class="line-5" src="img/line-5-1@2x.svg" />
+                <img class="line-6" src="img/line-6@2x.svg" />
+                <img class="line-7" src="img/line-6@2x.svg" />
+                <img class="line-8" src="img/line-6@2x.svg" />
+                <img class="line-9" src="img/line-5-2@2x.svg" />
+              </div>
+            </div>
+            </div>
             <div class="check-movie-1 abrilfatface-normal-tulip-tree-30px">check movie</div>
             <div class="recommend abrilfatface-normal-tulip-tree-30px">recommend</div>
             <div class="my-book abrilfatface-normal-tulip-tree-30px">my book</div>
             <div class="shop abrilfatface-normal-tulip-tree-30px">shop</div>
           </div>
-          <img class="rectangle-3" src="img/rectangle-3@1x.png" />
+          
         </div>
         <div class="overlap-group11">
           <div class="overlap-group-container-1">
@@ -82,11 +171,11 @@
                     <div class="text-37 fontawesome5free-solid-normal-white-32px"></div>
                   </div>
                   <div class="flex-col abrilfatface-normal-white-24px">
-                    <div class="personal-information">Personal information</div>
-                    <div class="security">Security</div>
-                    <div class="recent-records">Recent Records</div>
-                    <div class="users-and-shares">Users and Shares</div>
-                    <div class="login">Login</div>
+                    <div class='left-bar1 left-bar-box'><div class="personal-information">Personal information</div></div>
+                    <div class='left-bar2 left-bar-box'><div class="security">Security</div></div>
+                    <div class='left-bar3 left-bar-box'><div class="recent-records">Recent Records</div></div>
+                    <div class='left-bar4 left-bar-box'><div class="users-and-shares">Users and Shares</div></div>
+                    <div class='left-bar5 left-bar-box'><div class="login">Login</div></div>
                   </div>
                 </div>
                 <div class="more">
@@ -133,19 +222,19 @@
               <div class="check-movie">check movie 활동</div>
             </div>
           </div>
-          <div class="pagebutton fontawesome5free-solid-normal-black-20px">
-            <div class="text-42"></div>
+          <div class="pagebutton">
+            <div class="text-186"><input type='button' class='page-b' onclick='count("minus")' value=""></div>
             <div class="page-num">
               <div class="overlap-group-3">
                 <div class="view"></div>
-                <div class="number fontawesome6brands-regular-normal-black-20px">1</div>
+                <div id="pages"class="number fontawesome6brands-regular-normal-black-20px">1</div>
               </div>
-              <div class="number-1 fontawesome6brands-regular-normal-black-20px">2</div>
-              <div class="number-2 fontawesome6brands-regular-normal-black-20px">3</div>
-              <div class="number-3 fontawesome6brands-regular-normal-black-20px">4</div>
-              <div class="number-4 fontawesome6free-regular-normal-black-20px">5</div>
+              <div id="pages1"class="number-1 fontawesome6brands-regular-normal-black-20px">2</div>
+              <div id="pages2"class="number-2 fontawesome6brands-regular-normal-black-20px">3</div>
+              <div id="pages3"class="number-3 fontawesome6brands-regular-normal-black-20px">4</div>
+              <div id="pages4"class="number-4 fontawesome6free-regular-normal-black-20px">5</div>
             </div>
-            <div class="text-43"></div>
+            <div class="text-187"><input type='button' class='page-b' onclick='count("plus")' value=""></div>
           </div>
         </div>
       </div>
