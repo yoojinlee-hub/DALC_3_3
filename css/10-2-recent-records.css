@@ -948,7 +948,7 @@
   height: 100%;
   max-width: 0;
   transition: 0.5s ease;
-  z-index: 100;
+  z-index: 1000;
   width: 1440px;
 }
 
