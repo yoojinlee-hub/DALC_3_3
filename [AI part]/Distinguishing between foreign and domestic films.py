@@ -23,5 +23,6 @@ countrys=[]
 search_box = browser.find_element(By.NAME, "query")
 search_box.send_keys(df["titles"][0]+" 정보")
 find_site = search_box.send_keys(Keys.RETURN)
-explanation = find_site.find_element_by_class_name("_content_text").text
+path = "#main_pack > div.sc_new.cs_common_module.case_empasis.color_14._au_movie_content_wrap > div.cm_content_wrap > div.cm_content_area._cm_content_area_info > div > div.detail_info > dl > div:nth-child(4) > dd"
+country = find_site.find_element_by_css_selector(path)
 print(country)
