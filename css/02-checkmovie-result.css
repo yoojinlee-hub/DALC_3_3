@@ -380,41 +380,41 @@
 
 .x03-recommand .s_login {
   align-items: flex-end;
-  display: flex;
-  height: 46px;
-  justify-content: flex-end;
-  left: 455px;
-  min-width: 263px;
+
+  height: 200px;
+
+  left: 500px;
+  min-width: 500px;
   position: absolute;
-  top: 1058px;
+  top: 1100px;
 }
 
 .x03-recommand .ellipse-2 {
   height: 46px;
-  margin-bottom: -1401px;
+  margin-left: 20px;
   object-fit: cover;
   width: 46px;
 }
 
 .x03-recommand .ellipse-4 {
   height: 46px;
-  margin-bottom: -1401px;
-  margin-left: 28px;
+
+  margin-left: 20px;
   object-fit: cover;
   width: 46px;
 }
 
 .x03-recommand .ellipse-3 {
   height: 46px;
-  margin-bottom: -1401px;
-  margin-left: 27px;
+
+  margin-left: 20px;
   object-fit: cover;
   width: 46px;
 }
 
 .x03-recommand .ellipse-1 {
   height: 46px;
-  margin-bottom: -1401px;
+ 
   margin-left: 331px;
   object-fit: cover;
   width: 46px;
@@ -752,7 +752,7 @@
   height: 100%;
   max-width: 0;
   transition: 0.5s ease;
-  z-index: 1;
+  z-index: 1000;
   width: 1440px;
   margin-right: auto;
 }
@@ -1185,11 +1185,12 @@ input:focus {outline:none;}
   background-color: rgb(217,217,217,0.1);
 }
 .left-bar-text-58 {
+
   color: var(--white);
-  font-family: var(--font-family-font_awesome_5_free-solid);
-  font-size: var(--font-size-xxl);
-  font-style: normal;
-  font-weight: 400;
+    font-family: var(--font-family-font_awesome_6_free-solid);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 400;
 }
 .left-bar-my-picks {
   color: var(--white);
