@@ -1,0 +1,884 @@
+/* screen - 10-2-recent-records */
+
+.x10-2-recent-records {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 1860px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.x10-2-recent-records .overlap-group-container {
+  height: 207px;
+  position: relative;
+  width: 1444px;
+}
+
+.x10-2-recent-records .checkmovie-container {
+  background-image: url(../img/rectangle-2@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 207px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.x10-2-recent-records .checkmovie {
+  -webkit-text-stroke: 0.15px var(--black-2);
+  left: 452px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 100px #00000040;
+  top: 64px;
+  width: 546px;
+}
+
+.x10-2-recent-records .checkmovie-1 {
+  -webkit-text-stroke: 0.15px var(--black-2);
+  left: 448px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 100px #00000040;
+  top: 64px;
+  width: 546px;
+}
+
+.x10-2-recent-records .overlap-group4 {
+  align-items: flex-start;
+  background-color: var(--iron);
+  display: flex;
+  height: 44px;
+  justify-content: flex-end;
+  left: -2px;
+  min-width: 1444px;
+  padding: 6px 145px;
+  position: absolute;
+  top: -2px;
+}
+
+.x10-2-recent-records .navbar {
+  align-items: flex-start;
+  align-self: center;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 19px;
+  margin-top: 1.0px;
+  min-width: 300px;
+}
+
+.x10-2-recent-records .navbar-link-place {
+  letter-spacing: 0;
+  min-height: 19px;
+  min-width: 42px;
+  text-align: center;
+}
+
+.x10-2-recent-records .navbar-link-login {
+  letter-spacing: 0;
+  margin-left: 43px;
+  min-height: 19px;
+  min-width: 38px;
+  text-align: center;
+}
+
+.x10-2-recent-records .navbar-link-sign-up {
+  letter-spacing: 0;
+  margin-left: 38px;
+  min-height: 19px;
+  min-width: 53px;
+  text-align: center;
+}
+
+.x10-2-recent-records .navbar-link-my-page {
+  letter-spacing: 0;
+  margin-left: 27px;
+  min-height: 19px;
+  min-width: 59px;
+  text-align: center;
+}
+
+.x10-2-recent-records .overlap-group {
+  align-items: flex-start;
+  background-color: var(--mischka);
+  border-radius: 5px;
+  display: flex;
+  height: 31px;
+  justify-content: flex-end;
+  margin-left: 496px;
+  min-width: 332px;
+  padding: 6px 10px;
+}
+
+.x10-2-recent-records .text-115 {
+  letter-spacing: 0;
+  min-height: 14px;
+  text-align: center;
+  width: 37px;
+}
+
+.x10-2-recent-records .left_-bar {
+  align-items: flex-start;
+  display: flex;
+  min-width: 1450px;
+}
+
+.x10-2-recent-records .overlap-group2 {
+  align-items: center;
+  background-image: url(../img/rectangle-3@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  min-width: 1440px;
+  padding: 0 65px;
+}
+
+.x10-2-recent-records .overlap-group-1 {
+  align-items: center;
+  background-color: var(--blue-zodiac-2);
+  display: flex;
+  height: 70px;
+  min-width: 70px;
+  padding: 0 17px;
+}
+
+.x10-2-recent-records .text-114 {
+  letter-spacing: 0;
+  min-height: 40px;
+  min-width: 35px;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.x10-2-recent-records .check-movie-1 {
+  letter-spacing: 0;
+  margin-bottom: 6.0px;
+  margin-left: 132px;
+  min-height: 40px;
+  min-width: 170px;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.x10-2-recent-records .recommend {
+  letter-spacing: 0;
+  margin-bottom: 6.0px;
+  margin-left: 125px;
+  min-height: 40px;
+  min-width: 166px;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.x10-2-recent-records .my-book {
+  letter-spacing: 0;
+  margin-bottom: 6.0px;
+  margin-left: 149px;
+  min-height: 40px;
+  min-width: 116px;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.x10-2-recent-records .shop {
+  letter-spacing: 0;
+  margin-left: 208px;
+  min-height: 40px;
+  min-width: 66px;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.x10-2-recent-records .overlap-group11 {
+  height: 1583px;
+  position: relative;
+  width: 1442px;
+}
+
+.x10-2-recent-records .overlap-group10 {
+  height: 1583px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1442px;
+}
+
+.x10-2-recent-records .overlap-group-2 {
+  align-items: center;
+  background-color: var(--vulcan);
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 300px;
+  position: absolute;
+  top: 1283px;
+  width: 1440px;
+}
+
+.x10-2-recent-records .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 168px;
+  margin-right: 64.0px;
+  margin-top: 51px;
+  min-width: 1016px;
+}
+
+.x10-2-recent-records .check-movie-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 168px;
+  width: 214px;
+}
+
+.x10-2-recent-records .check-movie-3 {
+  letter-spacing: 0;
+  line-height: 24px;
+  min-height: 24px;
+  min-width: 137px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x10-2-recent-records .domestic {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 101px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x10-2-recent-records .overseas {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 96px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x10-2-recent-records .recommend-result {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 206px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x10-2-recent-records .my-book-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 215px;
+  min-height: 168px;
+  width: 284px;
+}
+
+.x10-2-recent-records .my-book-2 {
+  letter-spacing: 0;
+  line-height: 24px;
+  min-height: 24px;
+  min-width: 93px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x10-2-recent-records .my-page {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 90px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x10-2-recent-records .recommended-books {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 228px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x10-2-recent-records .resently-searched-movies {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 276px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x10-2-recent-records .shop-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 215px;
+  min-height: 168px;
+  width: 88px;
+}
+
+.x10-2-recent-records .shop-2 {
+  letter-spacing: 0;
+  line-height: 24px;
+  min-height: 24px;
+  min-width: 54px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x10-2-recent-records .yes24 {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 62px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x10-2-recent-records .aladin {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 71px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x10-2-recent-records .kyobo {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: 24px;
+  min-height: 24px;
+  min-width: 80px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x10-2-recent-records .overlap-group1 {
+  align-items: center;
+  background-color: var(--vulcan);
+  display: flex;
+  height: 40px;
+  margin-top: 41px;
+  min-width: 1440px;
+  padding: 0 624px;
+}
+
+.x10-2-recent-records .copyright {
+  letter-spacing: 0;
+  line-height: 24px;
+  min-height: 24px;
+  min-width: 187px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x10-2-recent-records .left-bar {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 1284px;
+  position: absolute;
+  top: 0;
+  width: 370px;
+}
+
+.x10-2-recent-records .line-10 {
+  height: 1px;
+  width: 370px;
+}
+
+.x10-2-recent-records .overlap-group5 {
+  height: 1283px;
+  position: relative;
+  width: 381px;
+}
+
+.x10-2-recent-records .overlap-group-3 {
+  height: 1283px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 381px;
+}
+
+.x10-2-recent-records .feature-bg {
+  background-color: var(--black-4);
+  height: 1283px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 370px;
+}
+
+.x10-2-recent-records .left-bar-1 {
+  align-items: center;
+  display: flex;
+  height: 368px;
+  left: 46px;
+  min-width: 335px;
+  position: absolute;
+  top: 151px;
+}
+
+.x10-2-recent-records .text-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 368px;
+  width: 40px;
+}
+
+.x10-2-recent-records .text-116 {
+  letter-spacing: 0;
+  margin-left: 2px;
+  min-height: 37px;
+  min-width: 36px;
+  text-align: center;
+}
+
+.x10-2-recent-records .text-120 {
+  letter-spacing: 0;
+  margin-left: 2px;
+  margin-top: 48px;
+  min-height: 37px;
+  min-width: 32px;
+  text-align: center;
+}
+
+.x10-2-recent-records .text-118 {
+  letter-spacing: 0;
+  margin-left: 4px;
+  margin-top: 46px;
+  min-height: 37px;
+  min-width: 32px;
+  text-align: center;
+}
+
+.x10-2-recent-records .text-117 {
+  letter-spacing: 0;
+  margin-top: 47px;
+  min-height: 32px;
+  min-width: 40px;
+  text-align: center;
+}
+
+.x10-2-recent-records .text-119 {
+  letter-spacing: 0;
+  margin-top: 47px;
+  min-height: 37px;
+  min-width: 40px;
+  text-align: center;
+}
+
+.x10-2-recent-records .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+  margin-top: 1.0px;
+  min-height: 364px;
+  width: 262px;
+}
+
+.x10-2-recent-records .personal-information {
+  letter-spacing: 0;
+  min-height: 32px;
+  text-align: center;
+  width: 262px;
+}
+
+.x10-2-recent-records .security {
+  letter-spacing: 0;
+  margin-right: 11.0px;
+  margin-top: 51px;
+  min-height: 32px;
+  min-width: 95px;
+  text-align: center;
+}
+
+.x10-2-recent-records .recent-records {
+  letter-spacing: 0;
+  margin-right: 2.0px;
+  margin-top: 51px;
+  min-height: 32px;
+  min-width: 172px;
+  text-align: center;
+}
+
+.x10-2-recent-records .users-and-shares {
+  letter-spacing: 0;
+  margin-right: 5.0px;
+  margin-top: 51px;
+  min-height: 32px;
+  min-width: 189px;
+  text-align: center;
+}
+
+.x10-2-recent-records .login {
+  letter-spacing: 0;
+  margin-right: 15.0px;
+  margin-top: 51px;
+  min-height: 32px;
+  min-width: 63px;
+  text-align: center;
+}
+
+.x10-2-recent-records .more {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 46px;
+  min-height: 31px;
+  position: absolute;
+  top: 65px;
+  width: 79px;
+}
+
+.x10-2-recent-records .place {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: 3.06px;
+  min-height: 24px;
+  min-width: 56px;
+  text-align: justify;
+  white-space: nowrap;
+}
+
+.x10-2-recent-records .line-5 {
+  height: 6px;
+  margin-right: 2.0px;
+  margin-top: 4px;
+  width: 83px;
+}
+
+.x10-2-recent-records .line-10-1 {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 1282px;
+  width: 370px;
+}
+
+.x10-2-recent-records .rectangle-33 {
+  height: 74px;
+  left: 0;
+  position: absolute;
+  top: 298px;
+  width: 370px;
+}
+
+.x10-2-recent-records .overlap-group6 {
+  height: 90px;
+  left: 472px;
+  position: absolute;
+  top: 441px;
+  width: 180px;
+}
+
+.x10-2-recent-records .ellipse-21 {
+  background-color: var(--snuff);
+  border-radius: 45px;
+  height: 90px;
+  left: 45px;
+  position: absolute;
+  top: 0;
+  width: 90px;
+}
+
+.x10-2-recent-records .ellipse-20 {
+  background-color: var(--blue-zodiac);
+  border-radius: 45px;
+  height: 90px;
+  left: 90px;
+  mix-blend-mode: hard-light;
+  position: absolute;
+  top: 0;
+  width: 90px;
+}
+
+.x10-2-recent-records .ellipse-20-1 {
+  background-color: var(--cornflower-lilac-2);
+  border-radius: 45px;
+  height: 90px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 90px;
+}
+
+.x10-2-recent-records .record {
+  left: 23px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 15px;
+}
+
+.x10-2-recent-records .x103694_changes_recent_icon-1 {
+  height: 300px;
+  left: 465px;
+  object-fit: cover;
+  position: absolute;
+  top: 79px;
+  width: 300px;
+}
+
+.x10-2-recent-records .security-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 815px;
+  min-height: 246px;
+  position: absolute;
+  top: 114px;
+  width: 572px;
+}
+
+.x10-2-recent-records .overlap-group7 {
+  height: 131px;
+  margin-right: 4.0px;
+  position: relative;
+  width: 486px;
+}
+
+.x10-2-recent-records .rectangle-31 {
+  background-color: var(--mischka);
+  height: 27px;
+  left: 61px;
+  position: absolute;
+  top: 104px;
+  width: 363px;
+}
+
+.x10-2-recent-records .rectangle-30 {
+  background-color: var(--mischka);
+  height: 27px;
+  left: 155px;
+  position: absolute;
+  top: 39px;
+  width: 174px;
+}
+
+.x10-2-recent-records .s-recent-records {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 0;
+  width: 486px;
+}
+
+.x10-2-recent-records .text-121 {
+  letter-spacing: 0;
+  margin-right: 4.0px;
+  margin-top: 34px;
+  min-height: 81px;
+  text-align: center;
+  width: 568px;
+}
+
+.x10-2-recent-records .flex-row-1 {
+  align-items: flex-start;
+  background-color: var(--cultured-pearl);
+  border-radius: 10px;
+  display: flex;
+  height: 505px;
+  left: 456px;
+  min-width: 888px;
+  padding: 49px 23px;
+  position: absolute;
+  top: 593px;
+}
+
+.x10-2-recent-records .date-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 402px;
+  width: 221px;
+}
+
+.x10-2-recent-records .date {
+  letter-spacing: 0;
+  min-height: 54px;
+  min-width: 205px;
+  text-align: center;
+}
+
+.x10-2-recent-records .date-1 {
+  letter-spacing: 0;
+  margin-right: 1.0px;
+  margin-top: 33px;
+  min-height: 54px;
+  min-width: 210px;
+  text-align: center;
+}
+
+.x10-2-recent-records .date-2 {
+  letter-spacing: 0;
+  margin-right: 1.0px;
+  margin-top: 33px;
+  min-height: 54px;
+  min-width: 206px;
+  text-align: center;
+}
+
+.x10-2-recent-records .date-3 {
+  letter-spacing: 0;
+  margin-top: 33px;
+  min-height: 54px;
+  min-width: 221px;
+  text-align: center;
+}
+
+.x10-2-recent-records .date-4 {
+  letter-spacing: 0;
+  margin-top: 33px;
+  min-height: 54px;
+  min-width: 219px;
+  text-align: center;
+}
+
+.x10-2-recent-records .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  min-height: 402px;
+  width: 388px;
+}
+
+.x10-2-recent-records .text-122 {
+  letter-spacing: 0;
+  min-height: 54px;
+  min-width: 148px;
+  text-align: center;
+}
+
+.x10-2-recent-records .check-movie {
+  letter-spacing: 0;
+  margin-top: 33px;
+  min-height: 54px;
+  min-width: 307px;
+  text-align: center;
+}
+
+.x10-2-recent-records .check-movie-4 {
+  letter-spacing: 0;
+  margin-top: 33px;
+  min-height: 54px;
+  min-width: 388px;
+  text-align: center;
+}
+
+.x10-2-recent-records .text-123 {
+  letter-spacing: 0;
+  margin-top: 33px;
+  min-height: 54px;
+  min-width: 236px;
+  text-align: center;
+}
+
+.x10-2-recent-records .pagebutton {
+  align-items: flex-start;
+  display: flex;
+  height: 23px;
+  left: 524px;
+  min-width: 726px;
+  position: absolute;
+  top: 1160px;
+}
+
+.x10-2-recent-records .text-124 {
+  letter-spacing: 0;
+  min-height: 23px;
+  min-width: 13px;
+}
+
+.x10-2-recent-records .page-num {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 189px;
+  min-width: 329px;
+}
+
+.x10-2-recent-records .overlap-group-4 {
+  height: 20px;
+  position: relative;
+  width: 19px;
+}
+
+.x10-2-recent-records .view {
+  background-color: var(--tulip-tree);
+  height: 9px;
+  left: 0;
+  position: absolute;
+  top: 11px;
+  width: 19px;
+}
+
+.x10-2-recent-records .number {
+  left: 5px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+}
+
+.x10-2-recent-records .number-1 {
+  letter-spacing: 0;
+  margin-left: 58px;
+  min-height: 20px;
+  width: 14px;
+}
+
+.x10-2-recent-records .number-2 {
+  letter-spacing: 0;
+  margin-left: 62px;
+  min-height: 20px;
+  width: 13px;
+}
+
+.x10-2-recent-records .number-3 {
+  letter-spacing: 0;
+  margin-left: 62px;
+  min-height: 20px;
+  width: 16px;
+}
+
+.x10-2-recent-records .number-4 {
+  color: var(--black);
+  font-family: var(--font-family-font_awesome_6_free-regular);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-left: 62px;
+  min-height: 20px;
+}
+
+.x10-2-recent-records .text-125 {
+  letter-spacing: 0;
+  margin-left: 178px;
+  min-height: 23px;
+}
