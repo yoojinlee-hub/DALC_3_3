@@ -848,7 +848,7 @@
   transition: 0.5s ease;
   z-index: 1000;
   width: 1440px;
-  margin-right: auto;
+
 }
 
 .ham-menu{
@@ -928,7 +928,7 @@
   margin-bottom: 120px;
 }
 
-.ham-menu.recommand-2 {
+.ham-menu .recommand-2 {
   letter-spacing: 0;
   line-height: 24px;
   min-height: 24px;
@@ -937,7 +937,7 @@
   white-space: nowrap;
 }
 
-.ham-menu.recommand-result {
+.ham-menu .recommand-result {
   display:flex;
   letter-spacing: 0;
   line-height: 24px;
@@ -1172,7 +1172,7 @@ input[id=trigger]:checked ~ .overlap-group13 {
   display: block;
   position: relative;
   width: 100%;
-  margin-left:0px;
+  margin-left:-50px;
 }
 
 /* check시 같이 밀려나가는 CSS 햄버거 메뉴 */

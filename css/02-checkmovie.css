@@ -1207,3 +1207,13 @@ input:focus {outline:none;}
     font-style: normal;
     font-weight: 400;
 }
+.text-342 {
+  letter-spacing: 0;
+  min-height: 32px;
+  min-width: 40px;
+  text-align: center;    color: var(--white);
+  font-family: var(--font-family-font_awesome_6_free-solid);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}

@@ -233,7 +233,7 @@
   background-color: #F4F5F7;
   border-radius: 50px;
   height: 1157px;
-  
+
   position: absolute;
   top: 63px;
   width: 960px;
@@ -333,6 +333,7 @@
   position: absolute;
   top: 442px;
 }
+
 .x04-login .text-11 {
   color: var(--black-3);
   font-family: var(--font-family-font_awesome_5_free-solid);
@@ -340,13 +341,15 @@
   font-style: normal;
   font-weight: 400;
 }
-.fa-solid{
+
+.fa-solid {
   color: var(--black-3);
   font-family: var(--font-family-font_awesome_5_free-solid);
   font-size: var(--font-size-xl);
   font-style: normal;
   font-weight: 400;
 }
+
 .x04-login .id {
   color: var(--black-3);
   font-family: var(--font-family-roboto);
@@ -621,16 +624,22 @@
   text-align: justify;
   white-space: nowrap;
 }
+
 /* input */
-.input-box{
+.input-box {
   border: none;
   height: 100%;
   width: 100%;
 }
-input:focus {outline:none;}
-.input-q{
+
+input:focus {
+  outline: none;
+}
+
+.input-q {
   background-color: #CFD8DC;
 }
+
 /*숨겨진 메뉴*/
 .overlap-group13 {
   position: absolute;
@@ -968,6 +977,7 @@ input[id=trigger]:checked~.overlap-group13 {
   width: 100%;
   margin-left: -50px;
 }
+
 .text-33 {
   color: var(--blue-zodiac);
   font-family: var(--font-family-font_awesome_6_free-solid);
@@ -996,4 +1006,72 @@ input[id=trigger]:checked+label[for=trigger] {
 
 .shop:hover {
   color: #FFABAB;
+}
+
+.text-342 {
+  letter-spacing: 0;
+  min-height: 32px;
+  min-width: 40px;
+  text-align: center;
+  color: var(--white);
+  font-family: var(--font-family-font_awesome_6_free-solid);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.left-bartext-64 {
+  letter-spacing: 0;
+  margin-left: 2px;
+
+  min-height: 37px;
+  min-width: 36px;
+  text-align: center;
+  color: var(--white);
+  font-family: var(--font-family-font_awesome_5_free-solid);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+
+}
+
+.left-bartext-68 {
+  letter-spacing: 0;
+  margin-left: 2px;
+
+  min-height: 37px;
+  min-width: 32px;
+  text-align: center;
+  color: var(--white);
+  font-family: var(--font-family-font_awesome_5_free-solid);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.left-bartext-66 {
+  letter-spacing: 0;
+  margin-left: 4px;
+
+  min-height: 37px;
+  min-width: 32px;
+  text-align: center;
+  color: var(--white);
+  font-family: var(--font-family-font_awesome_5_free-solid);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.left-bartext-67 {
+  letter-spacing: 0;
+
+  min-height: 37px;
+  min-width: 40px;
+  text-align: center;
+  color: var(--white);
+  font-family: var(--font-family-font_awesome_5_free-solid);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
 }

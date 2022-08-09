@@ -1126,10 +1126,9 @@
   white-space: nowrap;
 }
 
-.ham-menu.domestic {
+.ham-menu .domestic2 {
   letter-spacing: 0;
   line-height: 24px;
-  margin-right: 18.0px;
   margin-top: 24px;
   min-height: 24px;
   min-width: 101px;
@@ -1137,7 +1136,7 @@
   white-space: nowrap;
 }
 
-.ham-menu.overseas {
+.ham-menu .overseas2 {
   letter-spacing: 0;
   line-height: 24px;
   margin-right: 23.0px;
@@ -1159,7 +1158,7 @@
   margin-bottom: 120px;
 }
 
-.ham-menu.recommand-2 {
+.ham-menu .recommand-2 {
   letter-spacing: 0;
   line-height: 24px;
   min-height: 24px;
@@ -1168,7 +1167,7 @@
   white-space: nowrap;
 }
 
-.ham-menu.recommand-result {
+.ham-menu .recommand-result {
   display: flex;
   letter-spacing: 0;
   line-height: 24px;
@@ -1190,26 +1189,25 @@
   text-align: center;
 }
 
-.ham-menu.my-book-2 {
+.ham-menu .my-book-2 {
   letter-spacing: 0;
   line-height: 24px;
-  margin-right: 9.0px;
+  margin-right: 200px;
   min-height: 24px;
   min-width: 93px;
-  text-align: justify;
   white-space: nowrap;
   text-align: center;
 }
 
-.ham-menu.my-page {
+.ham-menu .my-page {
   letter-spacing: 0;
   line-height: 24px;
   margin-top: 24px;
   min-height: 24px;
   min-width: 90px;
-  text-align: justify;
   white-space: nowrap;
   text-align: center;
+  margin-right: 200px;
 }
 
 .ham-menu .recommended-books {
@@ -1237,29 +1235,32 @@
 
 .ham-menu .shop-1 {
   display: flex;
+  position: absolute;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 14.0px;
-  margin-left: 60px;
+  margin-bottom: 14px;
+  margin-left: 1200px;
   min-height: 174px;
   width: 88px;
   padding-right: 250px;
+  margin-top: -250px;
 }
 
 .ham-menu .shop-2 {
-  letter-spacing: 0;
-  line-height: 24px;
-  margin-right: 8.0px;
-  min-height: 24px;
-  min-width: 54px;
-  text-align: justify;
-  white-space: nowrap;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-right: 210px;
+    margin-top: -10px;
+    min-height: 24px;
+    min-width: 54px;
+    text-align: justify;
+    white-space: nowrap;
 }
 
 .ham-menu .yes24 {
   letter-spacing: 0;
   line-height: 24px;
-  margin-right: 8.0px;
+  margin-left: -30px;
   margin-top: 24px;
   min-height: 24px;
   min-width: 62px;
@@ -1270,7 +1271,7 @@
 .ham-menu .aladin {
   letter-spacing: 0;
   line-height: 24px;
-  margin-right: 9.0px;
+  margin-left: -30px;
   margin-top: 27px;
   min-height: 24px;
   min-width: 71px;
@@ -1281,7 +1282,7 @@
 .ham-menu .kyobo {
   letter-spacing: 0;
   line-height: 24px;
-  margin-right: 8.0px;
+  margin-left: -30px;
   margin-top: 27px;
   min-height: 24px;
   min-width: 80px;

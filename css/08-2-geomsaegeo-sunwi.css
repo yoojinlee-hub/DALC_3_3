@@ -535,11 +535,10 @@
 }
 
 .x08-2-geomsaegeo-sunwi .overlap-group12 {
-  align-self: flex-end;
-  height: 327px;
-  margin-top: 30px;
+  height: 51px;
+  margin-top: 24px;
   position: relative;
-  width: 289px;
+  width: 60px;
 }
 
 .x08-2-geomsaegeo-sunwi .x {
@@ -568,6 +567,7 @@
   text-shadow: 0px 4px 4px #00000040;
   top: 0;
   width: 11px;
+
 }
 
 .x08-2-geomsaegeo-sunwi .ellipse {
@@ -597,6 +597,7 @@
   text-shadow: 0px 4px 4px #00000040;
   top: 0;
   width: 13px;
+
 }
 
 .x08-2-geomsaegeo-sunwi .overlap-group-2 {
@@ -642,7 +643,7 @@
   text-align: center;
   text-shadow: 0px 4px 4px #00000040;
   top: 0;
-  width: 24px;
+  width: 24px;   
 }
 
 .x08-2-geomsaegeo-sunwi .ellipse-15 {
@@ -1645,7 +1646,11 @@ input:focus {
   text-align: center;
   text-shadow: 0px 4px 4px #00000040;
   top: 0;
-  width: 10px;
+  width: 10px; color: var(--blue-zodiac);
+  font-family: var(--font-family-abril_fatface);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .new_ranking .overlap-group100 {
@@ -1670,7 +1675,11 @@ input:focus {
   text-align: center;
   text-shadow: 0px 4px 4px #00000040;
   top: 0;
-  width: 13px;
+  width: 13px; color: var(--blue-zodiac);
+  font-family: var(--font-family-abril_fatface);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .new_ranking .overlap-group13 {
@@ -1688,7 +1697,11 @@ input:focus {
   text-align: center;
   text-shadow: 0px 4px 4px #00000040;
   top: 0;
-  width: 16px;
+  width: 16px; color: var(--blue-zodiac);
+  font-family: var(--font-family-abril_fatface);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .new_ranking .overlap-group17 {
@@ -1714,7 +1727,11 @@ input:focus {
   text-align: center;
   text-shadow: 0px 4px 4px #00000040;
   top: 0;
-  width: 13px;
+  width: 13px;    color: var(--blue-zodiac);
+  font-family: var(--font-family-abril_fatface);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .new_ranking .overlap-group111 {
@@ -1739,7 +1756,11 @@ input:focus {
   text-align: center;
   text-shadow: 0px 4px 4px #00000040;
   top: 0;
-  width: 15px;
+  width: 15px;    color: var(--blue-zodiac);
+  font-family: var(--font-family-abril_fatface);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .new_ranking .overlap-group10 {
@@ -1779,7 +1800,11 @@ input:focus {
   text-align: center;
   text-shadow: 0px 4px 4px #00000040;
   top: 0;
-  width: 16px;
+  width: 16px;    color: var(--blue-zodiac);
+  font-family: var(--font-family-abril_fatface);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .new_ranking .overlap-group1-1 {
@@ -1796,7 +1821,11 @@ input:focus {
   text-align: center;
   text-shadow: 0px 4px 4px #00000040;
   top: 0;
-  width: 54px;
+  width: 54px;    color: var(--blue-zodiac);
+  font-family: var(--font-family-abril_fatface);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .new_ranking .overlap-group-container-2 {
@@ -2032,6 +2061,12 @@ input:focus {
   letter-spacing: 0;
   text-align: center;
   width: 39px;
+  margin-top: -20px;
+  color: var(--black);
+    font-family: var(--font-family-abhaya_libre_semibold-regular);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .new_ranking .text-337 {
@@ -2039,7 +2074,11 @@ input:focus {
   letter-spacing: 0;
   margin-top: 47px;
   text-align: center;
-  width: 39px;
+  width: 39px;color: var(--black);
+  font-family: var(--font-family-abhaya_libre_semibold-regular);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .new_ranking .text-336 {
@@ -2048,7 +2087,11 @@ input:focus {
   margin-top: 53px;
   min-height: 38px;
   text-align: center;
-  width: 30px;
+  width: 30px;color: var(--red);
+  font-family: var(--font-family-font_awesome_5_free-solid);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .new_ranking .text-335 {
@@ -2057,7 +2100,11 @@ input:focus {
   margin-top: 31px;
   min-height: 38px;
   text-align: center;
-  width: 30px;
+  width: 30px;color: var(--red);
+  font-family: var(--font-family-font_awesome_5_free-solid);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .new_ranking .text-334 {
@@ -2066,7 +2113,11 @@ input:focus {
   margin-top: 42px;
   min-height: 38px;
   text-align: center;
-  width: 30px;
+  width: 30px;    color: var(--blue-ribbon);
+  font-family: var(--font-family-font_awesome_5_free-solid);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .new_ranking .text-333 {
@@ -2075,7 +2126,11 @@ input:focus {
   margin-top: 38px;
   min-height: 38px;
   text-align: center;
-  width: 30px;
+  width: 30px;color: var(--red);
+  font-family: var(--font-family-font_awesome_5_free-solid);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .new_ranking .text-332 {
@@ -2083,7 +2138,11 @@ input:focus {
   letter-spacing: 0;
   margin-top: 36px;
   text-align: center;
-  width: 39px;
+  width: 39px;color: var(--black);
+  font-family: var(--font-family-abhaya_libre_semibold-regular);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .new_ranking .text-331 {
@@ -2092,7 +2151,11 @@ input:focus {
   margin-top: 51px;
   min-height: 38px;
   text-align: center;
-  width: 30px;
+  width: 30px;    color: var(--blue-ribbon);
+  font-family: var(--font-family-font_awesome_5_free-solid);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .new_ranking .text-330 {
@@ -2101,7 +2164,11 @@ input:focus {
   margin-top: 36px;
   min-height: 38px;
   text-align: center;
-  width: 30px;
+  width: 30px;    color: var(--red);
+  font-family: var(--font-family-font_awesome_5_free-solid);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .new_ranking .text-329 {
@@ -2110,7 +2177,11 @@ input:focus {
   margin-top: 40px;
   min-height: 38px;
   text-align: center;
-  width: 30px;
+  width: 30px;color: var(--blue-ribbon);
+  font-family: var(--font-family-font_awesome_5_free-solid);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
 }
 
 .new_ranking .rectangle-22 {
@@ -2138,6 +2209,7 @@ input:focus {
   height: 41px;
   position: relative;
   width: 883px;
+  top:-10px;
 }
 
 .new_ranking .men {
@@ -2180,7 +2252,7 @@ input:focus {
 }
 
 .new_ranking .ellipse-23 {
-  background-color: #D9D9D9;
+  background-color: transparent;
   border-radius: 8.5px/9px;
   height: 18px;
   left: 435px;
@@ -2190,7 +2262,7 @@ input:focus {
 }
 
 .new_ranking .ellipse-24 {
-  background-color:  #D9D9D9;
+  background-color:  transparent;
   border-radius: 8.5px/9px;
   height: 18px;
   left: 584px;
@@ -2200,7 +2272,7 @@ input:focus {
 }
 
 .new_ranking .ellipse-25 {
-  background-color:  #D9D9D9;
+  background-color:  transparent;
   border-radius: 8.5px/9px;
   height: 18px;
   left: 286px;
@@ -2232,6 +2304,7 @@ input:focus {
   position: absolute;
   top: 0;
   width: 883px;
+  top:-10px;
 }
 
 .new_ranking .x10s {
@@ -2271,7 +2344,7 @@ input:focus {
 }
 
 .new_ranking .ellipse-30 {
-  background-color:  #D9D9D9;
+  background-color: transparent;
   border-radius: 8.5px/9px;
   height: 18px;
   left: 58px;
@@ -2281,7 +2354,7 @@ input:focus {
 }
 
 .new_ranking .ellipse-27 {
-  background-color: #D9D9D9;
+  background-color: transparent;
   border-radius: 8.5px/9px;
   height: 18px;
   left: 814px;
@@ -2291,7 +2364,7 @@ input:focus {
 }
 
 .new_ranking .ellipse-23-1 {
-  background-color:  #D9D9D9;
+  background-color: transparent;
   border-radius: 8.5px/9px;
   height: 18px;
   left: 184px;
@@ -2301,7 +2374,7 @@ input:focus {
 }
 
 .new_ranking .ellipse-24-1 {
-  background-color:  #D9D9D9;
+  background-color: transparent;
   border-radius: 8.5px/9px;
   height: 18px;
   left: 310px;
@@ -2311,7 +2384,7 @@ input:focus {
 }
 
 .new_ranking .ellipse-25-1 {
-  background-color:  #D9D9D9;
+  background-color: transparent;
   border-radius: 8.5px/9px;
   height: 18px;
   left: 436px;
@@ -2321,7 +2394,7 @@ input:focus {
 }
 
 .new_ranking .ellipse-26 {
-  background-color:  #D9D9D9;
+  background-color: transparent;
   border-radius: 8.5px/9px;
   height: 18px;
   left: 688px;
@@ -2344,7 +2417,7 @@ input:focus {
 }
 
 .new_ranking .ellipse-31 {
-  background-color: var(--tulip-tree);
+  background-color: transparent;
   border-radius: 3.5px;
   height: 7px;
   left: 63px;
@@ -2358,17 +2431,17 @@ input:focus {
   letter-spacing: 0;
   position: absolute;
   text-align: center;
-  top: 1px;
+  top: -10px;
   width: 47px;
 }
 
 .new_ranking .ellipse-33 {
-  background-color:  #D9D9D9;
+  background-color: transparent;
   border-radius: 8.5px/9px;
   height: 18px;
   left: 562px;
   position: absolute;
-  top: 23px;
+  top: 5px;
   width: 17px;
 }
 
@@ -2377,6 +2450,26 @@ input:focus {
   letter-spacing: 0;
   position: absolute;
   text-align: center;
-  top: 1px;
+  top: -20px;
   width: 47px;
+}
+
+/*라디오 체크박스 디자인*/
+/*https://jasontody.tistory.com/218*/
+.input_radio{
+  accent-color:#F3B743;
+  height:80px;
+  width: 80px;
+}
+.input_radio input[type="radio"]+ label:before{
+  background-color: #CFD8DC;
+  border-color: transparent;
+  cursor:pointer;
+
+  background-color: #CFD8DC;
+  border-color: transparent;
+}
+.input_radio input[type="radio"]:checked+ label:after{
+  background-color: #CFD8DC;
+  border-color: transparent;
 }
