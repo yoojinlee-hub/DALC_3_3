@@ -706,14 +706,14 @@
   width: 641px;
 }
 
-.x06mybook .rectangle-30-1 {
+.rectangle-30-1 {
   background-color: var(--mischka);
   height: 25px;
-  left: 62px;
+  left: 70px;
   position: absolute;
   top: 40px;
   width: 521px;
-  z-index: 5;
+  z-index:0;
 }
 
 .x06mybook .a-list-of {
