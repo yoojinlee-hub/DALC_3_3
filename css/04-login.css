@@ -236,7 +236,7 @@
 
   position: absolute;
   top: 63px;
-  width: 960px;
+  width: 1000px;
   margin-left: 430px;
 }
 
@@ -247,7 +247,7 @@
 
   position: absolute;
   top: 1110px;
-  width: 960px;
+  width: 1000px;
   margin-left: 430px;
 }
 
@@ -298,7 +298,7 @@
   position: absolute;
   top: 20px;
   width: 1000px;
-  left: 410px;
+  left: 430px;
 }
 
 .x04-login .dont-have-an-account-create-one-now {
@@ -333,7 +333,7 @@
   border-radius: 8px;
   display: flex;
   height: 99px;
-  left: 500px;
+  left: 530px;
   width: 800px;
   padding: 0 25px;
   position: absolute;
@@ -370,7 +370,7 @@
   border-radius: 8px;
   display: flex;
   height: 99px;
-  left: 500px;
+  left: 530px;
   width: 800px;
   padding: 30px 29px;
   position: absolute;
@@ -401,7 +401,7 @@
     display: flex;
     height: 99px;
     justify-content: flex-end;
-    left: 465px;
+    left: 485px;
     width: 200px;
     padding: 0 442px;
     position: absolute;

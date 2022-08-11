@@ -226,7 +226,7 @@
   height: 1157px;
   position: absolute;
   top: 63px;
-  width: 960px;
+  width: 1000px;
   margin-left: 430px;
 }
 
@@ -237,7 +237,7 @@
 
   position: absolute;
   top: 1110px;
-  width: 960px;
+  width: 1000px;
   margin-left: 430px;
 }
 
@@ -258,21 +258,22 @@
   color: var(--yellow);
 }
 
-    .x05-signup .span0-1 .login-btn {
-        border-color: var(--yellow);
-        background-color: var(--yellow);
-    }
+.login-btn {
+     border-color: transparent;
+     width: 800px;
+      background-color: var(--yellow);
+}
 
 .x05-signup .mask-group {
   height: 198px;
   position: absolute;
   top: 20px;
   width: 1000px;
-  left: 410px;
+  left: 430px;
 }
 
 .signup_input {
-  margin-left: 250px;
+  margin-left: 270px;
 }
 
 .x05-signup .overlap-group6 {
@@ -317,7 +318,7 @@
     display: flex;
     height: 99px;
     justify-content: flex-end;
-    left: 465px;
+    left: 485px;
     width: 600px;
     padding: 0 442px;
     position: absolute;
@@ -408,7 +409,7 @@
   display: flex;
   height: 99px;
   justify-content: flex-end;
-  left: 820px;
+  left: 850px;
   min-width: 500px;
   position: absolute;
   top: 441px;

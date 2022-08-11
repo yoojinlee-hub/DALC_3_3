@@ -74,14 +74,19 @@
   padding: 6px 10px;
   border: 3px solid #1F274E;
   border-radius: 5px;
+
+  position: absolute;
 }
 .x01-main .navbar {
-  align-items: flex-start;
-  
+  align-items: flex-end;
+  background-color: var(--iron);
   display: flex;
-  height: 19px;
-  margin-top: 1.0px;
-  min-width: 300px;
+  height: 44px;
+  left: -2px;
+  min-width: 1444px;
+  padding: 12px 171px;
+  position: absolute;
+  top: -2px;
 }
 
 .x01-main .navbar-link-place {
@@ -117,6 +122,7 @@
   min-width: 59px;
   text-align: center;
   text-shadow: 0px 4px 4px #00000040;
+  color: #991E1ED9;
 }
 
 .x01-main .overlap-group3 {

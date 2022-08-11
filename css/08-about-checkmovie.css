@@ -68,7 +68,7 @@
 
   display: flex;
   height: 19px;
-  margin-top: 1.0px;
+  margin-top:4.0px;
   min-width: 300px;
 }
 
@@ -1780,6 +1780,7 @@ input:focus {outline:none;}
   padding-left: 20px;
   top: 161px;
   z-index: 50;
+  background-color: rgb(217,217,217,0.1);
 }
 .left-bar-view:hover{
   background-color: rgb(217,217,217,0.1);

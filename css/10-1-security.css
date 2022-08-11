@@ -67,7 +67,7 @@
 
   display: flex;
   height: 19px;
-  margin-top: 1.0px;
+  margin-top: 4.0px;
   min-width: 300px;
 }
 
@@ -103,6 +103,10 @@
   min-height: 19px;
   min-width: 59px;
   text-align: center;
+  font-weight: 700;
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-s);
+  font-style: normal;  text-shadow: 0px 4px 4px #00000040;
 }
 
 .x10-1-security .overlap-group {
@@ -459,7 +463,9 @@
   font-weight: 400;
   margin-top: 25px;
 }
-
+.left-bar2{
+  background-color: rgb(217, 217, 217, 0.1);
+}
 .x10-1-security .text-68 {
   letter-spacing: 0;
   margin-left: 2px;

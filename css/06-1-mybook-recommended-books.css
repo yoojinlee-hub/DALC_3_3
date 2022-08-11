@@ -64,10 +64,9 @@
 
 .x06-1-mybook-recommended-books .navbar {
   align-items: flex-start;
-
   display: flex;
   height: 19px;
-  margin-top: 1.0px;
+  margin-top: 6px;
   min-width: 300px;
 }
 

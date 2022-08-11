@@ -15,7 +15,17 @@
   position: relative;
   width: 1444px;
 }
-
+.text-342{
+  letter-spacing: 0;
+    min-height: 32px;
+    min-width: 40px;
+    text-align: center;
+    color: var(--white);
+    font-family: var(--font-family-font_awesome_6_free-solid);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 400;
+}
 .x07-shop .checkmovie-container {
   background-image: url(../img/rectangle-2@1x.png);
   background-position: 50% 50%;
@@ -67,7 +77,7 @@
 
   display: flex;
   height: 19px;
-  margin-top: 1.0px;
+  margin-top: 4px;
   min-width: 300px;
 }
 
@@ -293,7 +303,9 @@
   font-style: normal;
   font-weight: 400;
 }
-
+.left-bar-view-4{
+  background-color: rgb(217,217,217,0.1);
+}
 .x07-shop .text-77 {
   letter-spacing: 0;
   margin-left: 63px;
@@ -917,10 +929,10 @@
   background-color: var(--vulcan);
   display: flex;
   flex-direction: column;
-  left: 0;
+  left: -1300px;
   min-height: 300px;
   position: absolute;
-  top: 0;
+  top: 1283px;
   width: 1440px;
 }
 

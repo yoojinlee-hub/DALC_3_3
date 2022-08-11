@@ -743,14 +743,23 @@
 }
 
 /*swiper*/
-.swiper {
+.swiper-domestic {
   width: 480px;
   height: 640px;
   display: flex;
   margin-top: 200px;
+  margin-left: 100px;
   left: -30px;
 }
-
+.swiper-abroad{
+  width: 480px;
+  height: 640px;
+  display: flex;
+  margin-top: 200px;
+  margin-left: 100px;
+  left: -30px;
+  display: none;
+}
 .swiper-slide {
   display: flex;
   align-items: center;
@@ -1216,4 +1225,55 @@ input:focus {outline:none;}
   font-size: var(--font-size-xl);
   font-style: normal;
   font-weight: 400;
+}
+
+
+/* input[id=trigger]가 체크되었을 때 사이드바가 나오는 형제 인접자 */
+input[id=trigger]:checked~.overlap-group13 {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin-left:-50px;
+}
+
+/* check시 같이 밀려나가는 CSS 햄버거 메뉴 */
+input[id=trigger]:checked+label[for=trigger] {
+  transition: 0.2s;
+}
+
+/*글자 hover시에 색 바뀌게*/
+.check-movie:hover {
+  color: #FFABAB;
+}
+
+.recommand:hover {
+  color: #FFABAB;
+}
+
+.my-book:hover {
+  color: #FFABAB;
+}
+
+.shop:hover {
+  color: #FFABAB;
+}
+/*domestic and abroad*/
+.domestic_button{
+    position:absolute;
+    width: 480px;
+    top: 100px;
+    left: 420px;
+    position: absolute;
+    height: 200px;
+    border-top-left-radius: 10px;
+}
+.abroad_button{
+  position:absolute;
+  width: 480px;
+  top: 100px;
+  left: 950px;
+  position: absolute;
+  height: 200px;
+  border-top-left-radius: 10px;
+  z-index: 2;
 }
