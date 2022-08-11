@@ -1,0 +1,13 @@
+button {
+	background-color: white;
+	padding: 0;
+	border: 0;
+	outline: none;
+	height: 60px;
+}
+
+	button:active {
+		margin-left: 5px;
+		margin-top: 5px;
+		box-shadow: none;
+	}

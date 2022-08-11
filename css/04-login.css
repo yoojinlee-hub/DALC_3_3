@@ -313,12 +313,18 @@
   top: 1145px;
 }
 
+    .x04-login .dont-have-an-account-create-one-now .login-btn {
+        text-align: center;
+        border-color: var(--yellow);
+        background-color: var(--yellow);
+    }
+
 .x04-login .span0-1 {
-  color: var(--white);
+    color: var(--white);
 }
 
 .x04-login .span1 {
-  color: var(--old-brick);
+  color: var(--yellow);
 }
 
 .x04-login .overlap-group5 {
@@ -389,18 +395,24 @@
 }
 
 .x04-login .overlap-group7 {
-  align-items: center;
-  background-color: #991f1fb2;
-  border-radius: 8px;
-  display: flex;
-  height: 99px;
-  justify-content: flex-end;
-  left: 465px;
-  width: 200px;
-  padding: 0 442px;
-  position: absolute;
-  top: 731px;
+    align-items: center;
+    background-color: var(--old-brick);
+    border-radius: 8px;
+    display: flex;
+    height: 99px;
+    justify-content: flex-end;
+    left: 465px;
+    width: 200px;
+    padding: 0 442px;
+    position: absolute;
+    top: 731px;
 }
+
+    .x04-login .overlap-group7 .login-btn {
+        border-color: var(--old-brick);
+        background-color: var(--old-brick);
+        text-align: center;
+    }
 
 .x04-login .sign-in {
   color: var(--white);
