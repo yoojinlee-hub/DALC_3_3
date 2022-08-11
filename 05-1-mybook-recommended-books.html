@@ -2,226 +2,222 @@
 <html>
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="description" content="This site was generated with Anima. www.animaapp.com" />
-  <link rel="shortcut icon" type=image/png href=https://animaproject.s3.amazonaws.com/home/favicon.png />
-  <meta name="viewport" content="width=1440, maximum-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
-  <meta name="og:type" content="website" />
-  <meta name="twitter:card" content="photo" />
-  <link rel="stylesheet" type="text/css" href="css/06-1-mybook-recommended-books.css" />
-  <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
-  <link rel="stylesheet" type="text/css" href="css/globals.css" />
-  <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <meta charset="utf-8" />
+    <meta name="description" content="This site was generated with Anima. www.animaapp.com" />
+    <link rel="shortcut icon" type=image/png href=https://animaproject.s3.amazonaws.com/home/favicon.png />
+    <meta name="viewport" content="width=1440, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/06-1-mybook-recommended-books.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <link rel="stylesheet" type="text/css" href="css/form.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
-  <!-- Demo styles -->
-  <!-- 다른곳에 옮기면 오류발생 -->
-  <style>
-    /*swiper*/
-    .swiper {
-      width: 100%;
-      height: 100%;
-      overflow: visible;
-      margin-top: 400px;
-      z-index: 0;
-    }
+    <!-- Demo styles -->
+    <!-- 다른곳에 옮기면 오류발생 -->
+    <style>
 
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-      margin-top: auto;
-      margin-bottom: auto;
-      /* Center slide text vertically */
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      -webkit-justify-content: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      align-items: center;
-    }
+        /*swiper*/
+        .swiper {
+            width: 100%;
+            height: 100%;
+            overflow: visible;
+            margin-top: 400px;
+            z-index: 0;
+        }
 
-    .swiper-slide img {
-      display: block;
-      width: 190.49px;
-      height: 265.23;
-      object-fit: cover;
-    }
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            margin-top: auto;
+            margin-bottom: auto;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
 
-    .swiper-slide {
-      width: 201.49px;
-      height: 265.23;
+            .swiper-slide img {
+                display: block;
+                width: 190.49px;
+                height: 265.23;
+                object-fit: cover;
+            }
 
-    }
+        .swiper-slide {
+            width: 201.49px;
+            height: 265.23;
+        }
 
-    .swiper-img {}
+        .swiper-img {
+        }
 
-    .explain {
-      display: none;
-    }
+        .explain {
+            display: none;
+        }
 
-    .swiper-slide-next {
-      background-color: antiquewhite;
-      width: 201.49px;
-      height: 265.23;
-      margin-left: 10px;
-    }
+        .swiper-slide-next {
+            background-color: antiquewhite;
+            width: 201.49px;
+            height: 265.23;
+            margin-left: 10px;
+        }
 
-    .swiper-slide-prev {
-      background-color: antiquewhite;
-      width: 201.49px;
-      height: 265.23;
-      margin-right: 10px;
-    }
+        .swiper-slide-prev {
+            background-color: antiquewhite;
+            width: 201.49px;
+            height: 265.23;
+            margin-right: 10px;
+        }
 
-    .swiper-slide-active {
-      height: 70%;
-      overflow: visible;
-    }
+        .swiper-slide-active {
+            height: 70%;
+            overflow: visible;
+        }
 
-    .swiper-slide-active .explain {
-      position: absolute;
-      display: block;
-      background-color: #F4F5F7;
-      margin-top: 90%;
-      width: 714px;
-      height: 859.4px;
-      z-index: 1;
-      /*animation*/
-      animation: fadein 0.7s;
-      -moz-animation: fadein 0.7s;
-      /* Firefox */
-      -webkit-animation: fadein 0.7s;
-      /* Safari and Chrome */
-      -o-animation: fadein 0.7s;
-      /* Opera */
-      animation-fill-mode: forwards;
-    }
+            .swiper-slide-active .explain {
+                position: absolute;
+                display: block;
+                background-color: #F4F5F7;
+                margin-top: 90%;
+                width: 714px;
+                height: 859.4px;
+                z-index: 1;
+                /*animation*/
+                animation: fadein 0.7s;
+                -moz-animation: fadein 0.7s;
+                /* Firefox */
+                -webkit-animation: fadein 0.7s;
+                /* Safari and Chrome */
+                -o-animation: fadein 0.7s;
+                /* Opera */
+                animation-fill-mode: forwards;
+            }
 
-    .swiper-slide-active .swiper-img {
-      width: 507px;
-      height: 700px;
-      margin-bottom: 30%;
-      z-index: 2;
-      position: absolute;
-      border: 3px solid #999;
-      /*animation*/
-      animation: fadein 0.7s;
-      -moz-animation: fadein 0.7s;
-      /* Firefox */
-      -webkit-animation: fadein 0.7s;
-      /* Safari and Chrome */
-      -o-animation: fadein 0.7s;
-      /* Opera */
-      animation-fill-mode: forwards;
-    }
+            .swiper-slide-active .swiper-img {
+                width: 507px;
+                height: 700px;
+                margin-bottom: 30%;
+                z-index: 2;
+                position: absolute;
+                border: 3px solid #999;
+                /*animation*/
+                animation: fadein 0.7s;
+                -moz-animation: fadein 0.7s;
+                /* Firefox */
+                -webkit-animation: fadein 0.7s;
+                /* Safari and Chrome */
+                -o-animation: fadein 0.7s;
+                /* Opera */
+                animation-fill-mode: forwards;
+            }
 
-    /*swiper animation*/
-    @keyframes fadeout {
-      from {
-        opacity: 1;
-      }
+        /*swiper animation*/
+        @keyframes fadeout {
+            from {
+                opacity: 1;
+            }
 
-      to {
-        opacity: 0;
-      }
-    }
+            to {
+                opacity: 0;
+            }
+        }
 
-    @-moz-keyframes fadeout {
+        @-moz-keyframes fadeout {
+            /* Firefox */
+            from {
+                opacity: 1;
+            }
 
-      /* Firefox */
-      from {
-        opacity: 1;
-      }
+            to {
+                opacity: 0;
+            }
+        }
 
-      to {
-        opacity: 0;
-      }
-    }
+        @-webkit-keyframes fadeout {
+            /* Safari and Chrome */
+            from {
+                opacity: 1;
+            }
 
-    @-webkit-keyframes fadeout {
+            to {
+                opacity: 0;
+            }
+        }
 
-      /* Safari and Chrome */
-      from {
-        opacity: 1;
-      }
+        @-o-keyframes fadeout {
+            /* Opera */
+            from {
+                opacity: 1;
+            }
 
-      to {
-        opacity: 0;
-      }
-    }
+            to {
+                opacity: 0;
+            }
+        }
 
-    @-o-keyframes fadeout {
+        @keyframes fadein {
+            from {
+                opacity: 0;
+            }
 
-      /* Opera */
-      from {
-        opacity: 1;
-      }
+            to {
+                opacity: 1;
+            }
+        }
 
-      to {
-        opacity: 0;
-      }
-    }
+        @-moz-keyframes fadein {
+            /* Firefox */
+            from {
+                opacity: 0;
+            }
 
-    @keyframes fadein {
-      from {
-        opacity: 0;
-      }
+            to {
+                opacity: 1;
+            }
+        }
 
-      to {
-        opacity: 1;
-      }
-    }
+        @-webkit-keyframes fadein {
+            /* Safari and Chrome */
+            from {
+                opacity: 0;
+            }
 
-    @-moz-keyframes fadein {
+            to {
+                opacity: 1;
+            }
+        }
 
-      /* Firefox */
-      from {
-        opacity: 0;
-      }
+        @-o-keyframes fadein {
+            /* Opera */
+            from {
+                opacity: 0;
+            }
 
-      to {
-        opacity: 1;
-      }
-    }
-
-    @-webkit-keyframes fadein {
-
-      /* Safari and Chrome */
-      from {
-        opacity: 0;
-      }
-
-      to {
-        opacity: 1;
-      }
-    }
-
-    @-o-keyframes fadein {
-
-      /* Opera */
-      from {
-        opacity: 0;
-      }
-
-      to {
-        opacity: 1;
-      }
-    }
-  </style>
-  <script type="text/javascript" src="js/change_stars_books.js"></script>
-  <script type="text/javascript" src="js/change_stars_books2.js"></script>
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+    <script type="text/javascript" src="js/change_stars_books.js"></script>
+    <script type="text/javascript" src="js/change_stars_books2.js"></script>
 </head>
 
 <body style="margin: 0; background: #ffffff">
-    <form action="#" accept-charset="utf-8" name="mybook-recommended-books" method="get">
+    <form class="checkmovie_form" action="#" accept-charset="utf-8" name="mybook-recommended-books" method="get">
         <input type="hidden" id="anPageName" name="page" value="06-1-mybook-recommended-books" />
         <div class="container-center-horizontal">
             <div class="x06-1-mybook-recommended-books screen">

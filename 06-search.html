@@ -2,60 +2,61 @@
 <html>
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="description" content="This site was generated with Anima. www.animaapp.com" />
-  <link rel="shortcut icon" type=image/png href=https://animaproject.s3.amazonaws.com/home/favicon.png />
-  <meta name="viewport" content="width=1440, maximum-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
-  <meta name="og:type" content="website" />
-  <meta name="twitter:card" content="photo" />
-  <link rel="stylesheet" type="text/css" href="css/06-search.css" />
-  <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
-  <link rel="stylesheet" type="text/css" href="css/globals.css" />
-  <script>
-    function count(type) {
-      // 결과를 표시할 element
-      const resultElement = document.getElementById('pages');
-      const resultElement1 = document.getElementById('pages1');
-      const resultElement2 = document.getElementById('pages2');
-      const resultElement3 = document.getElementById('pages3');
-      const resultElement4 = document.getElementById('pages4');
-      // 현재 화면에 표시된 값
-      let number = resultElement.innerText;
-      let number1 = resultElement1.innerText;
-      let number2 = resultElement2.innerText;
-      let number3 = resultElement3.innerText;
-      let number4 = resultElement4.innerText;
-      // 더하기/빼기
-      if (type === 'plus') {
+    <meta charset="utf-8" />
+    <meta name="description" content="This site was generated with Anima. www.animaapp.com" />
+    <link rel="shortcut icon" type=image/png href=https://animaproject.s3.amazonaws.com/home/favicon.png />
+    <meta name="viewport" content="width=1440, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/06-search.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <link rel="stylesheet" type="text/css" href="css/form.css" />
+    <script>
+        function count(type) {
+        // 결과를 표시할 element
+        const resultElement = document.getElementById('pages');
+        const resultElement1 = document.getElementById('pages1');
+        const resultElement2 = document.getElementById('pages2');
+        const resultElement3 = document.getElementById('pages3');
+        const resultElement4 = document.getElementById('pages4');
+        // 현재 화면에 표시된 값
+        let number = resultElement.innerText;
+        let number1 = resultElement1.innerText;
+        let number2 = resultElement2.innerText;
+        let number3 = resultElement3.innerText;
+        let number4 = resultElement4.innerText;
+        // 더하기/빼기
+        if (type === 'plus') {
         number = parseInt(number) + 5;
         number1 = parseInt(number1) + 5;
         number2 = parseInt(number2) + 5;
         number3 = parseInt(number3) + 5;
         number4 = parseInt(number4) + 5;
-      } else if (type === 'minus') {
+        } else if (type === 'minus') {
         if(number >= 1 && number1 >= 1 && number2 >= 1 && number3 >= 1 && number4 >= 1){
-          number = parseInt(number) - 5;
-          number1 = parseInt(number1) - 5;
-          number2 = parseInt(number2) - 5;
-          number3 = parseInt(number3) - 5;
-          number4 = parseInt(number4) - 5;
+        number = parseInt(number) - 5;
+        number1 = parseInt(number1) - 5;
+        number2 = parseInt(number2) - 5;
+        number3 = parseInt(number3) - 5;
+        number4 = parseInt(number4) - 5;
         }
-        
-      }
 
-      // 결과 출력
-      resultElement.innerText = number;
-      resultElement1.innerText = number1;
-      resultElement2.innerText = number2;
-      resultElement3.innerText = number3;
-      resultElement4.innerText = number4;
-    }
-  </script>
+        }
+
+        // 결과 출력
+        resultElement.innerText = number;
+        resultElement1.innerText = number1;
+        resultElement2.innerText = number2;
+        resultElement3.innerText = number3;
+        resultElement4.innerText = number4;
+        }
+    </script>
 </head>
 
 <body style="margin: 0; background: #ffffff">
-    <form action="#" accept-charset="utf-8" name="search" method="get">
+    <form class="checkmovie_form" action="#" accept-charset="utf-8" name="search" method="get">
         <input type="hidden" id="anPageName" name="page" value="06-search" />
         <div class="container-center-horizontal">
             <div class="x06-search screen">
