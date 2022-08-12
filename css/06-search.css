@@ -1925,3 +1925,225 @@ input:focus {outline:none;}
 
   position: absolute;
 }
+/*************************************************************************/
+  /*************************************************************************/
+  /*click event*/
+  .overlap-group-33 {
+    height: 20px;
+      position: absolute;
+      width: 509px;
+      margin-left: 250px;
+    }
+    
+  .view-0 {
+    background-color: transparent;
+    height: 9px;
+  
+    margin-left: 75px;
+    position: absolute;
+    top: 11px;
+    width: 19px;
+    z-index: 20;
+  }
+  input[type='radio'] {
+    appearance: none;
+  }
+  .view2 {
+    background-color: transparent;
+    height: 9px;
+  
+    margin-left: 75px;
+    position: absolute;
+    top: 11px;
+    width: 19px;
+    z-index: 20;
+  }
+  
+  .view3 {
+    background-color: transparent;
+    height: 9px;
+    margin-left: 155px;
+    position: absolute;
+    top: 11px;
+    width: 19px; z-index: 20;
+  }
+  
+  .view4 {
+    background-color: transparent;
+    height: 9px;
+    margin-left: 235px;
+    position: absolute;
+    top: 11px;
+    width: 19px; z-index: 20;
+  }
+  
+  .view5 {
+    background-color: transparent;
+    height: 9px;
+    margin-left: 330px;
+    position: absolute;
+    top: 11px;
+    width: 19px; z-index: 20;
+  }
+
+
+.labelBtn {
+  width: 50px;
+  height: 50px;
+  color: transparent;  margin-top:-5px;
+  margin-left: -20px;  cursor: pointer;
+}
+
+.labelBtn2 {
+  cursor: pointer;
+
+  width: 50px; position: absolute;
+  height: 50px;
+  margin-top:-5px;
+  margin-left: 30px;
+   color: transparent;
+}
+
+.labelBtn3 {
+  cursor: pointer;
+
+  width: 50px;position: absolute;
+  height: 50px;
+color: transparent;
+  margin-left: 110px;   
+  margin-top:-5px;
+}
+
+.labelBtn4 {
+  cursor: pointer;
+  margin-top:-5px;
+  width: 50px;position: absolute;
+  height: 50px;
+color: transparent;
+  margin-left: 190px;   
+}
+
+.labelBtn5 {
+  cursor: pointer;
+
+  width: 50px;position: absolute;
+  height: 50px;color: transparent;
+  margin-top:-5px;
+  margin-left: 280px;  
+}
+
+input[for=menuBtn]:checked~.view {
+  background-color: rgb(243, 183, 67, 0.8);
+}
+input[for=menuBtn]:checked~.view2 {
+  background-color: transparent;
+}
+input[for=menuBtn]:checked~.view3 {
+  background-color: transparent;
+}
+input[for=menuBtn]:checked~.view4 {
+  background-color: transparent;
+}
+input[for=menuBtn]:checked~.view5 {
+  background-color: transparent;
+}
+
+input[for=menuBtn2]:checked~.view {
+  background-color: transparent;
+}
+input[for=menuBtn2]:checked~.view2 {
+  background-color: rgb(243, 183, 67, 0.8);
+}
+input[for=menuBtn2]:checked~.view3 {
+  background-color: transparent;
+}
+input[for=menuBtn2]:checked~.view4 {
+  background-color: transparent;
+}
+input[for=menuBtn2]:checked~.view5 {
+  background-color: transparent;
+}
+
+input[for=menuBtn3]:checked~.view {
+  background-color: transparent;
+}
+input[for=menuBtn3]:checked~.view2 {
+  background-color: transparent;
+}
+input[for=menuBtn3]:checked~.view3 {
+  background-color: rgb(243, 183, 67, 0.8);
+}
+input[for=menuBtn3]:checked~.view4 {
+  background-color: transparent;
+}
+input[for=menuBtn3]:checked~.view5 {
+  background-color: transparent;
+}
+
+input[for=menuBtn4]:checked~.view {
+  background-color: transparent;
+}
+input[for=menuBtn4]:checked~.view2 {
+  background-color: transparent;
+}
+input[for=menuBtn4]:checked~.view3 {
+  background-color: transparent;
+}
+input[for=menuBtn4]:checked~.view4 {
+  background-color: rgb(243, 183, 67, 0.8);
+}
+input[for=menuBtn4]:checked~.view5 {
+  background-color: transparent;
+}
+
+input[for=menuBtn5]:checked~.view {
+  background-color: transparent;
+}
+input[for=menuBtn5]:checked~.view2 {
+  background-color: transparent;
+}
+input[for=menuBtn5]:checked~.view3 {
+  background-color: transparent;
+}
+input[for=menuBtn5]:checked~.view4 {
+  background-color: transparent;
+}
+input[for=menuBtn5]:checked~.view5 {
+  background-color: rgb(243, 183, 67, 0.8);
+}
+  
+.number {
+  left: 5px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+}
+.number-1 {
+  margin-left: 80px;
+letter-spacing: 0;
+position: absolute;
+top: 0;
+}
+.number-2 {
+  margin-left: 160px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+}
+
+.number-3 {
+  margin-left: 240px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+}
+
+.number-4 {
+  margin-left: 120px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+}
+  /*click event end*/
+/*************************************************************************/
+/*************************************************************************/

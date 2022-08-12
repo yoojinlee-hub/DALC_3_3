@@ -820,7 +820,7 @@
 .x10-1-security .text-69 {
   align-self: flex-end;
   letter-spacing: 0;
-  margin-left: 138px;
+  margin-left: 38px;
   min-height: 54px;
   min-width: 40px;
   text-align: center;
@@ -1458,4 +1458,23 @@ input:focus {
 
 .text-331{
   margin-top:0px;
+}
+
+.input-security{
+  background-color: #D7D8D9;
+  border-radius: 10px;
+}
+
+.input_radio{
+  position: relative;
+  margin-top: 90px;
+}
+.w{
+  margin-left: -120px;
+}
+.m{
+  margin-left: 50px;
+}
+.text-69{
+
 }

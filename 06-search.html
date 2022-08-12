@@ -15,42 +15,42 @@
     <link rel="stylesheet" type="text/css" href="css/form.css" />
     <script>
         function count(type) {
-        // 결과를 표시할 element
-        const resultElement = document.getElementById('pages');
-        const resultElement1 = document.getElementById('pages1');
-        const resultElement2 = document.getElementById('pages2');
-        const resultElement3 = document.getElementById('pages3');
-        const resultElement4 = document.getElementById('pages4');
-        // 현재 화면에 표시된 값
-        let number = resultElement.innerText;
-        let number1 = resultElement1.innerText;
-        let number2 = resultElement2.innerText;
-        let number3 = resultElement3.innerText;
-        let number4 = resultElement4.innerText;
-        // 더하기/빼기
-        if (type === 'plus') {
-        number = parseInt(number) + 5;
-        number1 = parseInt(number1) + 5;
-        number2 = parseInt(number2) + 5;
-        number3 = parseInt(number3) + 5;
-        number4 = parseInt(number4) + 5;
-        } else if (type === 'minus') {
-        if(number >= 1 && number1 >= 1 && number2 >= 1 && number3 >= 1 && number4 >= 1){
-        number = parseInt(number) - 5;
-        number1 = parseInt(number1) - 5;
-        number2 = parseInt(number2) - 5;
-        number3 = parseInt(number3) - 5;
-        number4 = parseInt(number4) - 5;
-        }
+            // 결과를 표시할 element
+            const resultElement = document.getElementById('pages');
+            const resultElement1 = document.getElementById('pages1');
+            const resultElement2 = document.getElementById('pages2');
+            const resultElement3 = document.getElementById('pages3');
+            const resultElement4 = document.getElementById('pages4');
+            // 현재 화면에 표시된 값
+            let number = resultElement.innerText;
+            let number1 = resultElement1.innerText;
+            let number2 = resultElement2.innerText;
+            let number3 = resultElement3.innerText;
+            let number4 = resultElement4.innerText;
+            // 더하기/빼기
+            if (type === 'plus') {
+                number = parseInt(number) + 5;
+                number1 = parseInt(number1) + 5;
+                number2 = parseInt(number2) + 5;
+                number3 = parseInt(number3) + 5;
+                number4 = parseInt(number4) + 5;
+            } else if (type === 'minus') {
+                if (number >= 1 && number1 >= 1 && number2 >= 1 && number3 >= 1 && number4 >= 1) {
+                    number = parseInt(number) - 5;
+                    number1 = parseInt(number1) - 5;
+                    number2 = parseInt(number2) - 5;
+                    number3 = parseInt(number3) - 5;
+                    number4 = parseInt(number4) - 5;
+                }
 
-        }
+            }
 
-        // 결과 출력
-        resultElement.innerText = number;
-        resultElement1.innerText = number1;
-        resultElement2.innerText = number2;
-        resultElement3.innerText = number3;
-        resultElement4.innerText = number4;
+            // 결과 출력
+            resultElement.innerText = number;
+            resultElement1.innerText = number1;
+            resultElement2.innerText = number2;
+            resultElement3.innerText = number3;
+            resultElement4.innerText = number4;
         }
     </script>
 </head>
@@ -63,7 +63,8 @@
                 <div class="overlap-group-container">
                     <div class="checkmovie-container abrilfatface-normal-white-96px">
                         <div class="checkmovie"><span class="abrilfatface-normal-old-brick-96px">Checkmovie</span></div>
-                        <div class="checkmovie-1"><span class="abrilfatface-normal-tulip-tree-96px">Checkmovie</span></div>
+                        <div class="checkmovie-1"><span class="abrilfatface-normal-tulip-tree-96px">Checkmovie</span>
+                        </div>
                     </div>
                     <div class="overlap-group5">
                         <div class="navbar opensans-bold-old-brick-14px">
@@ -98,8 +99,10 @@
                                     <div class="making-place"></div>
                                     <div class="check-movie-11">
                                         <div class="check-movie-21 ptserif-normal-tulip-tree-24px">Check Movie</div>
-                                        <div class="domestic ptserif-normal-white-24px"><a class="submenuLink longLink">Domestic</a></div>
-                                        <div class="overseas ptserif-normal-white-24px"><a class="submenuLink longLink">Overseas</a></div>
+                                        <div class="domestic ptserif-normal-white-24px"><a
+                                                class="submenuLink longLink">Domestic</a></div>
+                                        <div class="overseas ptserif-normal-white-24px"><a
+                                                class="submenuLink longLink">Overseas</a></div>
                                     </div>
                                     <div class="making-place2"></div>
                                     <div class="recommand-11">
@@ -113,7 +116,8 @@
                                     </div>
                                     <div class="my-book-1">
                                         <div class="my-book-2 ptserif-normal-tulip-tree-24px">My Book</div>
-                                        <div class="my-page ptserif-normal-white-24px"><a class="submenuLink longLink">My Page</a></div>
+                                        <div class="my-page ptserif-normal-white-24px"><a
+                                                class="submenuLink longLink">My Page</a></div>
                                         <div class="recommended-books ptserif-normal-white-24px">
                                             <a class="submenuLink longLink">
                                                 Recommended
@@ -126,9 +130,12 @@
                                     </div>
                                     <div class="shop-1">
                                         <div class="shop-2 ptserif-normal-tulip-tree-24px">Shop</div>
-                                        <div class="yes241 ptserif-normal-white-24px"><a class="submenuLink longLink">Yes24</a></div>
-                                        <div class="aladin ptserif-normal-white-24px"><a class="submenuLink longLink">Aladin</a></div>
-                                        <div class="kyobo ptserif-normal-white-24px"><a class="submenuLink longLink">KYOBO</a></div>
+                                        <div class="yes241 ptserif-normal-white-24px"><a
+                                                class="submenuLink longLink">Yes24</a></div>
+                                        <div class="aladin ptserif-normal-white-24px"><a
+                                                class="submenuLink longLink">Aladin</a></div>
+                                        <div class="kyobo ptserif-normal-white-24px"><a
+                                                class="submenuLink longLink">KYOBO</a></div>
                                     </div>
                                     <img class="line-5" src="img/line-5-1@2x.svg" />
                                     <img class="line-6" src="img/line-6@2x.svg" />
@@ -138,10 +145,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="check-movie abrilfatface-normal-tulip-tree-30px"><a href='02-checkmovie.html' class="a_flexbox">check movie</a></div>
-                        <div class="recommand abrilfatface-normal-tulip-tree-30px"><a href='03-recommend.html' class="a_flexbox">recommend</a></div>
-                        <div class="my-book abrilfatface-normal-tulip-tree-30px"><a href='05-1-mybook-recommended-books.html' class="a_flexbox">my book</a></div>
-                        <div class="shop abrilfatface-normal-tulip-tree-30px"><a href='07-shop.html' class="a_flexbox">shop</a></div>
+                        <div class="check-movie abrilfatface-normal-tulip-tree-30px"><a href='02-checkmovie.html'
+                                class="a_flexbox">check movie</a></div>
+                        <div class="recommand abrilfatface-normal-tulip-tree-30px"><a href='03-recommend.html'
+                                class="a_flexbox">recommend</a></div>
+                        <div class="my-book abrilfatface-normal-tulip-tree-30px"><a
+                                href='05-1-mybook-recommended-books.html' class="a_flexbox">my book</a></div>
+                        <div class="shop abrilfatface-normal-tulip-tree-30px"><a href='07-shop.html'
+                                class="a_flexbox">shop</a></div>
                     </div>
                     <!--수정-->
                     <div class="flex-row-1">
@@ -229,23 +240,27 @@
                             </div>
                             <div class="x-1">
                                 <div class="check-movie-1 abhayalibremedium-regular-normal-black-15px">
-                                    <span class="abhayalibremedium-regular-normal-black-15px">check movie</span><span class="abhayalibresemibold-regular-normal-black-15px"> 검사</span>
+                                    <span class="abhayalibremedium-regular-normal-black-15px">check movie</span><span
+                                        class="abhayalibresemibold-regular-normal-black-15px"> 검사</span>
                                 </div>
                                 <img class="line-5" src="img/line-5-2@2x.svg" />
                                 <div class="text-199 abhayalibresemibold-regular-normal-black-15px">해리 포터와 죽음의 성물</div>
                                 <img class="line-6" src="img/line-6@2x.svg" />
                                 <div class="text-201 abhayalibresemibold-regular-normal-black-15px">
-                                    <span class="abhayalibresemibold-regular-normal-black-15px">탑건</span><span class="abrilfatface-normal-black-15px">2</span>
+                                    <span class="abhayalibresemibold-regular-normal-black-15px">탑건</span><span
+                                        class="abrilfatface-normal-black-15px">2</span>
                                 </div>
                                 <img class="line-7" src="img/line-7@2x.svg" />
                                 <div class="text-20 abhayalibresemibold-regular-normal-black-15px">불편한 편의점</div>
                                 <img class="line-7-1" src="img/line-7-1@2x.svg" />
                                 <div class="text-20 abhayalibresemibold-regular-normal-black-15px">어바웃타임</div>
                                 <img class="line-8" src="img/line-8@2x.svg" />
-                                <p class="text-20-1 abhayalibresemibold-regular-normal-black-15px">어느 날, 내 죽음에 네가 들어왔다</p>
+                                <p class="text-20-1 abhayalibresemibold-regular-normal-black-15px">어느 날, 내 죽음에 네가 들어왔다
+                                </p>
                                 <img class="line-9" src="img/line-9@2x.svg" />
                                 <div class="text-200 abhayalibresemibold-regular-normal-black-15px">
-                                    <span class="abhayalibresemibold-regular-normal-black-15px">범죄도시</span><span class="abrilfatface-normal-black-15px">2</span>
+                                    <span class="abhayalibresemibold-regular-normal-black-15px">범죄도시</span><span
+                                        class="abrilfatface-normal-black-15px">2</span>
                                 </div>
                                 <img class="line-10-1" src="img/line-10-1@2x.svg" />
                                 <div class="text-20-1 abhayalibresemibold-regular-normal-black-15px">달라구트 꿈 백화점</div>
@@ -256,13 +271,16 @@
                                 <img class="line-11" src="img/line-11-1@2x.svg" />
                             </div>
                             <div class="updown-bar">
-                                <div class="text-217 valign-text-middle abhayalibresemibold-regular-normal-black-40px">-</div>
-                                <div class="text-216 valign-text-middle abhayalibresemibold-regular-normal-black-40px">-</div>
+                                <div class="text-217 valign-text-middle abhayalibresemibold-regular-normal-black-40px">-
+                                </div>
+                                <div class="text-216 valign-text-middle abhayalibresemibold-regular-normal-black-40px">-
+                                </div>
                                 <div class="text-215 fontawesome5free-solid-normal-red-15px"></div>
                                 <div class="text-214 fontawesome5free-solid-normal-red-15px"></div>
                                 <div class="text-213 fontawesome5free-solid-normal-blue-ribbon-15px"></div>
                                 <div class="text-212 fontawesome5free-solid-normal-red-15px"></div>
-                                <div class="text-211 valign-text-middle abhayalibresemibold-regular-normal-black-40px">-</div>
+                                <div class="text-211 valign-text-middle abhayalibresemibold-regular-normal-black-40px">-
+                                </div>
                                 <div class="text-210 fontawesome5free-solid-normal-blue-ribbon-15px"></div>
                                 <div class="text-209 fontawesome5free-solid-normal-red-15px"></div>
                                 <div class="text-208 fontawesome5free-solid-normal-blue-ribbon-15px"></div>
@@ -272,7 +290,7 @@
                             <div class="overlap-group27">
                                 <div class="overlap-group6">
                                     <div class="rectangle-22-1 border-3px-blue-zodiac"></div>
-                                    
+
                                     <div class="text-189"></div>
                                 </div>
                                 <div class="text-194">친절한 이방인</div>
@@ -298,7 +316,8 @@
                                 </div>
                                 <img class="image" src="img/----1@1x.svg" />
                             </div>
-                            <div class="text-219"><span class="span-1">검색 결과 </span><span class="span-2">00건</span></div>
+                            <div class="text-219"><span class="span-1">검색 결과 </span><span class="span-2">00건</span>
+                            </div>
                             <div class="view-5"></div>
                             <div class="overlap-group19">
                                 <img class="image-1" src="img/---@2x.svg" />
@@ -345,17 +364,44 @@
                             </div>
                             <img class="line-14" src="img/line-5-11@1x.svg" />
                             <div class="overlap-group18">
-                                <div class="view-6"></div>
-                                <div class="pagebutton">
-                                    <div class="text-227"><input type='button' class='page-b' onclick='count("minus")'><div class='b_b'></div></div>
-                                    <div class="text-228"><input type='button' class='page-b' onclick='count("plus")'><div class='b_b1'></div></div>
-                                </div>
 
-                                <div id="pages" class="number-4 fontawesome6brands-regular-normal-black-20px">1</div>
-                                <div id="pages1" class="number-5 fontawesome6brands-regular-normal-black-20px">2</div>
-                                <div id="pages2" class="number-6 fontawesome6brands-regular-normal-black-20px">3</div>
-                                <div id="pages3" class="number-7 fontawesome6brands-regular-normal-black-20px">4</div>
-                                <div id="pages4" class="number-8 fontawesome6brands-regular-normal-black-20px">5</div>
+                                <div class="pagebutton">
+                                    <div class="text-227"><input type='button' class='page-b' onclick='count("minus")'>
+                                        <div class='b_b'></div>
+                                    </div>
+                                    <div class="text-228"><input type='button' class='page-b' onclick='count("plus")'>
+                                        <div class='b_b1'></div>
+                                    </div>
+                                </div>
+                                <div class="overlap-group-33">
+                                    <input type="radio" name="num" for="menuBtn" class="labelBtn" onclick="" checked>
+                                    <div id="pages" class="number fontawesome6brands-regular-normal-black-20px">1</div>
+                                    </input>
+                                    <div class="view-0"></div>
+
+                                    <input type="radio" name="num" for="menuBtn2" class="labelBtn2" onclick="">
+                                    <div id="pages1" class="number-1 fontawesome6brands-regular-normal-black-20px">2
+                                    </div>
+                                    </input>
+                                    <div class="view2"></div>
+
+                                    <input type="radio" name="num" for="menuBtn3" class="labelBtn3" onclick="">
+                                    <div id="pages2" class="number-2 fontawesome6brands-regular-normal-black-20px">3
+                                    </div>
+                                    </input>
+                                    <div class="view3"></div>
+
+                                    <input type="radio" name="num" for="menuBtn4" class="labelBtn4" onclick="">
+                                    <div id="pages3" class="number-3 fontawesome6brands-regular-normal-black-20px">4
+                                    </div>
+                                    </input>
+                                    <div class="view4"></div>
+
+                                    <input type="radio" name="num" for="menuBtn5" class="labelBtn5" onclick="">
+                                    <div id="pages4" class="number-4 fontawesome6free-regular-normal-black-20px">5</div>
+                                    </input>
+                                    <div class="view5"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -372,7 +418,8 @@
                                     <div class="my-book-2 ptserif-normal-tulip-tree-24px">My Book</div>
                                     <div class="my-page ptserif-normal-white-24px">My Page</div>
                                     <div class="recommended-books ptserif-normal-white-24px">Recommended Books</div>
-                                    <div class="resently-searched-movies ptserif-normal-white-24px">Resently Searched Movies</div>
+                                    <div class="resently-searched-movies ptserif-normal-white-24px">Resently Searched
+                                        Movies</div>
                                 </div>
                                 <div class="shop-1">
                                     <div class="shop-2 ptserif-normal-tulip-tree-24px">Shop</div>
@@ -382,14 +429,15 @@
                                 </div>
                             </div>
                             <div class="overlap-group1">
-                                <p class="copyright opensans-normal-star-dust-12px">©copyright ABC All right reserved</p>
+                                <p class="copyright opensans-normal-star-dust-12px">©copyright ABC All right reserved
+                                </p>
                             </div>
                         </div>
                         <img class="line-11-1" src="img/line-10@2x.svg" />
                     </div>
                 </div>
             </div>
-            </form>
+    </form>
 </body>
 
 </html>

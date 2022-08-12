@@ -893,55 +893,226 @@
   min-width: 329px;
 }
 
-.x10-2-recent-records .overlap-group-3 {
-  height: 20px;
-  position: relative;
-  width: 19px;
+
+  /*************************************************************************/
+  /*************************************************************************/
+  /*click event*/
+  .overlap-group-3 {
+    height: 20px;
+      position: relative;
+      width: 19px;
+      margin-left: -10px;
+    }
+    
+  .view {
+    background-color: transparent;background-color: rgb(243, 183, 67, 0.8);
+    left: 0;
+    position: absolute;
+    top: 11px;
+    width: 19px;
+    z-index: 20;
+  }
+  input[type='radio'] {
+    appearance: none;
+  }
+  .view2 {
+    background-color: transparent;
+    height: 9px;
+  
+    margin-left: 75px;
+    position: absolute;
+    top: 11px;
+    width: 19px;
+    z-index: 20;
+  }
+  
+  .view3 {
+    background-color: transparent;
+    height: 9px;
+    margin-left: 155px;
+    position: absolute;
+    top: 11px;
+    width: 19px; z-index: 20;
+  }
+  
+  .view4 {
+    background-color: transparent;
+    height: 9px;
+    margin-left: 235px;
+    position: absolute;
+    top: 11px;
+    width: 19px; z-index: 20;
+  }
+  
+  .view5 {
+    background-color: transparent;
+    height: 9px;
+    margin-left: 295px;
+    position: absolute;
+    top: 11px;
+    width: 19px; z-index: 20;
+  }
+
+
+.labelBtn {
+  width: 50px;
+  height: 50px;
+  color: transparent;
+  margin-left: -20px;  cursor: pointer;
 }
 
-.x10-2-recent-records .view {
-  background-color: var(--tulip-tree);
-  height: 9px;
-  left: 0;
-  position: absolute;
-  top: 11px;
-  width: 19px;
+.labelBtn2 {
+  cursor: pointer;
+
+  width: 50px; position: absolute;
+  height: 50px;
+
+  margin-left: 60px;
+  margin-top: -60px; color: transparent;
 }
 
-.x10-2-recent-records .number {
+.labelBtn3 {
+  cursor: pointer;
+
+  width: 50px;position: absolute;
+  height: 50px;
+color: transparent;
+  margin-left: 130px;   margin-top: -60px;
+}
+
+.labelBtn4 {
+  cursor: pointer;
+
+  width: 50px;position: absolute;
+  height: 50px;
+color: transparent;
+  margin-left: 220px;   margin-top: -60px;
+}
+
+.labelBtn5 {
+  cursor: pointer;
+
+  width: 50px;position: absolute;
+  height: 50px;color: transparent;
+
+  margin-left: 280px;   margin-top: -60px;
+}
+
+input[for=menuBtn]:checked~.view {
+  background-color: rgb(243, 183, 67, 0.8);
+}
+input[for=menuBtn]:checked~.view2 {
+  background-color: transparent;
+}
+input[for=menuBtn]:checked~.view3 {
+  background-color: transparent;
+}
+input[for=menuBtn]:checked~.view4 {
+  background-color: transparent;
+}
+input[for=menuBtn]:checked~.view5 {
+  background-color: transparent;
+}
+
+input[for=menuBtn2]:checked~.view {
+  background-color: transparent;
+}
+input[for=menuBtn2]:checked~.view2 {
+  background-color: rgb(243, 183, 67, 0.8);
+}
+input[for=menuBtn2]:checked~.view3 {
+  background-color: transparent;
+}
+input[for=menuBtn2]:checked~.view4 {
+  background-color: transparent;
+}
+input[for=menuBtn2]:checked~.view5 {
+  background-color: transparent;
+}
+
+input[for=menuBtn3]:checked~.view {
+  background-color: transparent;
+}
+input[for=menuBtn3]:checked~.view2 {
+  background-color: transparent;
+}
+input[for=menuBtn3]:checked~.view3 {
+  background-color: rgb(243, 183, 67, 0.8);
+}
+input[for=menuBtn3]:checked~.view4 {
+  background-color: transparent;
+}
+input[for=menuBtn3]:checked~.view5 {
+  background-color: transparent;
+}
+
+input[for=menuBtn4]:checked~.view {
+  background-color: transparent;
+}
+input[for=menuBtn4]:checked~.view2 {
+  background-color: transparent;
+}
+input[for=menuBtn4]:checked~.view3 {
+  background-color: transparent;
+}
+input[for=menuBtn4]:checked~.view4 {
+  background-color: rgb(243, 183, 67, 0.8);
+}
+input[for=menuBtn4]:checked~.view5 {
+  background-color: transparent;
+}
+
+input[for=menuBtn5]:checked~.view {
+  background-color: transparent;
+}
+input[for=menuBtn5]:checked~.view2 {
+  background-color: transparent;
+}
+input[for=menuBtn5]:checked~.view3 {
+  background-color: transparent;
+}
+input[for=menuBtn5]:checked~.view4 {
+  background-color: transparent;
+}
+input[for=menuBtn5]:checked~.view5 {
+  background-color: rgb(243, 183, 67, 0.8);
+}
+  
+.number {
   left: 5px;
   letter-spacing: 0;
   position: absolute;
   top: 0;
 }
-
-.x10-2-recent-records .number-1 {
+.number-1 {
+left: 80px;
+letter-spacing: 0;
+position: absolute;
+top: 0;
+}
+.number-2 {
+  left: 160px;
   letter-spacing: 0;
-  margin-left: 58px;
-  min-height: 20px;
-  width: 14px;
+  position: absolute;
+  top: 0;
 }
 
-.x10-2-recent-records .number-2 {
+.number-3 {
+  left: 240px;
   letter-spacing: 0;
-  margin-left: 62px;
-  min-height: 20px;
-  width: 13px;
+  position: absolute;
+  top: 0;
 }
 
-.x10-2-recent-records .number-3 {
+.number-4 {
+  left:300px;
   letter-spacing: 0;
-  margin-left: 62px;
-  min-height: 20px;
-  width: 16px;
+  position: absolute;
+  top: 0;
 }
-
-.x10-2-recent-records .number-4 {
-  letter-spacing: 0;
-  margin-left: 62px;
-  min-height: 20px;
-}
-
+  /*click event end*/
+/*************************************************************************/
+/*************************************************************************/
 .x10-2-recent-records .text-43 {
   letter-spacing: 0;
   margin-left: 178px;
@@ -1363,13 +1534,29 @@ input:focus {
 }
 
 /*input button*/
-.page-b{
-  z-index: -1;
+.page-f{
+  z-index: 0;
   width: 50px;
   margin-bottom: 20px;
   height: 50px;
   background-color: transparent;
   border-color: transparent;
+}
+.page-b{
+  z-index: 0;
+  width: 50px;
+  margin-bottom: 20px;
+  height: 50px;
+  margin-right: 200px;
+  border-color: transparent;
+  text-align: center;
+  background-color: transparent;
+  left: 700px;
+  font-weight: 400;
+  letter-spacing: 0;
+  min-height: 23px;
+  min-width: 13px;
+  position: absolute;
 }
 .b_b{
   text-align: center;
@@ -1387,7 +1574,7 @@ input:focus {
 .b_b1{
   text-align: center;
   top: 20px;
-  left: 770px;
+  left: 720px;
   color: var(--black);
   font-family: var(--font-family-font_awesome_5_free-solid);
   font-size: var(--font-size-s);
