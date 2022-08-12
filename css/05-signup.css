@@ -435,8 +435,9 @@
   margin-top: 1.0px;
   min-height: 32px;
   min-width: 20px;
-  margin-left: 15px;
+  margin-right: 460px;
   text-align: center;
+  position: absolute;
 }
 
 .x05-signup .gender-1 {
@@ -445,8 +446,16 @@
   font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 400;
+  left: 10px;
 }
-
+.gender-txt {
+left: 50px;
+position: absolute;
+}
+.gender_radio{
+  position: absolute;
+  left: 200px;
+}
 .x05-signup .rectangle-28 {
   align-self: flex-end;
   height: 99px;
