@@ -1319,3 +1319,6 @@ input:focus {outline:none;}
   font-style: normal;
   font-weight: 400;
 }
+.left-bar-view-1{
+  background-color: rgb(217,217,217,0.1);
+}

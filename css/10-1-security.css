@@ -1478,3 +1478,11 @@ input:focus {
 .text-69{
 
 }
+.change-btn{
+  background-color: transparent;
+width: 200px;
+height: 90px;
+margin-top: -20px;
+border: transparent;
+color:#1F274E;
+}

@@ -1277,3 +1277,9 @@ input[id=trigger]:checked+label[for=trigger] {
   border-top-left-radius: 10px;
   z-index: 2;
 }
+.left-bar-view-2{
+  background-color: rgb(217,217,217,0.1);
+}
+.check-movie{
+  color:#FFABAB;
+}
