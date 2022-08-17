@@ -1,3 +1,5 @@
+#https://wikidocs.net/77135
+
 import numpy as np
 import nltk
 import selenium as selenium
