@@ -26,16 +26,15 @@ x_data = df['komoran']
 
 clean_words = []
 for k in range(0,3):
-    for i, document in enumerate(x_data[k]):
+    for document in x_data[k]:
         clean_word = []
         cleaned = 0
-        for word in nltk.tokenize.word_tokenize(document):
-            if word in stop_words:  # 불용어 제거
-                cleaned += 1
-            else:
+        for word in document:
+            if word not in stop_words:  # 불용어 제거
                 clean_word.append(word)
     print(k)
     print(cleaned)
+    print(x_data[k])
     print(clean_word)
     clean_words.append(clean_word)
 
