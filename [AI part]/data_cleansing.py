@@ -1,5 +1,3 @@
-#https://wikidocs.net/77135
-
 import numpy as np
 import nltk
 import selenium as selenium
@@ -27,18 +25,18 @@ df = pd.read_csv("book_reviews_with_komoran.csv")
 x_data = df['komoran']
 
 clean_words = []
-for k in range(0,3):
-    for document in x_data[k]:
-        clean_word = []
-        cleaned = 0
-        for word in document:
-            if word not in stop_words:  # 불용어 제거
-                clean_word.append(word)
-    print(k)
-    print(cleaned)
-    print(x_data[k])
-    print(clean_word)
-    clean_words.append(clean_word)
+count=0
+for document in enumerate(x_data):
+    clean_word = []
+    cleaned = 0
+    count+=1
+    for word in document:
+        if word not in stop_words:  # 불용어 제거
+            clean_word.append(word)
+    print(count)
+    print(clean_word[1])
+    clean_words.append(clean_word[1])
+
 
 
 #따로 인덱스에 저장
