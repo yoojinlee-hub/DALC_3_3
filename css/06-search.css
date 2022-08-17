@@ -1934,20 +1934,20 @@ input:focus {outline:none;}
       width: 509px;
       margin-left: 250px;
     }
-    
+    input[type='radio'] {
+      appearance: none;
+    }
   .view-0 {
-    background-color: transparent;
+    background-color: rgb(243, 183, 67, 0.8);
     height: 9px;
   
-    margin-left: 75px;
+    margin-left: 5px;
     position: absolute;
     top: 11px;
     width: 19px;
     z-index: 20;
   }
-  input[type='radio'] {
-    appearance: none;
-  }
+ 
   .view2 {
     background-color: transparent;
     height: 9px;
@@ -2032,8 +2032,8 @@ color: transparent;
   margin-left: 280px;  
 }
 
-input[for=menuBtn]:checked~.view {
-  background-color: rgb(243, 183, 67, 0.8);
+input[for=menuBtn]:checked~.view-0 {
+  color: rgb(243, 183, 67, 0.8);
 }
 input[for=menuBtn]:checked~.view2 {
   background-color: transparent;
@@ -2048,8 +2048,8 @@ input[for=menuBtn]:checked~.view5 {
   background-color: transparent;
 }
 
-input[for=menuBtn2]:checked~.view {
-  background-color: transparent;
+input[for=menuBtn2]:checked~.view-0 {
+  color: transparent;
 }
 input[for=menuBtn2]:checked~.view2 {
   background-color: rgb(243, 183, 67, 0.8);
@@ -2064,7 +2064,7 @@ input[for=menuBtn2]:checked~.view5 {
   background-color: transparent;
 }
 
-input[for=menuBtn3]:checked~.view {
+input[for=menuBtn3]:checked~.view-0 {
   background-color: transparent;
 }
 input[for=menuBtn3]:checked~.view2 {
@@ -2080,7 +2080,7 @@ input[for=menuBtn3]:checked~.view5 {
   background-color: transparent;
 }
 
-input[for=menuBtn4]:checked~.view {
+input[for=menuBtn4]:checked~.view-0 {
   background-color: transparent;
 }
 input[for=menuBtn4]:checked~.view2 {
@@ -2096,7 +2096,7 @@ input[for=menuBtn4]:checked~.view5 {
   background-color: transparent;
 }
 
-input[for=menuBtn5]:checked~.view {
+input[for=menuBtn5]:checked~.view-0 {
   background-color: transparent;
 }
 input[for=menuBtn5]:checked~.view2 {
