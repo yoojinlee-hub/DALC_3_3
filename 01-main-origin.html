@@ -21,7 +21,7 @@
 
 <body style="margin: 0; background: #ffffff">
     <form class="checkmovie_form" action="#" accept-charset="utf-8" name="main-origin" method="get">
-        <input type="hidden" id="anPageName" name="page" value="01-main" />
+        <input type="hidden" id="anPageName" name="page" value="01-main-origin" />
         <div class="container-center-horizontal">
             <div class="x01-main screen">
                 <div class="overlap-group-container">
@@ -37,7 +37,7 @@
                             <div class="navbar-link-my-page"><a class='a_nav' href='05-Mybook.html'>My Page</a></div>
                         </div>
                         <div class="search-box border-3px-blue-zodiac-2">
-                            <input type="text" name="q" class="input-box input-q">
+                            <input type="hidden" name="q" class="input-box input-q" value="01-main-origin">
                             <div class="text-33"></div>
                             <!--fontawesome6free-solid-normal-blue-14px-->
                         </div>
@@ -48,7 +48,8 @@
                         <div class="overlap-group9">
                             <!--햄버거-->
                             <!-- 햄버거 메뉴 -->
-                            <input type="checkbox" id="trigger">
+                            <input type="checkbox" id="trigger"
+                                   value="01-main-origin">
                             <label for="trigger">
                                 <!-- 햄버거 세줄 표현 -->
                                 <span></span>
@@ -70,7 +71,7 @@
                                         <div class="recommand-2 ptserif-normal-tulip-tree-24px">Recommend</div>
                                         <div class="recommand-result ptserif-normal-white-24px">
                                             <a class="submenuLink longLink">
-                                                Recommand
+                                                Recommend
                                                 Result
                                             </a>
                                         </div>
