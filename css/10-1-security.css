@@ -1479,10 +1479,16 @@ input:focus {
 
 }
 .change-btn{
-  background-color: transparent;
-width: 200px;
-height: 90px;
-margin-top: -20px;
-border: transparent;
-color:#1F274E;
+  color: var(--blue-zodiac);
+    font-family: var(--font-family-abril_fatface);
+    font-size: var(--font-size-xl);
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    width: 241px;
+    background-color: transparent;
+    border-color: transparent;
 }
