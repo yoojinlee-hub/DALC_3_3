@@ -1514,10 +1514,10 @@ input:focus {
   z-index: 0;
   width: 50px;
   height: 50px;
-  left:1110px;
+  left:990px;
   margin-top: -20px;
   position: absolute;
-  background-color:transparent;
+  background-color: transparent;
   border-color: transparent;
   cursor: pointer;
 }
@@ -1610,7 +1610,7 @@ input:focus {
   width: 50px;position: absolute;
   height: 50px;
 color: transparent;
-  margin-left: 130px;   margin-top: -60px;
+  left: -50px;   margin-top: -60px;
 }
 
 .labelBtn4 {
