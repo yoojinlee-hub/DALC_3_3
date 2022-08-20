@@ -394,3 +394,28 @@
   margin-top: 4px;
   width: 82px;
 }
+.submenuLink:link{
+  color: var(--tulip-tree);
+}
+.submenuLink:visited{
+  color: var(--tulip-tree);
+}
+.submenuLink:hover{
+  color: var(--tulip-tree);
+}
+.submenuLink:active{
+  color: var(--tulip-tree);
+}
+
+.longLink:link{
+  color:white;
+}
+.longLink:visited{
+  color:white;
+}
+.longLink:hover{
+  color:white;
+}
+.longLink:active{
+  color:white;
+}
