@@ -1,0 +1,92 @@
+from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
+from gensim.test.utils import datapath
+from gensim.models.fasttext import load_facebook_vectors
+from gensim.test.utils import common_texts
+import pandas as pd
+import numpy as np
+import csv
+
+app = Flask(__name__)
+db = SQLAlchemy(app)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///book.sqlite3'
+
+class Book(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    title = db.Column(db.String(100))
+    vector = db.Column(db.JSON)
+
+    def __init__(self, title, vector):
+        self.title = title
+        self.vector = vector
+
+class Movie(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    title = db.Column(db.String(100))
+    vector = db.Column(db.JSON)
+
+    def __init__(self, title, vector):
+        self.title = title
+        self.vector = vector
+
+db.create_all()
+
+#제 로컬 드라이브 기준의 절대경로라서, 코드 돌리실때 갖고 계신 파일 경로로 변경해서 사용하시면 됩니다!
+book = pd.read_csv('C:\\Users\\clstm_\\OneDrive\\Desktop\\New Order\\book_vectors.csv')
+for z in range(book.shape[0]):
+    imsi = book.iloc[z, 2].split('\n')
+    list_1 = []
+    for k in range(len(imsi)):
+        if len(imsi[k].split(' ')) == 4:
+            for i in range(4):
+                if len(imsi[k].split(' ')[i]) > 2:
+                    list_1.append(imsi[k].split(' ')[i])
+        if len(imsi[k].split(' ')) == 5:
+            for i in range(5):
+                if len(imsi[k].split(' ')[i]) > 2:
+                    list_1.append(imsi[k].split(' ')[i])
+        if len(imsi[k].split(' ')) == 6:
+            for i in range(6):
+                if len(imsi[k].split(' ')[i]) > 2:
+                    list_1.append(imsi[k].split(' ')[i])
+        if len(imsi[k].split(' ')) == 7:
+            for i in range(7):
+                if len(imsi[k].split(' ')[i]) > 2:
+                    list_1.append(imsi[k].split(' ')[i])
+
+    globals()['book_'+str(z)] = Book(book.iloc[z, 1], list_1)
+    db.session.add(globals()['book_'+str(z)])
+    db.session.commit()
+
+#제 로컬 드라이브 기준의 절대경로라서, 코드 돌리실때 갖고 계신 파일 경로로 변경해서 사용하시면 됩니다!
+movie = pd.read_csv('C:\\Users\\clstm_\\OneDrive\\Desktop\\New Order\\movie_vectors.csv')
+for z in range(movie.shape[0]):
+    imsi = movie.iloc[z, 2].split('\n')
+    list_1 = []
+    for k in range(len(imsi)):
+        if len(imsi[k].split(' ')) == 4:
+            for i in range(4):
+                if len(imsi[k].split(' ')[i]) > 2:
+                    list_1.append(imsi[k].split(' ')[i])
+        if len(imsi[k].split(' ')) == 5:
+            for i in range(5):
+                if len(imsi[k].split(' ')[i]) > 2:
+                    list_1.append(imsi[k].split(' ')[i])
+        if len(imsi[k].split(' ')) == 6:
+            for i in range(6):
+                if len(imsi[k].split(' ')[i]) > 2:
+                    list_1.append(imsi[k].split(' ')[i])
+        if len(imsi[k].split(' ')) == 7:
+            for i in range(7):
+                if len(imsi[k].split(' ')[i]) > 2:
+                    list_1.append(imsi[k].split(' ')[i])
+
+    globals()['movie_'+str(z)] = Movie(movie.iloc[z, 1], list_1)
+    db.session.add(globals()['movie_'+str(z)])
+    db.session.commit()
+
+print(Book.query.all())
+print(Movie.query.all())
+
+if __name__ == '__main__':
+    app.run()
