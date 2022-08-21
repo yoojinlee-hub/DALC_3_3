@@ -21,42 +21,42 @@
     <link rel="stylesheet" href="css/main-swiper.css" />
     <script>
         function count(type) {
-        // 결과를 표시할 element
-        const resultElement = document.getElementById('pages');
-        const resultElement1 = document.getElementById('pages1');
-        const resultElement2 = document.getElementById('pages2');
-        const resultElement3 = document.getElementById('pages3');
-        const resultElement4 = document.getElementById('pages4');
-        // 현재 화면에 표시된 값
-        let number = resultElement.innerText;
-        let number1 = resultElement1.innerText;
-        let number2 = resultElement2.innerText;
-        let number3 = resultElement3.innerText;
-        let number4 = resultElement4.innerText;
-        // 더하기/빼기
-        if (type === 'plus') {
-        number = parseInt(number) + 5;
-        number1 = parseInt(number1) + 5;
-        number2 = parseInt(number2) + 5;
-        number3 = parseInt(number3) + 5;
-        number4 = parseInt(number4) + 5;
-        } else if (type === 'minus') {
-        if (number >= 1 && number1 >= 1 && number2 >= 1 && number3 >= 1 && number4 >= 1) {
-        number = parseInt(number) - 5;
-        number1 = parseInt(number1) - 5;
-        number2 = parseInt(number2) - 5;
-        number3 = parseInt(number3) - 5;
-        number4 = parseInt(number4) - 5;
-        }
+            // 결과를 표시할 element
+            const resultElement = document.getElementById('pages');
+            const resultElement1 = document.getElementById('pages1');
+            const resultElement2 = document.getElementById('pages2');
+            const resultElement3 = document.getElementById('pages3');
+            const resultElement4 = document.getElementById('pages4');
+            // 현재 화면에 표시된 값
+            let number = resultElement.innerText;
+            let number1 = resultElement1.innerText;
+            let number2 = resultElement2.innerText;
+            let number3 = resultElement3.innerText;
+            let number4 = resultElement4.innerText;
+            // 더하기/빼기
+            if (type === 'plus') {
+                number = parseInt(number) + 5;
+                number1 = parseInt(number1) + 5;
+                number2 = parseInt(number2) + 5;
+                number3 = parseInt(number3) + 5;
+                number4 = parseInt(number4) + 5;
+            } else if (type === 'minus') {
+                if (number >= 1 && number1 >= 1 && number2 >= 1 && number3 >= 1 && number4 >= 1) {
+                    number = parseInt(number) - 5;
+                    number1 = parseInt(number1) - 5;
+                    number2 = parseInt(number2) - 5;
+                    number3 = parseInt(number3) - 5;
+                    number4 = parseInt(number4) - 5;
+                }
 
-        }
+            }
 
-        // 결과 출력
-        resultElement.innerText = number;
-        resultElement1.innerText = number1;
-        resultElement2.innerText = number2;
-        resultElement3.innerText = number3;
-        resultElement4.innerText = number4;
+            // 결과 출력
+            resultElement.innerText = number;
+            resultElement1.innerText = number1;
+            resultElement2.innerText = number2;
+            resultElement3.innerText = number3;
+            resultElement4.innerText = number4;
         }
     </script>
 </head>
@@ -69,14 +69,15 @@
                 <div class="overlap-group-container">
                     <div class="checkmovie-container abrilfatface-normal-white-96px">
                         <div class="checkmovie"><span class="abrilfatface-normal-old-brick-96px">Checkmovie</span></div>
-                        <div class="checkmovie-1"><span class="abrilfatface-normal-tulip-tree-96px">Checkmovie</span></div>
+                        <div class="checkmovie-1"><span class="abrilfatface-normal-tulip-tree-96px">Checkmovie</span>
+                        </div>
                     </div>
                     <div class="overlap-group4">
                         <div class="navbar opensans-bold-old-brick-14px">
-                            <div class="navbar-link-place">Home</div>
-                            <div class="navbar-link-login">Login</div>
-                            <div class="navbar-link-sign-up">Sign Up</div>
-                            <div class="navbar-link-my-page">My Page</div>
+                            <div class="navbar-link-place"><a class='a_nav' href='01-main-origin.html'>Home</a></div>
+                            <div class="navbar-link-login"><a class='a_nav' href='04-login.html'>Login</a></div>
+                            <div class="navbar-link-sign-up"><a class='a_nav' href='04-1-signup.html'>Sign Up</a></div>
+                            <div class="navbar-link-my-page"><a class='a_nav' href='05-Mybook.html'>My Page</a></div>
                         </div>
                         <div class="overlap-group-2 border-3px-blue-zodiac">
                             <input type="text" name="q" class="input-box input-q" value="search">
@@ -103,17 +104,19 @@
                                     <div class="making-place"></div>
                                     <div class="check-movie-1">
                                         <a href='02-checkmovie.html'>
-                                        <div class="check-movie-2 ptserif-normal-tulip-tree-24px">Check Movie</div>
+                                            <div class="check-movie-2 ptserif-normal-tulip-tree-24px">Check Movie</div>
                                         </a>
-                                        <div class="domestic2 ptserif-normal-white-24px"><a class="submenuLink longLink"href='02-checkmovie.html'>Domestic</a></div>
-                                        <div class="overseas2 ptserif-normal-white-24px"><a class="submenuLink longLink"href='02-checkmovie-2.html'>Overseas</a></div>
+                                        <div class="domestic2 ptserif-normal-white-24px"><a class="submenuLink longLink"
+                                                href='02-checkmovie.html'>Domestic</a></div>
+                                        <div class="overseas2 ptserif-normal-white-24px"><a class="submenuLink longLink"
+                                                href='02-checkmovie-2.html'>Overseas</a></div>
                                     </div>
                                     <div class="making-place2"></div>
                                     <div class="recommand-1">
                                         <div class="recommand-2 ptserif-normal-tulip-tree-24px"><a class="submenuLink"
-                                            href='03-recommend.html'>Recommend</a></div>
+                                                href='03-recommend.html'>Recommend</a></div>
                                         <div class="recommand-result ptserif-normal-white-24px">
-                                            <a class="submenuLink longLink"href='03-recommend.html'>
+                                            <a class="submenuLink longLink" href='03-recommend.html'>
                                                 Recommend
                                                 Result
                                             </a>
@@ -121,24 +124,29 @@
                                     </div>
                                     <div class="my-book-1">
                                         <div class="my-book-2 ptserif-normal-tulip-tree-24px"><a class="submenuLink"
-                                            href='05-Mybook.html'>My Book</a></div>
-                                        <div class="my-page ptserif-normal-white-24px"><a class="submenuLink longLink"href='10-my-page.html'>My Page</a></div>
+                                                href='05-Mybook.html'>My Book</a></div>
+                                        <div class="my-page ptserif-normal-white-24px"><a class="submenuLink longLink"
+                                                href='10-my-page.html'>My Page</a></div>
                                         <div class="recommended-books ptserif-normal-white-24px">
-                                            <a class="submenuLink longLink"href='05-1-mybook-recommended-books.html'>
+                                            <a class="submenuLink longLink" href='05-1-mybook-recommended-books.html'>
                                                 Recommended
                                                 Books
                                             </a>
                                         </div>
                                         <div class="resently-searched-movies ptserif-normal-white-24px">
-                                            <a class="submenuLink longLink" href='05-2-mybook-recommended-movies.html'>Resently Searched Movies</a>
+                                            <a class="submenuLink longLink"
+                                                href='05-2-mybook-recommended-movies.html'>Resently Searched Movies</a>
                                         </div>
                                     </div>
                                     <div class="shop-1">
                                         <div class="shop-2 ptserif-normal-tulip-tree-24px"><a class="submenuLink"
-                                            href='07-shop.html'>Shop</a></div>
-                                        <div class="yes24 ptserif-normal-white-24px"><a class="submenuLink longLink" href="http://www.yes24.com/main/">Yes24</a></div>
-                                        <div class="aladin ptserif-normal-white-24px"><a class="submenuLink longLink"href="https://www.aladin.co.kr/home/">Aladin</a></div>
-                                        <div class="kyobo ptserif-normal-white-24px"><a class="submenuLink longLink"href="https://www.kyobobook.co.kr/">KYOBO</a></div>
+                                                href='07-shop.html'>Shop</a></div>
+                                        <div class="yes24 ptserif-normal-white-24px"><a class="submenuLink longLink"
+                                                href="http://www.yes24.com/main/">Yes24</a></div>
+                                        <div class="aladin ptserif-normal-white-24px"><a class="submenuLink longLink"
+                                                href="https://www.aladin.co.kr/home/">Aladin</a></div>
+                                        <div class="kyobo ptserif-normal-white-24px"><a class="submenuLink longLink"
+                                                href="https://www.kyobobook.co.kr/">KYOBO</a></div>
                                     </div>
                                     <img class="line-5" src="img/line-5-1@2x.svg" />
                                     <img class="line-6" src="img/line-6@2x.svg" />
@@ -148,10 +156,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="check-movie abrilfatface-normal-tulip-tree-30px"><a href='02-checkmovie.html' class="a_flexbox">check movie</a></div>
-                        <div class="recommand abrilfatface-normal-tulip-tree-30px" style="margin-left: 125px;"><a href='03-recommend.html' class="a_flexbox">recommend</a></div>
-                        <div class="my-book abrilfatface-normal-tulip-tree-30px"><a href='05-1-mybook-recommended-books.html' class="a_flexbox">my book</a></div>
-                        <div class="shop abrilfatface-normal-tulip-tree-30px"><a href='07-shop.html' class="a_flexbox">shop</a></div>
+                        <div class="check-movie abrilfatface-normal-tulip-tree-30px"><a href='02-checkmovie.html'
+                                class="a_flexbox">check movie</a></div>
+                        <div class="recommand abrilfatface-normal-tulip-tree-30px" style="margin-left: 125px;"><a
+                                href='03-recommend.html' class="a_flexbox">recommend</a></div>
+                        <div class="my-book abrilfatface-normal-tulip-tree-30px"><a
+                                href='05-1-mybook-recommended-books.html' class="a_flexbox">my book</a></div>
+                        <div class="shop abrilfatface-normal-tulip-tree-30px"><a href='07-shop.html'
+                                class="a_flexbox">shop</a></div>
                     </div>
                 </div>
                 <div class="coming-up">
@@ -186,18 +198,18 @@
                         <!-- Initialize Swiper -->
                         <script>
                             var swiper = new Swiper(".mySwiper", {
-                            slidesPerView: 4,
-                            spaceBetween: 10,
-                            slidesPerGroup: 4,
-                            loop: true,
-                            pagination: {
-                            el: ".swiper-pagination",
-                            clickable: true,
-                            },
-                            navigation: {
-                            nextEl: ".swiper-button-next",
-                            prevEl: ".swiper-button-prev",
-                            },
+                                slidesPerView: 4,
+                                spaceBetween: 10,
+                                slidesPerGroup: 4,
+                                loop: true,
+                                pagination: {
+                                    el: ".swiper-pagination",
+                                    clickable: true,
+                                },
+                                navigation: {
+                                    nextEl: ".swiper-button-next",
+                                    prevEl: ".swiper-button-prev",
+                                },
                             });
                         </script>
                     </div>
@@ -234,18 +246,18 @@
                         <!-- Initialize Swiper -->
                         <script>
                             var swiper = new Swiper(".mySwiper", {
-                            slidesPerView: 4,
-                            spaceBetween: 10,
-                            slidesPerGroup: 4,
-                            loop: true,
-                            pagination: {
-                            el: ".swiper-pagination",
-                            clickable: true,
-                            },
-                            navigation: {
-                            nextEl: ".swiper-button-next",
-                            prevEl: ".swiper-button-prev",
-                            },
+                                slidesPerView: 4,
+                                spaceBetween: 10,
+                                slidesPerGroup: 4,
+                                loop: true,
+                                pagination: {
+                                    el: ".swiper-pagination",
+                                    clickable: true,
+                                },
+                                navigation: {
+                                    nextEl: ".swiper-button-next",
+                                    prevEl: ".swiper-button-prev",
+                                },
                             });
                         </script>
                     </div>
@@ -257,26 +269,31 @@
                         <div class="overseas abrilfatface-normal-white-40px-2">Overseas</div>
                     </div>
                 </div>
-                
+
                 <div class="go-to-box">
                     <div class="overlap-group-container-1">
-                        <div class="overlap-group2-3">
-                            <div class="ellipse-container">
-                                <div class="ellipse-18"></div>
-                                <div class="ellipse-16"></div>
-                                <div class="ellipse-19"></div>
-                                <div class="ellipse-17"></div>
+                        <a href='02-checkmovie.html'>
+                            <div class="overlap-group2-3">
+
+                                <div class="ellipse-container">
+                                    <div class="ellipse-18"></div>
+                                    <div class="ellipse-16"></div>
+                                    <div class="ellipse-19"></div>
+                                    <div class="ellipse-17"></div>
+                                </div>
+                                <div class="go-to abrilfatface-normal-blue-zodiac-40px">Go to</div>
                             </div>
-                            <div class="go-to abrilfatface-normal-blue-zodiac-40px">Go to</div>
-                        </div>
-                        <div class="checkmovie-container-1 abrilfatface-normal-white-40px">
-                            <div class="checkmovie-2">
-                                <span class="abrilfatface-normal-tulip-tree-40px">Check</span><span class="abrilfatface-normal-old-brick-40px">movie</span>
+                            <div class="checkmovie-container-1 abrilfatface-normal-white-40px">
+                                <div class="checkmovie-2">
+                                    <span class="abrilfatface-normal-tulip-tree-40px">Check</span><span
+                                        class="abrilfatface-normal-old-brick-40px">movie</span>
+                                </div>
+                                <div class="checkmovie-3">
+                                    <span class="abrilfatface-normal-old-brick-40px">Check</span><span
+                                        class="abrilfatface-normal-tulip-tree-40px">movie</span>
+                                </div>
                             </div>
-                            <div class="checkmovie-3">
-                                <span class="abrilfatface-normal-old-brick-40px">Check</span><span class="abrilfatface-normal-tulip-tree-40px">movie</span>
-                            </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <div class="footer">
@@ -289,15 +306,16 @@
                                     <div class="overseas-1 ptserif-normal-white-24px">Overseas</div>
                                     <div class="recommend-result ptserif-normal-white-24px">Recommend Result</div>
                                 </a>
-                                    </div>
+                            </div>
                             <div class="my-book-1">
                                 <a href='05-1-mybook-recommended-books.html'>
                                     <div class="my-book-2 ptserif-normal-tulip-tree-24px">My Book</div>
                                     <div class="my-page ptserif-normal-white-24px">My Page</div>
                                     <div class="recommended-books ptserif-normal-white-24px">Recommended Books</div>
-                                    <div class="resently-searched-movies ptserif-normal-white-24px">Resently Searched Movies</div>
+                                    <div class="resently-searched-movies ptserif-normal-white-24px">Resently Searched
+                                        Movies</div>
                                 </a>
-                                    </div>
+                            </div>
                             <div class="shop-2">
                                 <a href='07-shop.html'>
                                     <div class="shop-3 ptserif-normal-tulip-tree-24px">Shop</div>
@@ -305,7 +323,7 @@
                                     <div class="aladin ptserif-normal-white-24px">Aladin</div>
                                     <div class="kyobo ptserif-normal-white-24px">KYOBO</div>
                                 </a>
-                                    </div>
+                            </div>
                         </div>
                         <div class="overlap-group1-2">
                             <p class="copyright opensans-normal-star-dust-12px">©copyright ABC All right reserved</p>

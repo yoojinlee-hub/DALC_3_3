@@ -169,7 +169,12 @@
 .a{
   text-decoration: none; 
 }
-
+.a_nav{
+  font-family: var(--font-family-open_sans);
+    font-size: var(--font-size-s);
+    text-align: center;
+    font-weight: 700;
+}
 .a_nav:link{
   color: #991E1ED9;
 }

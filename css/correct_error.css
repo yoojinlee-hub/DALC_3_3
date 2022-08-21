@@ -1,0 +1,68 @@
+.a_nav:link {
+    color: #991E1ED9;
+}
+
+.a_nav:visited {
+    color: #991E1ED9;
+}
+
+.a_nav:hover {
+    color: #FFABAB;
+}
+
+.a_nav:active {
+    color: #FFABAB;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.navbar {
+    align-items: flex-end;
+    background-color: var(--iron);
+    display: flex;
+    height: 44px;
+    left: -2px;
+    min-width: 1444px;
+    padding: 12px 171px;
+    position: absolute;
+    top: -2px;
+    z-index: 50;
+}
+
+.navbar-link-place {
+    letter-spacing: 0;
+    min-height: 19px;
+    min-width: 42px;
+    text-align: center;
+    text-shadow: 0px 4px 4px #00000040;
+}
+
+.navbar-link-login {
+    letter-spacing: 0;
+    margin-left: 43px;
+    min-height: 19px;
+    min-width: 38px;
+    text-align: center;
+    text-shadow: 0px 4px 4px #00000040;
+}
+
+.navbar-link-sign-up {
+    letter-spacing: 0;
+    margin-left: 38px;
+    min-height: 19px;
+    min-width: 53px;
+    text-align: center;
+    text-shadow: 0px 4px 4px #00000040;
+}
+
+.navbar-link-my-page {
+    letter-spacing: 0;
+    margin-left: 27px;
+    min-height: 19px;
+    min-width: 59px;
+    text-align: center;
+    text-shadow: 0px 4px 4px #00000040;
+    color: #991E1ED9;
+}

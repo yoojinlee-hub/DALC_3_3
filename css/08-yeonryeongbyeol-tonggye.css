@@ -442,8 +442,9 @@
   height: 27px;
   left: 0;
   position: absolute;
-  top: 41px;
+  top: 43px;
   width: 370px;
+  z-index: 1;
 }
 
 .x08-yeonryeongbyeol-tonggye .statistics-by-age-1 {
@@ -452,7 +453,7 @@
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
-  z-index: 1;
+  z-index: 10;
 }
 
 .x08-yeonryeongbyeol-tonggye .overlap-group7 {
