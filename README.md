@@ -7,3 +7,5 @@
 * 좀 귀찮지만 확실한 저장방법
 1. 지정한 폴더에 gitbash키고 git pull
 2. 수정한 뒤 수정한 모든 파일 끌어다가 add
+
+* be git : https://github.com/juri123123
