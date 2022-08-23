@@ -7,10 +7,18 @@ import pandas as pd
 import numpy as np
 import csv
 
+#api서버 구조 생성
+#참고 사이트 - https://opentutorials.org/module/3669/22070
 app = Flask(__name__)
-db = SQLAlchemy(app)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///book.sqlite3'
+app.config['SECRET_KEY'] = 'this is secret'
 
+#사용할 데이터베이스를 위한 URL을 지정해줍니다.
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
+db = SQLAlchemy(app)
+
+#도서 데이터 모델 추가
 class Book(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(100))
@@ -20,6 +28,7 @@ class Book(db.Model):
         self.title = title
         self.vector = vector
 
+#영화 데이터 모델 추가
 class Movie(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(100))
@@ -29,9 +38,11 @@ class Movie(db.Model):
         self.title = title
         self.vector = vector
 
+#데이터 베이스 초기화
 db.create_all()
 
 #제 로컬 드라이브 기준의 절대경로라서, 코드 돌리실때 갖고 계신 파일 경로로 변경해서 사용하시면 됩니다!
+#로컬에서 도서 데이터 불러와서 구축한 데이터 베이스에 등록하기
 book = pd.read_csv('C:\\Users\\clstm_\\OneDrive\\Desktop\\New Order\\book_vectors.csv')
 for z in range(book.shape[0]):
     imsi = book.iloc[z, 2].split('\n')
@@ -59,6 +70,7 @@ for z in range(book.shape[0]):
     db.session.commit()
 
 #제 로컬 드라이브 기준의 절대경로라서, 코드 돌리실때 갖고 계신 파일 경로로 변경해서 사용하시면 됩니다!
+#로컬에서 영화 데이터 불러와서 구축한 데이터 베이스에 등록하기
 movie = pd.read_csv('C:\\Users\\clstm_\\OneDrive\\Desktop\\New Order\\movie_vectors.csv')
 for z in range(movie.shape[0]):
     imsi = movie.iloc[z, 2].split('\n')
@@ -85,8 +97,10 @@ for z in range(movie.shape[0]):
     db.session.add(globals()['movie_'+str(z)])
     db.session.commit()
 
+#데이터 베이스에 등록한 모든 데이터를 불러오기
 print(Book.query.all())
 print(Movie.query.all())
 
+#저장한 데이터베이스 확인을 위한 실행
 if __name__ == '__main__':
     app.run()
