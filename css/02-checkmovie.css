@@ -771,63 +771,53 @@
 }
 
 .swiper-slide:nth-child(1n) {
-  background-image: URL(https://img1.daumcdn.net/thumb/C300x430/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fmovie%2F72cfc7293390c63db16779b67097d8703d2a5628);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: white;
 }
 
 .swiper-slide:nth-child(2n) {
-  background-image: URL(https://caching.lottecinema.co.kr//Media/MovieFile/MovieImg/202206/18508_201_1.jpg);
-  background-repeat: no-repeat;
+ background-repeat: no-repeat;
   background-size: cover;
   background-color: white;
 }
 
 .swiper-slide:nth-child(3n) {
-  background-image: URL(https://img0.yna.co.kr/etc/inner/KR/2017/12/15/AKR20171215158100005_01_i_P2.jpg);
-  background-repeat: no-repeat;
+ background-repeat: no-repeat;
   background-size: cover;
 }
 
 .swiper-slide:nth-child(4n) {
-  background-image: URL(https://img.hankyung.com/photo/202103/01.25578426.1.jpg);
-  background-repeat: no-repeat;
+ background-repeat: no-repeat;
   background-size: cover;
 }
 
 .swiper-slide:nth-child(5n) {
-  background-image: URL(http://kiramonthly.com/wp-content/uploads/2020/02/1.jpg);
-  background-repeat: no-repeat;
+ background-repeat: no-repeat;
   background-size: cover;
 }
 
 .swiper-slide:nth-child(6n) {
-  background-image: URL(http://joyposter.cafe24.com//NEW-posters/F600X848Poster/FMX-972.jpg);
-  background-repeat: no-repeat;
+ background-repeat: no-repeat;
   background-size: cover;
 }
 
 .swiper-slide:nth-child(7n) {
-  background-image: URL(https://cdn.imweb.me/upload/S20200515cfb40c92647b4/e27e419b2691f.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .swiper-slide:nth-child(8n) {
-  background-image: URL(https://hobbyen.co.kr/news/data/20210727/p1065599709407562_865_thum.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .swiper-slide:nth-child(9n) {
-  background-image: URL(https://post-phinf.pstatic.net/MjAxNzEwMjZfMTU2/MDAxNTA4OTgxMjg0MjI3.MHbehCKd4W6eMT6MnLAvU7MGutCQszsB_SykSoTJpKsg.y8arP5JJdnxiT7UZJM19Fr5lHA_itxi558GTJttObEMg.JPEG/IK3Z9kOiDieJY7T0IPLCV1QxObMU.jpg?type=w400);
-  background-repeat: no-repeat;
+ background-repeat: no-repeat;
   background-size: cover;
 }
 
 .swiper-slide:nth-child(10n) {
-  background-image: URL(https://cdn.imweb.me/upload/S20200515cfb40c92647b4/4f1f1976612af.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
