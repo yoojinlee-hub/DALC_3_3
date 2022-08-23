@@ -216,7 +216,7 @@
 </head>
 
 <body style="margin: 0; background: #ffffff">
-    <form class="checkmovie_form" action="#" accept-charset="utf-8" name="mybook-recommended-movies" method="get">
+    <form class="checkmovie_form" action="#" accept-charset="utf-8" name="swiper_data_2" method="get">
         <input type="hidden" id="anPageName" name="page" value="06-1-mybook-recommended-movies" />
         <div class="container-center-horizontal">
             <div class="x06-1-mybook-recommended-books screen">
@@ -230,7 +230,7 @@
                             <div class="navbar-link-place"><a class='a_nav' href='01-main-origin.html'>Home</a></div>
                             <div class="navbar-link-login"><a class='a_nav' href='04-login.html'>Login</a></div>
                             <div class="navbar-link-sign-up"><a class='a_nav' href='04-1-signup.html'>Sign Up</a></div>
-                            <div class="navbar-link-my-page"><a class='a_nav' href='05-Mybook.html'>My Page</a></div>
+                            <div class="navbar-link-my-page"><a class='a_nav' href='10-my-page.html'>My Page</a></div>
                         </div>
                         <div class="overlap-group border-3px-blue-zodiac">
                             <input type="text" name="q" class="input-box input-q" value="search">
@@ -257,42 +257,48 @@
                                     <div class="making-place"></div>
                                     <div class="check-movie-1">
                                         <a href='02-checkmovie.html'>
-                                        <div class="check-movie-2 ptserif-normal-tulip-tree-24px">Check Movie</div>
+                                            <div class="check-movie-2 ptserif-normal-tulip-tree-24px">Check Movie</div>
                                         </a>
                                         <div class="domestic ptserif-normal-white-24px"><a class="submenuLink longLink" href='02-checkmovie.html'>Domestic</a></div>
-                                        <div class="overseas ptserif-normal-white-24px"><a class="submenuLink longLink"href='02-checkmovie-2.html'>Overseas</a></div>
+                                        <div class="overseas ptserif-normal-white-24px"><a class="submenuLink longLink" href='02-checkmovie-2.html'>Overseas</a></div>
                                     </div>
                                     <div class="making-place2"></div>
                                     <div class="recommand-1">
-                                        <div class="recommand-2 ptserif-normal-tulip-tree-24px"><a class="submenuLink"
-                                            href='03-recommend.html'>Recommend</a></div>
+                                        <div class="recommand-2 ptserif-normal-tulip-tree-24px">
+                                            <a class="submenuLink"
+                                               href='03-recommend.html'>Recommend</a>
+                                        </div>
                                         <div class="recommand-result ptserif-normal-white-24px">
-                                            <a class="submenuLink longLink"href='03-recommend.html'>
+                                            <a class="submenuLink longLink" href='03-recommend.html'>
                                                 Recommend
                                                 Result
                                             </a>
                                         </div>
                                     </div>
                                     <div class="my-book-1">
-                                        <div class="my-book-2 ptserif-normal-tulip-tree-24px">><a class="submenuLink"
-                                            href='05-Mybook.html'>My Book</a></div>
-                                        <div class="my-page ptserif-normal-white-24px"><a class="submenuLink longLink"href='10-my-page.html'>My Page</a></div>
+                                        <div class="my-book-2 ptserif-normal-tulip-tree-24px">
+                                            ><a class="submenuLink"
+                                                href='05-Mybook.html'>My Book</a>
+                                        </div>
+                                        <div class="my-page ptserif-normal-white-24px"><a class="submenuLink longLink" href='10-my-page.html'>My Page</a></div>
                                         <div class="recommended-books ptserif-normal-white-24px">
-                                            <a class="submenuLink longLink"href='05-1-mybook-recommended-books.html'>
+                                            <a class="submenuLink longLink" href='05-1-mybook-recommended-books.html'>
                                                 Recommended
                                                 Books
                                             </a>
                                         </div>
                                         <div class="resently-searched-movies ptserif-normal-white-24px">
-                                            <a class="submenuLink longLink"href='05-2-mybook-recommended-movies.html'>Resently Searched Movies</a>
+                                            <a class="submenuLink longLink" href='05-2-mybook-recommended-movies.html'>Resently Searched Movies</a>
                                         </div>
                                     </div>
                                     <div class="shop-1">
-                                        <div class="shop-2 ptserif-normal-tulip-tree-24px"><a class="submenuLink"
-                                            href='07-shop.html'>Shop</a></div>
+                                        <div class="shop-2 ptserif-normal-tulip-tree-24px">
+                                            <a class="submenuLink"
+                                               href='07-shop.html'>Shop</a>
+                                        </div>
                                         <div class="yes24 ptserif-normal-white-24px"><a class="submenuLink longLink" href="http://www.yes24.com/main/">Yes24</a></div>
-                                        <div class="aladin ptserif-normal-white-24px"><a class="submenuLink longLink"href="https://www.aladin.co.kr/home/">Aladin</a></div>
-                                        <div class="kyobo ptserif-normal-white-24px"><a class="submenuLink longLink"href="https://www.kyobobook.co.kr/">KYOBO</a></div>
+                                        <div class="aladin ptserif-normal-white-24px"><a class="submenuLink longLink" href="https://www.aladin.co.kr/home/">Aladin</a></div>
+                                        <div class="kyobo ptserif-normal-white-24px"><a class="submenuLink longLink" href="https://www.kyobobook.co.kr/">KYOBO</a></div>
                                     </div>
                                     <img class="line-5" src="img/line-5-1@2x.svg" />
                                     <img class="line-6" src="img/line-6@2x.svg" />
@@ -362,19 +368,23 @@
                                                 </div>
                                                 <div class="overlap-group-2">
                                                     <div class="text-container">
-                                                        <div class="text_label">1이름</div>
-                                                        <p class="text-65">
-                                                            영화설명
-                                                        </p>
+                                                        <div class="text_label">
+                                                            <div class="text_label">
+                                                                <input type="text" name="t1" class="input-box input-p" value="1이름" />
+                                                            </div>
+                                                            </div>
+                                                            <p class="text-65">
+                                                                영화설명
+                                                            </p>
+                                                        </div>
+                                                        <div class="stars">
+                                                            <div id="stars1_1" onclick="checkStar1(1)" class="text-61"></div>
+                                                            <div id="stars1_2" onclick="checkStar1(2)" class="text-6"></div>
+                                                            <div id="stars1_3" onclick="checkStar1(3)" class="text-6"></div>
+                                                            <div id="stars1_4" onclick="checkStar1(4)" class="text-6-1"></div>
+                                                            <div id="stars1_5" onclick="checkStar1(5)" class="text-6-1"></div>
+                                                        </div>
                                                     </div>
-                                                    <div class="stars">
-                                                        <div id="stars1_1" onclick="checkStar1(1)" class="text-61"></div>
-                                                        <div id="stars1_2" onclick="checkStar1(2)" class="text-6"></div>
-                                                        <div id="stars1_3" onclick="checkStar1(3)" class="text-6"></div>
-                                                        <div id="stars1_4" onclick="checkStar1(4)" class="text-6-1"></div>
-                                                        <div id="stars1_5" onclick="checkStar1(5)" class="text-6-1"></div>
-                                                    </div>
-                                                </div>
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
@@ -388,7 +398,9 @@
                                                 </div>
                                                 <div class="overlap-group-2">
                                                     <div class="text-container">
-                                                        <div class="text_label">2이름</div>
+                                                        <div class="text_label">
+                                                            <input type="text" name="t1" class="input-box input-p" value="2이름" />
+                                                        </div>
                                                         <p class="text-65">
                                                             영화설명
                                                         </p>
@@ -414,7 +426,9 @@
                                                 </div>
                                                 <div class="overlap-group-2">
                                                     <div class="text-container">
-                                                        <div class="text_label">3이름</div>
+                                                        <div class="text_label">
+                                                            <input type="text" name="t1" class="input-box input-p" value="3이름" />
+                                                        </div>
                                                         <p class="text-65">
                                                             영화설명
                                                         </p>
@@ -440,7 +454,9 @@
                                                 </div>
                                                 <div class="overlap-group-2">
                                                     <div class="text-container">
-                                                        <div class="text_label">4이름</div>
+                                                        <div class="text_label">
+                                                            <input type="text" name="t1" class="input-box input-p" value="4이름" />
+                                                        </div>
                                                         <p class="text-65">
                                                             영화설명
                                                         </p>
@@ -466,7 +482,9 @@
                                                 </div>
                                                 <div class="overlap-group-2">
                                                     <div class="text-container">
-                                                        <div class="text_label">5이름</div>
+                                                        <div class="text_label">
+                                                            <input type="text" name="t1" class="input-box input-p" value="5이름" />
+                                                        </div>
                                                         <p class="text-65">
                                                             영화설명
                                                         </p>
@@ -492,7 +510,9 @@
                                                 </div>
                                                 <div class="overlap-group-2">
                                                     <div class="text-container">
-                                                        <div class="text_label">6이름</div>
+                                                        <div class="text_label">
+                                                            <input type="text" name="t1" class="input-box input-p" value="6이름" />
+                                                        </div>
                                                         <p class="text-65">
                                                             영화설명
                                                         </p>
@@ -518,7 +538,9 @@
                                                 </div>
                                                 <div class="overlap-group-2">
                                                     <div class="text-container">
-                                                        <div class="text_label">7이름</div>
+                                                        <div class="text_label">
+                                                            <input type="text" name="t1" class="input-box input-p" value="7이름" />
+                                                        </div>
                                                         <p class="text-65">
                                                             영화설명
                                                         </p>
@@ -544,7 +566,9 @@
                                                 </div>
                                                 <div class="overlap-group-2">
                                                     <div class="text-container">
-                                                        <div class="text_label">8이름</div>
+                                                        <div class="text_label">
+                                                            <input type="text" name="t1" class="input-box input-p" value="8이름" />
+                                                        </div>
                                                         <p class="text-65">
                                                             영화설명
                                                         </p>
@@ -570,7 +594,9 @@
                                                 </div>
                                                 <div class="overlap-group-2">
                                                     <div class="text-container">
-                                                        <div class="text_label">9이름</div>
+                                                        <div class="text_label">
+                                                            <input type="text" name="t1" class="input-box input-p" value="9이름" />
+                                                        </div>
                                                         <p class="text-65">
                                                             영화설명
                                                         </p>
@@ -588,8 +614,6 @@
                                     </div>
                                 </div>
                                 <!--**********************선택된 영화************************-->
-
-                                
                                 <!-- Swiper JS -->
                                 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
@@ -622,7 +646,7 @@
                                     <div class="overseas ptserif-normal-white-24px">Overseas</div>
                                     <div class="recommend-result ptserif-normal-white-24px">Recommend Result</div>
                                 </a>
-                                    </div>
+                            </div>
                             <div class="my-book-1">
                                 <a href='05-1-mybook-recommended-books.html'>
                                     <div class="my-book-2 ptserif-normal-tulip-tree-24px">My Book</div>
@@ -630,7 +654,7 @@
                                     <div class="recommended-books ptserif-normal-white-24px">Recommended Books</div>
                                     <div class="resently-searched-movies ptserif-normal-white-24px">Resently Searched Movies</div>
                                 </a>
-                                    </div>
+                            </div>
                             <div class="shop-1">
                                 <a href='07-shop.html'>
                                     <div class="shop-2 ptserif-normal-tulip-tree-24px">Shop</div>
