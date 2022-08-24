@@ -302,8 +302,7 @@
   min-width: 800px;
   padding: 314px 485px;
   position: absolute;
-
-  z-index: 0;
+  top: 0;
 }
 
 .x03-recommand .overlap-group-1 {
@@ -316,12 +315,10 @@
   height: 78px;
   min-width: 78px;
   padding: 24px 16px;
-  z-index: 10;
-  top: -500px;
 }
 
 .x03-recommand .text-1 {
-  color: white;
+  color: var(--tulip-tree);
   font-family: var(--font-family-font_awesome_5_free-solid);
   font-size: var(--font-size-xxxl);
   font-weight: 400;

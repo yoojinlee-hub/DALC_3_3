@@ -1616,12 +1616,7 @@ input[id=trigger]:checked+label[for=trigger] {
 
 /*스와이퍼 페이지 별 개인화*/
 .swiper-slide {
-  background-color: transparent;
-}
-.swiper-slide img{
-  width: 100%;
-  height: 100%;
-  overflow: visible;
+  background-color: aquamarine;
 }
 /* input */
 .input-box{
