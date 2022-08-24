@@ -1469,14 +1469,15 @@ input:focus {
 .swiper {
   width: 70%;
   height: 50%;
-  margin-top:100px;
+  margin-top:40px;
   padding: 1em;
+  
 }
 
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+
 
   /* Center slide text vertically */
   display: -webkit-box;
@@ -1497,7 +1498,6 @@ input:focus {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 /*************************************/
 /*click event*/
