@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org" >
 <!--more 이동 오류-->
 
 <head>
@@ -37,7 +37,7 @@
                             <div class="navbar-link-place"><a class='a_nav' href='01-main-origin.html'>Home</a></div>
                             <div class="navbar-link-login"><a class='a_nav' href='04-login.html'>Login</a></div>
                             <div class="navbar-link-sign-up"><a class='a_nav' href='04-1-signup.html'>Sign Up</a></div>
-                            <div class="navbar-link-my-page"><a class='a_nav' href='05-Mybook.html'>My Page</a></div>
+                            <div class="navbar-link-my-page"><a class='a_nav' href='10-my-page.html'>My Page</a></div>
                         </div>
                         <div class="overlap-group border-3px-blue-zodiac">
                             <input type="text" name="q" class="input-box input-q" value="search">
@@ -63,63 +63,40 @@
                                     <div class="place11 ptserif-normal-white-24px">more</div>
                                     <div class="check-movie-1">
                                         <a href='02-checkmovie.html'>
-                                            <div class="check-movie-2 ptserif-normal-tulip-tree-24px">Check Movie</div>
+                                        <div class="check-movie-2 ptserif-normal-tulip-tree-24px">Check Movie</div>
                                         </a>
-                                        <div class="domestic ptserif-normal-white-24px">
-                                            <a class="submenuLink longLink"
-                                               href='02-checkmovie.html'>Domestic</a>
-                                        </div>
-                                        <div class="overseas ptserif-normal-white-24px">
-                                            <a class="submenuLink longLink"
-                                               href='02-checkmovie-2.html'>Overseas</a>
-                                        </div>
+                                        <div class="domestic ptserif-normal-white-24px"><a class="submenuLink longLink"
+                                            href='02-checkmovie.html'>Domestic</a></div>
+                                        <div class="overseas ptserif-normal-white-24px"><a class="submenuLink longLink"
+                                            href='02-checkmovie-2.html'>Overseas</a></div>
                                     </div>
                                     <div class="recommand-1">
-                                        <div class="recommand-2 ptserif-normal-tulip-tree-24px">
-                                            <a class="submenuLink"
-                                               href='03-recommend.html'>Recommend</a>
-                                        </div>
+                                        <div class="recommand-2 ptserif-normal-tulip-tree-24px"><a class="submenuLink"
+                                            href='03-recommend.html'>Recommend</a></div>
                                         <div class="recommand-result ptserif-normal-white-24px"><a class="submenuLink longLink" href='03-recommend.html'>Recommend Result</a></div>
                                     </div>
                                     <div class="my-book-1">
-                                        <div class="my-book-2 ptserif-normal-tulip-tree-24px">
-                                            <a class="submenuLink"
-                                               href='05-Mybook.html'>My Book</a>
-                                        </div>
-                                        <div class="my-page ptserif-normal-white-24px">
-                                            <a class="submenuLink longLink"
-                                               href='10-my-page.html'>My Page</a>
-                                        </div>
-                                        <div class="recommended-books ptserif-normal-white-24px">
-                                            <a class="submenuLink longLink" href='05-1-mybook-recommended-books.html'>
-                                                Recommended Books
-                                            </a>
-                                        </div>
+                                        <div class="my-book-2 ptserif-normal-tulip-tree-24px"><a class="submenuLink"
+                                            href='05-Mybook.html'>My Book</a></div>
+                                        <div class="my-page ptserif-normal-white-24px"><a class="submenuLink longLink"
+                                            href='10-my-page.html'>My Page</a></div>
+                                        <div class="recommended-books ptserif-normal-white-24px"><a class="submenuLink longLink" href='05-1-mybook-recommended-books.html'>
+                                            Recommended Books</a></div>
                                         <div class="resently-searched-movies ptserif-normal-white-24px">
                                             <a class="submenuLink longLink"
-                                               href='05-2-mybook-recommended-movies.html'>
-                                                Resently
-                                                Searched Movies
-                                            </a>
+                                                href='05-2-mybook-recommended-movies.html'>Resently
+                                            Searched Movies</a>
                                         </div>
                                     </div>
                                     <div class="shop-1">
-                                        <div class="shop-2 ptserif-normal-tulip-tree-24px">
-                                            <a class="submenuLink"
-                                               href='07-shop.html'>Shop</a>
-                                        </div>
-                                        <div class="yes24 ptserif-normal-white-24px">
-                                            <a class="submenuLink longLink"
-                                               href="http://www.yes24.com/main/">Yes24</a>
-                                        </div>
-                                        <div class="aladin ptserif-normal-white-24px">
-                                            <a class="submenuLink longLink"
-                                               href="https://www.aladin.co.kr/home/">Aladin</a>
-                                        </div>
-                                        <div class="kyobo ptserif-normal-white-24px">
-                                            <a class="submenuLink longLink"
-                                               href="https://www.kyobobook.co.kr/">KYOBO</a>
-                                        </div>
+                                        <div class="shop-2 ptserif-normal-tulip-tree-24px"><a class="submenuLink"
+                                            href='07-shop.html'>Shop</a></div>
+                                        <div class="yes24 ptserif-normal-white-24px"><a class="submenuLink longLink"
+                                            href="http://www.yes24.com/main/">Yes24</a></div>
+                                        <div class="aladin ptserif-normal-white-24px"><a class="submenuLink longLink"
+                                            href="https://www.aladin.co.kr/home/">Aladin</a></div>
+                                        <div class="kyobo ptserif-normal-white-24px"><a class="submenuLink longLink"
+                                            href="https://www.kyobobook.co.kr/">KYOBO</a></div>
                                     </div>
                                     <img class="line-5" src="img/line-5-1@2x.svg" />
                                     <img class="line-6" src="img/line-6@2x.svg" />
@@ -154,16 +131,16 @@
                                     <div class="overseas ptserif-normal-white-24px">Overseas</div>
                                     <div class="recommend-result ptserif-normal-white-24px">Recommend Result</div>
                                 </a>
-                            </div>
+                                    </div>
                             <div class="my-book-1">
                                 <a href='05-1-mybook-recommended-books.html'>
                                     <div class="my-book-2 ptserif-normal-tulip-tree-24px">My Book</div>
                                     <div class="my-page ptserif-normal-white-24px">My Page</div>
                                     <div class="recommended-books ptserif-normal-white-24px">Recommended Books</div>
-                                </a>
-                                <div class="resently-searched-movies ptserif-normal-white-24px">
-                                    Resently Searched Movies
-                                </div>
+                                    </a>
+                                    <div class="resently-searched-movies ptserif-normal-white-24px">
+                                        Resently Searched Movies
+                                    </div>
                             </div>
                             <div class="shop-1">
                                 <a href='07-shop.html'>
@@ -171,7 +148,7 @@
                                     <div class="yes24 ptserif-normal-white-24px">Yes24</div>
                                     <div class="aladin ptserif-normal-white-24px">Aladin</div>
                                     <div class="kyobo ptserif-normal-white-24px">KYOBO</div>
-                                </a>
+                                    </a>
                             </div>
                         </div>
                         <div class="overlap-group1">
@@ -195,23 +172,25 @@
 
                             <!--**********************선택된 책************************-->
                             <div class="overlap-group3">
+                                <!--swiper-->
                                 <div class="swiper mySwiper">
                                     <div class="swiper-wrapper">
-                                        <div class="swiper-slide"><input type="text" name="t1" class="input-box input-p" value="Slide 1" /></div>
-                                        <div class="swiper-slide"><input type="text" name="t1" class="input-box input-p" value="Slide 2" /></div>
-                                        <div class="swiper-slide"><input type="text" name="t1" class="input-box input-p" value="Slide 3" /></div>
-                                        <div class="swiper-slide"><input type="text" name="t1" class="input-box input-p" value="Slide 4" /></div>
-                                        <div class="swiper-slide"><input type="text" name="t1" class="input-box input-p" value="Slide 5" /></div>
-                                        <div class="swiper-slide"><input type="text" name="t1" class="input-box input-p" value="Slide 6" /></div>
-                                        <div class="swiper-slide"><input type="text" name="t1" class="input-box input-p" value="Slide 7" /></div>
-                                        <div class="swiper-slide"><input type="text" name="t1" class="input-box input-p" value="Slide 8" /></div>
-                                        <div class="swiper-slide"><input type="text" name="t1" class="input-box input-p" value="Slide 9" /></div>
+                                        <div class="swiper-slide"><img th:src = "${bookList[0].book_img}" th:if="${bookList[0].book_img != null}"/>Slide 1</div>
+                                        <div class="swiper-slide"><img th:src = "${bookList[1].book_img}" th:if="${bookList[1].book_img != null}"/>Slide 2</div>
+                                        <div class="swiper-slide"><img th:src = "${bookList[2].book_img}" th:if="${bookList[2].book_img != null}"/>Slide 3</div>
+                                        <div class="swiper-slide"><img th:src = "${bookList[3].book_img}" th:if="${bookList[3].book_img != null}"/>Slide 4</div>
+                                        <div class="swiper-slide"><img th:src = "${bookList[4].book_img}" th:if="${bookList[4].book_img != null}"/>Slide 5</div>
+                                        <div class="swiper-slide"><img th:src = "${bookList[5].book_img}" th:if="${bookList[5].book_img != null}"/>Slide 6</div>
+                                        <div class="swiper-slide"><img th:src = "${bookList[6].book_img}" th:if="${bookList[6].book_img != null}"/>Slide 7</div>
+                                        <div class="swiper-slide"><img th:src = "${bookList[7].book_img}" th:if="${bookList[7].book_img != null}"/>Slide 8</div>
+                                        <div class="swiper-slide"><img th:src = "${bookList[8].book_img}" th:if="${bookList[8].book_img != null}"/>Slide 9</div>
                                     </div>
                                     <div class="swiper-button-next"></div>
                                     <div class="swiper-button-prev"></div>
                                 </div>
-
                                 <!--**********************선택된 책************************-->
+
+
                                 <!-- Swiper JS -->
                                 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
@@ -260,20 +239,22 @@
                             <!--swiper-->
                             <div class="swiper mySwiper">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide"><input type="text" name="t1" class="input-box input-p" value="Slide 1" /></div>
-                                    <div class="swiper-slide"><input type="text" name="t1" class="input-box input-p" value="Slide 2" /></div>
-                                    <div class="swiper-slide"><input type="text" name="t1" class="input-box input-p" value="Slide 3" /></div>
-                                    <div class="swiper-slide"><input type="text" name="t1" class="input-box input-p" value="Slide 4" /></div>
-                                    <div class="swiper-slide"><input type="text" name="t1" class="input-box input-p" value="Slide 5" /></div>
-                                    <div class="swiper-slide"><input type="text" name="t1" class="input-box input-p" value="Slide 6" /></div>
-                                    <div class="swiper-slide"><input type="text" name="t1" class="input-box input-p" value="Slide 7" /></div>
-                                    <div class="swiper-slide"><input type="text" name="t1" class="input-box input-p" value="Slide 8" /></div>
-                                    <div class="swiper-slide"><input type="text" name="t1" class="input-box input-p" value="Slide 9" /></div>
+                                    <div class="swiper-slide"><img th:src = "${movieList[0].movie_img}" th:if="${movieList[0].movie_img != null}"/><!--이미지(제목없음)--></div>
+                                    <div class="swiper-slide"><img th:src = "${movieList[1].movie_img}" th:if="${movieList[1].movie_img != null}"/><!--이미지(제목없음)--></div>
+                                    <div class="swiper-slide"><img th:src = "${movieList[2].movie_img}" th:if="${movieList[2].movie_img != null}"/><!--이미지(제목없음)--></div>
+                                    <div class="swiper-slide"><img th:src = "${movieList[3].movie_img}" th:if="${movieList[3].movie_img != null}"/><!--이미지(제목없음)--></div>
+                                    <div class="swiper-slide"><img th:src = "${movieList[4].movie_img}" th:if="${movieList[4].movie_img != null}"/><!--이미지(제목없음)--></div>
+                                    <div class="swiper-slide"><img th:src = "${movieList[5].movie_img}" th:if="${movieList[5].movie_img != null}"/><!--이미지(제목없음)--></div>
+                                    <div class="swiper-slide"><img th:src = "${movieList[6].movie_img}" th:if="${movieList[6].movie_img != null}"/><!--이미지(제목없음)--></div>
+                                    <div class="swiper-slide"><img th:src = "${movieList[7].movie_img}" th:if="${movieList[7].movie_img != null}"/><!--이미지(제목없음)--></div>
+                                    <div class="swiper-slide"><img th:src = "${movieList[8].movie_img}" th:if="${movieList[8].movie_img != null}"/><!--이미지(제목없음)--></div>
                                 </div>
                                 <div class="swiper-button-next"></div>
                                 <div class="swiper-button-prev"></div>
                             </div>
                             <!--**********************선택된 영화************************-->
+
+                            
                             <!-- Swiper JS -->
                             <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
@@ -314,25 +295,28 @@
                         </div>
                         <div class="overlap-group10">
 
-
+                            
                             <!--**********************추천된 책************************-->
-                            <!--swiper-->
-                            <div class="swiper mySwiper">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide"><input type="text" name="t1" class="input-box input-p" value="Slide 1" /></div>
-                                    <div class="swiper-slide"><input type="text" name="t1" class="input-box input-p" value="Slide 2" /></div>
-                                    <div class="swiper-slide"><input type="text" name="t1" class="input-box input-p" value="Slide 3" /></div>
-                                    <div class="swiper-slide"><input type="text" name="t1" class="input-box input-p" value="Slide 4" /></div>
-                                    <div class="swiper-slide"><input type="text" name="t1" class="input-box input-p" value="Slide 5" /></div>
-                                    <div class="swiper-slide"><input type="text" name="t1" class="input-box input-p" value="Slide 6" /></div>
-                                    <div class="swiper-slide"><input type="text" name="t1" class="input-box input-p" value="Slide 7" /></div>
-                                    <div class="swiper-slide"><input type="text" name="t1" class="input-box input-p" value="Slide 8" /></div>
-                                    <div class="swiper-slide"><input type="text" name="t1" class="input-box input-p" value="Slide 9" /></div>
+                                <!--swiper-->
+                                <div class="swiper mySwiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img th:src = "${bookList[10].book_img}" th:if="${bookList[10].book_img != null}"/>Slide 1</div>
+                                        <div class="swiper-slide"><img th:src = "${bookList[11].book_img}" th:if="${bookList[11].book_img != null}"/>Slide 2</div>
+                                        <div class="swiper-slide"><img th:src = "${bookList[12].book_img}" th:if="${bookList[12].book_img != null}"/>Slide 3</div>
+                                        <div class="swiper-slide"><img th:src = "${bookList[13].book_img}" th:if="${bookList[13].book_img != null}"/>Slide 4</div>
+                                        <div class="swiper-slide"><img th:src = "${bookList[14].book_img}" th:if="${bookList[14].book_img != null}"/>Slide 5</div>
+                                        <div class="swiper-slide"><img th:src = "${bookList[15].book_img}" th:if="${bookList[15].book_img != null}"/>Slide 6</div>
+                                        <div class="swiper-slide"><img th:src = "${bookList[16].book_img}" th:if="${bookList[16].book_img != null}"/>Slide 7</div>
+                                        <div class="swiper-slide"><img th:src = "${bookList[17].book_img}" th:if="${bookList[17].book_img != null}"/>Slide 8</div>
+                                        <div class="swiper-slide"><img th:src = "${bookList[18].book_img}" th:if="${bookList[18].book_img != null}"/>Slide 9</div>
+                                    </div>
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
                                 </div>
-                                <div class="swiper-button-next"></div>
-                                <div class="swiper-button-prev"></div>
-                            </div>
                             <!--**********************추천된 책************************-->
+
+
+
                             <!-- Swiper JS -->
                             <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="UTF-8">
+    <head>
+        <tr>
+            <th scope="col">번호</th>
+            <th scope="col">영화이미지</th>
+            <th scope="col">제목</th>
+        </tr>
+    </head>
+
+<body>
+<tr th:each = "m : ${movieList}">
+    <td th:text = ${m.movie_id}></td>
+    <td th:text = ${m.title}></td>
+    <img th:src = "${m.movie_img}" th:if="${m.movie_img != null}"/>
+</tr>
+</body>
+
+</html>

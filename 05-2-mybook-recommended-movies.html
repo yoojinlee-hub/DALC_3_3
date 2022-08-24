@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
 
 <head>
     <meta charset="utf-8" />
@@ -19,9 +19,8 @@
     <!-- Demo styles -->
     <!-- 다른곳에 옮기면 오류발생 -->
     <style>
-
-        /*swiper*/
-        .swiper {
+/*swiper*/
+.swiper {
             width: 100%;
             height: 100%;
             overflow: visible;
@@ -32,7 +31,6 @@
         .swiper-slide {
             text-align: center;
             font-size: 18px;
-            background: #fff;
             margin-top: auto;
             margin-bottom: auto;
             /* Center slide text vertically */
@@ -50,12 +48,12 @@
             align-items: center;
         }
 
-            .swiper-slide img {
-                display: block;
-                width: 201.49px;
-                height: 265.23;
-                object-fit: cover;
-            }
+        .swiper-slide img {
+            display: block;
+            width: 190.49px;
+            height: 265.23;
+            object-fit: cover;
+        }
 
         .swiper-slide {
             width: 201.49px;
@@ -63,6 +61,7 @@
         }
 
         .swiper-img {
+         
         }
 
         .explain {
@@ -70,14 +69,13 @@
         }
 
         .swiper-slide-next {
-            background-color: antiquewhite;
+
             width: 201.49px;
             height: 265.23;
             margin-left: 10px;
         }
 
         .swiper-slide-prev {
-            background-color: antiquewhite;
             width: 201.49px;
             height: 265.23;
             margin-right: 10px;
@@ -88,42 +86,49 @@
             overflow: visible;
         }
 
-            .swiper-slide-active .explain {
-                position: absolute;
-                display: block;
-                background-color: #F4F5F7;
-                margin-top: 90%;
-                width: 714px;
-                height: 859.4px;
-                z-index: 1;
-                /*animation*/
-                animation: fadein 0.7s;
-                -moz-animation: fadein 0.7s;
-                /* Firefox */
-                -webkit-animation: fadein 0.7s;
-                /* Safari and Chrome */
-                -o-animation: fadein 0.7s;
-                /* Opera */
-                animation-fill-mode: forwards;
-            }
+        .swiper-slide-active .explain {
+            position: absolute;
+            display: block;
+            background-color: #F4F5F7;
+            margin-top: 90%;
+            width: 714px;
+            height: 859.4px;
+            z-index: 1;
+            /*animation*/
+            animation: fadein 0.7s;
+            -moz-animation: fadein 0.7s;
+            /* Firefox */
+            -webkit-animation: fadein 0.7s;
+            /* Safari and Chrome */
+            -o-animation: fadein 0.7s;
+            /* Opera */
+            animation-fill-mode: forwards;
+        }
 
-            .swiper-slide-active .swiper-img {
-                width: 507px;
-                height: 700px;
-                margin-bottom: 30%;
-                z-index: 2;
-                position: absolute;
-                border: 3px solid #999;
-                /*animation*/
-                animation: fadein 0.7s;
-                -moz-animation: fadein 0.7s;
-                /* Firefox */
-                -webkit-animation: fadein 0.7s;
-                /* Safari and Chrome */
-                -o-animation: fadein 0.7s;
-                /* Opera */
-                animation-fill-mode: forwards;
-            }
+        .swiper-slide-active .swiper-img {
+            width: 507px;
+            height: 700px;
+            margin-bottom: 30%;
+            z-index: 2;
+            position: absolute;
+            border: 3px solid #999;
+            /*animation*/
+            animation: fadein 0.7s;
+            -moz-animation: fadein 0.7s;
+            /* Firefox */
+            -webkit-animation: fadein 0.7s;
+            /* Safari and Chrome */
+            -o-animation: fadein 0.7s;
+            /* Opera */
+            animation-fill-mode: forwards;
+        }
+        .swiper-slide-active .swiper-img img{
+            width: 100%;
+            height: 100%;
+            
+            z-index: 2;
+            position: absolute;
+        }
 
         /*swiper animation*/
         @keyframes fadeout {
@@ -137,6 +142,7 @@
         }
 
         @-moz-keyframes fadeout {
+
             /* Firefox */
             from {
                 opacity: 1;
@@ -148,6 +154,7 @@
         }
 
         @-webkit-keyframes fadeout {
+
             /* Safari and Chrome */
             from {
                 opacity: 1;
@@ -159,6 +166,7 @@
         }
 
         @-o-keyframes fadeout {
+
             /* Opera */
             from {
                 opacity: 1;
@@ -180,6 +188,7 @@
         }
 
         @-moz-keyframes fadein {
+
             /* Firefox */
             from {
                 opacity: 0;
@@ -191,6 +200,7 @@
         }
 
         @-webkit-keyframes fadein {
+
             /* Safari and Chrome */
             from {
                 opacity: 0;
@@ -202,6 +212,7 @@
         }
 
         @-o-keyframes fadein {
+
             /* Opera */
             from {
                 opacity: 0;
@@ -216,7 +227,7 @@
 </head>
 
 <body style="margin: 0; background: #ffffff">
-    <form class="checkmovie_form" action="#" accept-charset="utf-8" name="swiper_data_2" method="get">
+    <form class="checkmovie_form" action="#" accept-charset="utf-8" name="mybook-recommended-movies" method="get">
         <input type="hidden" id="anPageName" name="page" value="06-1-mybook-recommended-movies" />
         <div class="container-center-horizontal">
             <div class="x06-1-mybook-recommended-books screen">
@@ -230,7 +241,7 @@
                             <div class="navbar-link-place"><a class='a_nav' href='01-main-origin.html'>Home</a></div>
                             <div class="navbar-link-login"><a class='a_nav' href='04-login.html'>Login</a></div>
                             <div class="navbar-link-sign-up"><a class='a_nav' href='04-1-signup.html'>Sign Up</a></div>
-                            <div class="navbar-link-my-page"><a class='a_nav' href='10-my-page.html'>My Page</a></div>
+                            <div class="navbar-link-my-page"><a class='a_nav' href='05-Mybook.html'>My Page</a></div>
                         </div>
                         <div class="overlap-group border-3px-blue-zodiac">
                             <input type="text" name="q" class="input-box input-q" value="search">
@@ -257,48 +268,42 @@
                                     <div class="making-place"></div>
                                     <div class="check-movie-1">
                                         <a href='02-checkmovie.html'>
-                                            <div class="check-movie-2 ptserif-normal-tulip-tree-24px">Check Movie</div>
+                                        <div class="check-movie-2 ptserif-normal-tulip-tree-24px">Check Movie</div>
                                         </a>
                                         <div class="domestic ptserif-normal-white-24px"><a class="submenuLink longLink" href='02-checkmovie.html'>Domestic</a></div>
-                                        <div class="overseas ptserif-normal-white-24px"><a class="submenuLink longLink" href='02-checkmovie-2.html'>Overseas</a></div>
+                                        <div class="overseas ptserif-normal-white-24px"><a class="submenuLink longLink"href='02-checkmovie-2.html'>Overseas</a></div>
                                     </div>
                                     <div class="making-place2"></div>
                                     <div class="recommand-1">
-                                        <div class="recommand-2 ptserif-normal-tulip-tree-24px">
-                                            <a class="submenuLink"
-                                               href='03-recommend.html'>Recommend</a>
-                                        </div>
+                                        <div class="recommand-2 ptserif-normal-tulip-tree-24px"><a class="submenuLink"
+                                            href='03-recommend.html'>Recommend</a></div>
                                         <div class="recommand-result ptserif-normal-white-24px">
-                                            <a class="submenuLink longLink" href='03-recommend.html'>
+                                            <a class="submenuLink longLink"href='03-recommend.html'>
                                                 Recommend
                                                 Result
                                             </a>
                                         </div>
                                     </div>
                                     <div class="my-book-1">
-                                        <div class="my-book-2 ptserif-normal-tulip-tree-24px">
-                                            ><a class="submenuLink"
-                                                href='05-Mybook.html'>My Book</a>
-                                        </div>
-                                        <div class="my-page ptserif-normal-white-24px"><a class="submenuLink longLink" href='10-my-page.html'>My Page</a></div>
+                                        <div class="my-book-2 ptserif-normal-tulip-tree-24px">><a class="submenuLink"
+                                            href='05-Mybook.html'>My Book</a></div>
+                                        <div class="my-page ptserif-normal-white-24px"><a class="submenuLink longLink"href='10-my-page.html'>My Page</a></div>
                                         <div class="recommended-books ptserif-normal-white-24px">
-                                            <a class="submenuLink longLink" href='05-1-mybook-recommended-books.html'>
+                                            <a class="submenuLink longLink"href='05-1-mybook-recommended-books.html'>
                                                 Recommended
                                                 Books
                                             </a>
                                         </div>
                                         <div class="resently-searched-movies ptserif-normal-white-24px">
-                                            <a class="submenuLink longLink" href='05-2-mybook-recommended-movies.html'>Resently Searched Movies</a>
+                                            <a class="submenuLink longLink"href='05-2-mybook-recommended-movies.html'>Resently Searched Movies</a>
                                         </div>
                                     </div>
                                     <div class="shop-1">
-                                        <div class="shop-2 ptserif-normal-tulip-tree-24px">
-                                            <a class="submenuLink"
-                                               href='07-shop.html'>Shop</a>
-                                        </div>
+                                        <div class="shop-2 ptserif-normal-tulip-tree-24px"><a class="submenuLink"
+                                            href='07-shop.html'>Shop</a></div>
                                         <div class="yes24 ptserif-normal-white-24px"><a class="submenuLink longLink" href="http://www.yes24.com/main/">Yes24</a></div>
-                                        <div class="aladin ptserif-normal-white-24px"><a class="submenuLink longLink" href="https://www.aladin.co.kr/home/">Aladin</a></div>
-                                        <div class="kyobo ptserif-normal-white-24px"><a class="submenuLink longLink" href="https://www.kyobobook.co.kr/">KYOBO</a></div>
+                                        <div class="aladin ptserif-normal-white-24px"><a class="submenuLink longLink"href="https://www.aladin.co.kr/home/">Aladin</a></div>
+                                        <div class="kyobo ptserif-normal-white-24px"><a class="submenuLink longLink"href="https://www.kyobobook.co.kr/">KYOBO</a></div>
                                     </div>
                                     <img class="line-5" src="img/line-5-1@2x.svg" />
                                     <img class="line-6" src="img/line-6@2x.svg" />
@@ -358,7 +363,7 @@
                                 <div class="swiper mySwiper">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <div class="swiper-img">img자리</div>
+                                            <div class="swiper-img"><img th:src = "${movieList[0].movie_img}" th:if="${movieList[0].movie_img != null}" /></div>
                                             <div class="explain">
                                                 <div class="s_login">
                                                     <img class="ellipse-1" src="img/ellipse-1-4@2x.png" />
@@ -368,55 +373,28 @@
                                                 </div>
                                                 <div class="overlap-group-2">
                                                     <div class="text-container">
-                                                        <div class="text_label">
-                                                            <div class="text_label">
-                                                                <input type="text" name="t1" class="input-box input-p" value="1이름" />
-                                                            </div>
-                                                            </div>
-                                                            <p class="text-65">
-                                                                영화설명
-                                                            </p>
-                                                        </div>
-                                                        <div class="stars">
-                                                            <div id="stars1_1" onclick="checkStar1(1)" class="text-61"></div>
-                                                            <div id="stars1_2" onclick="checkStar1(2)" class="text-6"></div>
-                                                            <div id="stars1_3" onclick="checkStar1(3)" class="text-6"></div>
-                                                            <div id="stars1_4" onclick="checkStar1(4)" class="text-6-1"></div>
-                                                            <div id="stars1_5" onclick="checkStar1(5)" class="text-6-1"></div>
-                                                        </div>
-                                                    </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="swiper-img">img자리</div>
-                                            <div class="explain">
-                                                <div class="s_login">
-                                                    <img class="ellipse-1" src="img/ellipse-1-4@2x.png" />
-                                                    <img class="ellipse-2" src="img/ellipse-2-4@2x.png" />
-                                                    <img class="ellipse-4" src="img/ellipse-4-4@2x.png" />
-                                                    <img class="ellipse-3" src="img/ellipse-3-4@2x.png" />
-                                                </div>
-                                                <div class="overlap-group-2">
-                                                    <div class="text-container">
-                                                        <div class="text_label">
-                                                            <input type="text" name="t1" class="input-box input-p" value="2이름" />
-                                                        </div>
-                                                        <p class="text-65">
-                                                            영화설명
+                                                        <div class="text_label" th:text = ${movieList[0].title}></div>
+                                                        <p class="text-65" >
+                                                            영화줄거리
                                                         </p>
                                                     </div>
-                                                    <div class="stars">
-                                                        <div id="stars2_1" onclick="checkStar2(1)" class="text-61"></div>
-                                                        <div id="stars2_2" onclick="checkStar2(2)" class="text-6"></div>
-                                                        <div id="stars2_3" onclick="checkStar2(3)" class="text-6"></div>
-                                                        <div id="stars2_4" onclick="checkStar2(4)" class="text-6-1"></div>
-                                                        <div id="stars2_5" onclick="checkStar2(5)" class="text-6-1"></div>
+                                                    <div class="stars"><!--**********************점수매기기************************-->
+                                                        <div id="stars1_1" onclick="checkStar1(1)" class="text-61">
+                                                        </div>
+                                                        <div id="stars1_2" onclick="checkStar1(2)" class="text-6">
+                                                        </div>
+                                                        <div id="stars1_3" onclick="checkStar1(3)" class="text-6">
+                                                        </div>
+                                                        <div id="stars1_4" onclick="checkStar1(4)" class="text-6-1">
+                                                        </div>
+                                                        <div id="stars1_5" onclick="checkStar1(5)" class="text-6-1">
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="swiper-img">img자리</div>
+                                            <div class="swiper-img"><img th:src = "${movieList[1].movie_img}" th:if="${movieList[1].movie_img != null}" /></div>
                                             <div class="explain">
                                                 <div class="s_login">
                                                     <img class="ellipse-1" src="img/ellipse-1-4@2x.png" />
@@ -426,25 +404,28 @@
                                                 </div>
                                                 <div class="overlap-group-2">
                                                     <div class="text-container">
-                                                        <div class="text_label">
-                                                            <input type="text" name="t1" class="input-box input-p" value="3이름" />
-                                                        </div>
-                                                        <p class="text-65">
-                                                            영화설명
+                                                        <div class="text_label" th:text = ${movieList[1].title}></div>
+                                                        <p class="text-65" >
+                                                            영화줄거리
                                                         </p>
                                                     </div>
-                                                    <div class="stars">
-                                                        <div id="stars3_1" onclick="checkStar3(1)" class="text-61"></div>
-                                                        <div id="stars3_2" onclick="checkStar3(2)" class="text-6"></div>
-                                                        <div id="stars3_3" onclick="checkStar3(3)" class="text-6"></div>
-                                                        <div id="stars3_4" onclick="checkStar3(4)" class="text-6-1"></div>
-                                                        <div id="stars3_5" onclick="checkStar3(5)" class="text-6-1"></div>
+                                                    <div class="stars"><!--**********************점수매기기************************-->
+                                                        <div id="stars2_1" onclick="checkStar2(1)" class="text-61">
+                                                        </div>
+                                                        <div id="stars2_2" onclick="checkStar2(2)" class="text-6">
+                                                        </div>
+                                                        <div id="stars2_3" onclick="checkStar2(3)" class="text-6">
+                                                        </div>
+                                                        <div id="stars2_4" onclick="checkStar2(4)" class="text-6-1">
+                                                        </div>
+                                                        <div id="stars2_5" onclick="checkStar2(5)" class="text-6-1">
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="swiper-img">img자리</div>
+                                            <div class="swiper-img"><img th:src = "${movieList[2].movie_img}" th:if="${movieList[2].movie_img != null}" /></div>
                                             <div class="explain">
                                                 <div class="s_login">
                                                     <img class="ellipse-1" src="img/ellipse-1-4@2x.png" />
@@ -454,25 +435,28 @@
                                                 </div>
                                                 <div class="overlap-group-2">
                                                     <div class="text-container">
-                                                        <div class="text_label">
-                                                            <input type="text" name="t1" class="input-box input-p" value="4이름" />
-                                                        </div>
-                                                        <p class="text-65">
-                                                            영화설명
+                                                        <div class="text_label" th:text = ${movieList[2].title}></div>
+                                                        <p class="text-65" >
+                                                            영화줄거리
                                                         </p>
                                                     </div>
-                                                    <div class="stars">
-                                                        <div id="stars4_1" onclick="checkStar4(1)" class="text-61"></div>
-                                                        <div id="stars4_2" onclick="checkStar4(2)" class="text-6"></div>
-                                                        <div id="stars4_3" onclick="checkStar4(3)" class="text-6"></div>
-                                                        <div id="stars4_4" onclick="checkStar4(4)" class="text-6-1"></div>
-                                                        <div id="stars4_5" onclick="checkStar4(5)" class="text-6-1"></div>
+                                                    <div class="stars"><!--**********************점수매기기************************-->
+                                                        <div id="stars3_1" onclick="checkStar3(1)" class="text-61">
+                                                        </div>
+                                                        <div id="stars3_2" onclick="checkStar3(2)" class="text-6">
+                                                        </div>
+                                                        <div id="stars3_3" onclick="checkStar3(3)" class="text-6">
+                                                        </div>
+                                                        <div id="stars3_4" onclick="checkStar3(4)" class="text-6-1">
+                                                        </div>
+                                                        <div id="stars3_5" onclick="checkStar3(5)" class="text-6-1">
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="swiper-img">img자리</div>
+                                            <div class="swiper-img"><img th:src = "${movieList[3].movie_img}" th:if="${movieList[3].movie_img != null}" /></div>
                                             <div class="explain">
                                                 <div class="s_login">
                                                     <img class="ellipse-1" src="img/ellipse-1-4@2x.png" />
@@ -482,25 +466,28 @@
                                                 </div>
                                                 <div class="overlap-group-2">
                                                     <div class="text-container">
-                                                        <div class="text_label">
-                                                            <input type="text" name="t1" class="input-box input-p" value="5이름" />
-                                                        </div>
-                                                        <p class="text-65">
-                                                            영화설명
+                                                        <div class="text_label" th:text = ${movieList[3].title}></div>
+                                                        <p class="text-65" >
+                                                            영화줄거리
                                                         </p>
                                                     </div>
-                                                    <div class="stars">
-                                                        <div id="stars5_1" onclick="checkStar5(1)" class="text-61"></div>
-                                                        <div id="stars5_2" onclick="checkStar5(2)" class="text-6"></div>
-                                                        <div id="stars5_3" onclick="checkStar5(3)" class="text-6"></div>
-                                                        <div id="stars5_4" onclick="checkStar5(4)" class="text-6-1"></div>
-                                                        <div id="stars5_5" onclick="checkStar5(5)" class="text-6-1"></div>
+                                                    <div class="stars"><!--**********************점수매기기************************-->
+                                                        <div id="stars4_1" onclick="checkStar4(1)" class="text-61">
+                                                        </div>
+                                                        <div id="stars4_2" onclick="checkStar4(2)" class="text-6">
+                                                        </div>
+                                                        <div id="stars4_3" onclick="checkStar4(3)" class="text-6">
+                                                        </div>
+                                                        <div id="stars4_4" onclick="checkStar4(4)" class="text-6-1">
+                                                        </div>
+                                                        <div id="stars4_5" onclick="checkStar4(5)" class="text-6-1">
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="swiper-img">img자리</div>
+                                            <div class="swiper-img"><img th:src = "${movieList[4].movie_img}" th:if="${movieList[4].movie_img != null}" /></div>
                                             <div class="explain">
                                                 <div class="s_login">
                                                     <img class="ellipse-1" src="img/ellipse-1-4@2x.png" />
@@ -510,110 +497,30 @@
                                                 </div>
                                                 <div class="overlap-group-2">
                                                     <div class="text-container">
-                                                        <div class="text_label">
-                                                            <input type="text" name="t1" class="input-box input-p" value="6이름" />
-                                                        </div>
-                                                        <p class="text-65">
-                                                            영화설명
+                                                        <div class="text_label" th:text = ${movieList[4].title}></div>
+                                                        <p class="text-65" >
+                                                            영화줄거리
                                                         </p>
                                                     </div>
-                                                    <div class="stars">
-                                                        <div id="s6_1" onclick="checkStar6(1)" class="text-61"></div>
-                                                        <div id="s6_2" onclick="checkStar6(2)" class="text-6"></div>
-                                                        <div id="s6_3" onclick="checkStar6(3)" class="text-6"></div>
-                                                        <div id="s6_4" onclick="checkStar6(4)" class="text-6-1"></div>
-                                                        <div id="s6_5" onclick="checkStar6(5)" class="text-6-1"></div>
+                                                    <div class="stars"><!--**********************점수매기기************************-->
+                                                        <div id="stars5_1" onclick="checkStar5(1)" class="text-61">
+                                                        </div>
+                                                        <div id="stars5_2" onclick="checkStar5(2)" class="text-6">
+                                                        </div>
+                                                        <div id="stars5_3" onclick="checkStar5(3)" class="text-6">
+                                                        </div>
+                                                        <div id="stars5_4" onclick="checkStar5(4)" class="text-6-1">
+                                                        </div>
+                                                        <div id="stars5_5" onclick="checkStar5(5)" class="text-6-1">
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="swiper-slide">
-                                            <div class="swiper-img">img자리</div>
-                                            <div class="explain">
-                                                <div class="s_login">
-                                                    <img class="ellipse-1" src="img/ellipse-1-4@2x.png" />
-                                                    <img class="ellipse-2" src="img/ellipse-2-4@2x.png" />
-                                                    <img class="ellipse-4" src="img/ellipse-4-4@2x.png" />
-                                                    <img class="ellipse-3" src="img/ellipse-3-4@2x.png" />
-                                                </div>
-                                                <div class="overlap-group-2">
-                                                    <div class="text-container">
-                                                        <div class="text_label">
-                                                            <input type="text" name="t1" class="input-box input-p" value="7이름" />
-                                                        </div>
-                                                        <p class="text-65">
-                                                            영화설명
-                                                        </p>
-                                                    </div>
-                                                    <div class="stars">
-                                                        <div id="stars7_1" onclick="checkStar7(1)" class="text-61"></div>
-                                                        <div id="stars7_2" onclick="checkStar7(2)" class="text-6"></div>
-                                                        <div id="stars7_3" onclick="checkStar7(3)" class="text-6"></div>
-                                                        <div id="stars7_4" onclick="checkStar7(4)" class="text-6-1"></div>
-                                                        <div id="stars7_5" onclick="checkStar7(5)" class="text-6-1"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="swiper-img">img자리</div>
-                                            <div class="explain">
-                                                <div class="s_login">
-                                                    <img class="ellipse-1" src="img/ellipse-1-4@2x.png" />
-                                                    <img class="ellipse-2" src="img/ellipse-2-4@2x.png" />
-                                                    <img class="ellipse-4" src="img/ellipse-4-4@2x.png" />
-                                                    <img class="ellipse-3" src="img/ellipse-3-4@2x.png" />
-                                                </div>
-                                                <div class="overlap-group-2">
-                                                    <div class="text-container">
-                                                        <div class="text_label">
-                                                            <input type="text" name="t1" class="input-box input-p" value="8이름" />
-                                                        </div>
-                                                        <p class="text-65">
-                                                            영화설명
-                                                        </p>
-                                                    </div>
-                                                    <div class="stars">
-                                                        <div id="stars8_1" onclick="checkStar8(1)" class="text-61"></div>
-                                                        <div id="stars8_2" onclick="checkStar8(2)" class="text-6"></div>
-                                                        <div id="stars8_3" onclick="checkStar8(3)" class="text-6"></div>
-                                                        <div id="stars8_4" onclick="checkStar8(4)" class="text-6-1"></div>
-                                                        <div id="stars8_5" onclick="checkStar8(5)" class="text-6-1"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="swiper-img">img자리</div>
-                                            <div class="explain">
-                                                <div class="s_login">
-                                                    <img class="ellipse-1" src="img/ellipse-1-4@2x.png" />
-                                                    <img class="ellipse-2" src="img/ellipse-2-4@2x.png" />
-                                                    <img class="ellipse-4" src="img/ellipse-4-4@2x.png" />
-                                                    <img class="ellipse-3" src="img/ellipse-3-4@2x.png" />
-                                                </div>
-                                                <div class="overlap-group-2">
-                                                    <div class="text-container">
-                                                        <div class="text_label">
-                                                            <input type="text" name="t1" class="input-box input-p" value="9이름" />
-                                                        </div>
-                                                        <p class="text-65">
-                                                            영화설명
-                                                        </p>
-                                                    </div>
-                                                    <div class="stars">
-                                                        <div id="stars9_1" onclick="checkStar9(1)" class="text-61"></div>
-                                                        <div id="stars9_2" onclick="checkStar9(2)" class="text-6"></div>
-                                                        <div id="stars9_3" onclick="checkStar9(3)" class="text-6"></div>
-                                                        <div id="stars9_4" onclick="checkStar9(4)" class="text-6-1"></div>
-                                                        <div id="stars9_5" onclick="checkStar9(5)" class="text-6-1"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+
                                 <!--**********************선택된 영화************************-->
+
+                                
                                 <!-- Swiper JS -->
                                 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
@@ -636,7 +543,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="footer">
+                <div class="footer"style="margin-top: 580px; position:absolute">
                     <div class="overlap-group-3">
                         <div class="flex-row-1">
                             <div class="check-movie-1">
@@ -646,7 +553,7 @@
                                     <div class="overseas ptserif-normal-white-24px">Overseas</div>
                                     <div class="recommend-result ptserif-normal-white-24px">Recommend Result</div>
                                 </a>
-                            </div>
+                                    </div>
                             <div class="my-book-1">
                                 <a href='05-1-mybook-recommended-books.html'>
                                     <div class="my-book-2 ptserif-normal-tulip-tree-24px">My Book</div>
@@ -654,7 +561,7 @@
                                     <div class="recommended-books ptserif-normal-white-24px">Recommended Books</div>
                                     <div class="resently-searched-movies ptserif-normal-white-24px">Resently Searched Movies</div>
                                 </a>
-                            </div>
+                                    </div>
                             <div class="shop-1">
                                 <a href='07-shop.html'>
                                     <div class="shop-2 ptserif-normal-tulip-tree-24px">Shop</div>

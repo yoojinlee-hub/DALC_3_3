@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
 
 <head>
     <meta charset="utf-8" />
@@ -195,6 +195,7 @@
                     </div>
                     <div class="recommendation-list-box">
                         <div class="overlap-group6">
+                            <th:block th:with = "num = ${#numbers.formatDecimal(T(java.lang.Math).floor(T(java.lang.Math).random()*1000),1,0)}">
                             <div class="overlap-group5-1">
                                 <div class="coming-up">
                                     <div class="overlap-group-1 border-3px-black-5">
@@ -238,22 +239,21 @@
                                     }
                                 </script>
 
-                                
+
                                 <!--**********************책*************************-->
                                 <div class="overlap-group4-1">
                                     <div class="rectangle-19"></div>
-                                    <div class="text-83"><!--**********************책설명*************************-->
-                                        원 플러스 원의 기쁨, 삼각김밥 모양의 슬픔, 만 원에 네 번의 폭소가 터지는 곳!<br />힘겨운 시대를
-                                        살아가는 우리들에게 다가온 조금 특별한 편의점 이야기
+                                    <div class="text-83" th:text = ${bookList[num].description} ><!--**********************책설명*************************-->
                                     </div>
                                 </div>
                                 <div class="title"><!--**********************책이름*************************-->
-                                    <div class="text-84 fontawesome5free-solid-normal-white-40px">불편한 편의점</div>
+                                    <div class="text-84 fontawesome5free-solid-normal-white-40px" th:text = ${bookList[num].title}></div>
                                     <img class="title-1" src="img/title@1x.png" />
                                 </div>
                             </div>
                             <!--**********************책 이미지*************************-->
-                            <img class="image-9" src="img/image-9@1x.png" />
+                                <img class="image-9" th:src = "${bookList[num].book_img}" th:if="${bookList[num].book_img != null}" />
+                            </th:block>
                         </div>
                     </div>
                 </div>
