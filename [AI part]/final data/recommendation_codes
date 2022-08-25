@@ -1,0 +1,71 @@
+from gensim.test.utils import datapath
+from gensim.models.fasttext import load_facebook_vectors
+from gensim.test.utils import common_texts
+import pandas as pd
+import numpy as np
+
+#로컬 상의 절대경로를 활용했기 때문에 실제 코드 작동 시에는 변경해주셔야합니다.
+books = pd.read_csv("C:\\Users\\clstm_\\OneDrive\\Desktop\\New Order\\book_reviews(cleaned)_final.csv")
+movies = pd.read_csv("C:\\Users\\clstm_\\OneDrive\\Desktop\\New Order\\movie_reviews(cleaned)_final.csv")
+
+#pretrained된 fasttext모델 불러오기
+cap_path = datapath("C:\\Users\\clstm_\\OneDrive\\Desktop\\New Order\\ko\\ko.bin")
+wv = load_facebook_vectors(cap_path)
+list_01 = []
+list_02 = []
+
+#불러온 모델을 바탕으로, 토큰화된 리뷰 키워드를 평균의 벡터값으로 산출
+for i in range(books.shape[0]):
+    num = wv.get_mean_vector(books['cleaned_token'][i])
+    list_01.append(num)
+
+for i in range(movies.shape[0]):
+    num = wv.get_mean_vector(movies['cleaned_token'][i])
+    list_02.append(num)
+
+books['vector'] = list_01
+movies['vector'] = list_02
+
+book_names = books['title'].drop_duplicates().reset_index(drop=True)
+movie_names = movies['titles'].drop_duplicates().reset_index(drop=True)
+
+book_means = books.groupby('title')['vector'].mean()
+movie_means = movies.groupby('titles')['vector'].mean()
+
+list_03 = []
+list_04 = []
+for i in range(len(book_means)):
+    list_03.append(book_means[i])
+for i in range(len(movie_means)):
+    list_04.append(movie_means[i])
+
+book_vectors = pd.DataFrame(zip(book_names, list_03), columns=[['title', 'vector']])
+movie_vectors = pd.DataFrame(zip(movie_names, list_04), columns=[['title', 'vector']])
+
+#2개 이상 영화의 벡터값을 입력하면 이에 맞는 도서를 하나 추천해주는 함수
+def get_recom(vectors):
+    lists = []
+    for i in range(len(vectors[0])):
+        sum = 0
+        for k in range(len(vectors)):
+            sum += vectors[k][i]
+        lists.append(sum / len(vectors))
+    return lists
+
+list_1 = [0, 2, 5, 7] #랜덤으로 2개 이상 영화의 인덱스값 선정
+vectors = [movie_vectors.iloc[i, 1] for i in list_1]
+recom = get_recom(vectors)
+
+sums = []
+for i in range(book_vectors.shape[0]):
+    listtt = []
+    for w in range(len(recom)):
+        listtt.append(book_vectors.iloc[i, 1][w] - recom[w])
+    sumsum = sum(listtt)
+    sums.append(sumsum)
+
+tmp = min(sums)
+index = sums.index(tmp)
+
+#최종 추천대상 도서명 산출
+print(book_vectors.iloc[index,0])
